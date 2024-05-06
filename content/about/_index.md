@@ -1,5 +1,5 @@
 ---
-title: "Kyriakos Antoniadis CV"
+title: "About"
 date: 2024-05-06
 draft: false
 author: "Kyriakos Antoniadis"

@@ -4,12 +4,12 @@ date: 2020-08-16
 draft: false
 description: How to install the Blowfish theme.
 slug: development
-tags:
-   - installation
-   - docs
+tags: []
 series:
    - Documentation
 series_order: 2
+categories:
+   - Development
 ---
 
 Simply follow the standard Hugo [Quick Start](https://gohugo.io/getting-started/quick-start/) procedure to get up and running quickly.
