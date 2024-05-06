@@ -70,6 +70,16 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     },
@@ -119,6 +129,11 @@
           "title": "type",
           "name": "type",
           "type": "string"
+        },
+        {
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
         }
       ]
     }

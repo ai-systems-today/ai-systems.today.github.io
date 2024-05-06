@@ -1,16 +1,16 @@
 ---
 title: AI Consulting
-date: 2022-01-19
+description: Discover what's new in AI SYSTEMS TODAY
+date: 2024-05-06T11:13:34.279Z
 draft: false
-description: Discover what's new in Blowfish version 2.0.
-tags:
-  - new
-  - docs
+categories:
+  - Consulting
+tags: null
 series:
   - Documentation
 series_order: 1
 slug: ai-consulting
-type: keywords
+type: default
 ---
 
 {{< lead >}}
