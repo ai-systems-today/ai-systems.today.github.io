@@ -4,7 +4,7 @@ description: Thoughts and ideas from AI Systems Today
 cascade:
   showDate: true
   showAuthor: true
-  invertPagination: false
+  invertPagination: true
 type: default
 ---
 
