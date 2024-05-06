@@ -9,7 +9,7 @@ tags: null
 series:
   - Documentation
 series_order: 1
-slug: ai-consulting
+slug: consulting
 type: default
 ---
 
