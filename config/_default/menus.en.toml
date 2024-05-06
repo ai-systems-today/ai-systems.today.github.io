@@ -11,57 +11,58 @@
 # ordered by weight from lowest to highest.
 
 [[main]]
-  name = "Services"
-  pageRef = "docs"
-  weight = 10
-
-[[main]]
   name = "Home"
   pageRef = "/"
-  weight = 4
+  weight = 10
 
 [[main]]
   name = "About"
   pageRef = "about"
-  weight = 9
+  weight = 20
 
-#[[main]]
-#  name = "Shortcodes"
-#  pageRef = "docs/shortcodes"
-#  weight = 15
+[[main]]
+  name = "Services"
+  pageRef = "docs"
+  weight = 30
+
+[[main]]
+  name = "Blog"
+  pageRef = "guides"
+  weight = 40
 
 [[main]]
   name = "Tags"
-  weight = 38
+  weight = 50
 
 [[main]]
   name = "Cloud"
   parent = "Tags"
   pageRef = "keywords"
-  weight = 1
+  weight = 51
 
 [[main]]
   name = "Services"
   parent = "Tags"
   pageRef = "categories"
-  weight = 2
+  weight = 52
 
 [[main]]
   name = "Technologies"
   parent = "Tags"
   pageRef = "tags"
-  weight = 3
-
-[[main]]
-  name = "Blog"
-  pageRef = "guides"
-  weight = 30
+  weight = 53
 
 [[main]]
   name = "Contact"
   pageRef = "content"
   url = "https://calendly.com/contact-ai-systems-today/30min"
-  weight = 45
+  weight = 60
+
+
+#[[main]]
+#  name = "Shortcodes"
+#  pageRef = "docs/shortcodes"
+#  weight = 15
 
 #[[main]]
 #  name = "Users"
