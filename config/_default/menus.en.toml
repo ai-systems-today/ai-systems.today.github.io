@@ -16,6 +16,11 @@
   weight = 10
 
 [[main]]
+  name = "Home"
+  pageRef = "/"
+  weight = 4
+
+[[main]]
   name = "About"
   pageRef = "about"
   weight = 9
@@ -25,27 +30,32 @@
 #  pageRef = "docs/shortcodes"
 #  weight = 15
 
-#[[main]]
-#  name = "Examples"
-#  weight = 20
+[[main]]
+  name = "Tags"
+  weight = 40
 
-#[[main]]
-#  name = "Samples"
-#  #parent = "Examples"
-#  pageRef = "samples"
-#  weight = 16
+[[main]]
+  name = "Cloud"
+  parent = "Tags"
+  pageRef = "keywords"
+  weight = 1
 
-#[[main]]
-#  name = "Showcase"
-#  #parent = "Examples"
-#  pageRef = "examples"
-#  weight = 30
+[[main]]
+  name = "Services"
+  parent = "Tags"
+  pageRef = "categories"
+  weight = 2
+
+[[main]]
+  name = "Technologies"
+  parent = "Tags"
+  pageRef = "tags"
+  weight = 3
 
 [[main]]
   name = "Blog"
-  #parent = "Examples"
   pageRef = "guides"
-  weight = 40
+  weight = 30
 
 [[main]]
   name = "Contact"
