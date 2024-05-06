@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "AI Training"
 date: 2020-08-15
 draft: false
 description: "All the front matter variables available in Blowfish."

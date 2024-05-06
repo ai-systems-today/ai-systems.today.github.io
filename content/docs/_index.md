@@ -12,7 +12,7 @@ cascade:
 Empowering businesses with Cutting-Edge AI.{{< /lead >}}
 
 We are a leading IT consultant in Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.
-
+<!-- 
 ## AI Consulting
 
 Our personalized AI consulting services aim to assist businesses in effectively integrating AI solutions into their operations. We work closely with clients to understand their specific needs and objectives, offering strategic guidance and actionable insights to maximize the value of AI technology.
@@ -27,7 +27,7 @@ We offer comprehensive training programs and workshops designed to empower teams
 
 ## AI Support
 
-Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way.
+Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way. -->
 
 <!-- This section contains everything you need to know about Blowfish. If you're new, check out the [Installation]({{< ref "docs/installation" >}}) guide to begin or visit the [Samples]({{< ref "samples" >}}) section to see what Blowfish can do. -->
 

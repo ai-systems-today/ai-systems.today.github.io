@@ -15,6 +15,11 @@
   pageRef = "docs"
   weight = 10
 
+[[main]]
+  name = "About"
+  pageRef = "content"
+  weight = 9
+
 #[[main]]
 #  name = "Shortcodes"
 #  pageRef = "docs/shortcodes"
@@ -41,6 +46,11 @@
   #parent = "Examples"
   pageRef = "guides"
   weight = 40
+
+[[main]]
+  name = "Contact"
+  pageRef = "content"
+  weight = 45
 
 #[[main]]
 #  name = "Users"
@@ -81,16 +91,21 @@
 # the copyright notice. Configure as per the main menu above.
 
  [[footer]]
-   name = "Tags"
+   name = "Technologies"
    pageRef = "tags"
-   weight = 10
+   weight = 12
 
 [[footer]]
-   name = "Categories"
+   name = "Services"
    pageRef = "categories"
+   weight = 11
+
+[[footer]]
+   name = "Cloud"
+   pageRef = "keywords"
    weight = 10
 
- [[footer]]
-   name = "Authors"
-   pageRef = "authors"
-   weight = 20
+ #[[footer]]
+ #  name = "Authors"
+ #  pageRef = "authors"
+ #  weight = 20
