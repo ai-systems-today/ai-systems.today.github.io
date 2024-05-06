@@ -29,6 +29,6 @@ We offer comprehensive training programs and workshops designed to empower teams
 
 Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way. -->
 
-<!-- This section contains everything you need to know about Blowfish. If you're new, check out the [Installation]({{< ref "docs/installation" >}}) guide to begin or visit the [Samples]({{< ref "samples" >}}) section to see what Blowfish can do. -->
+
 
 ---
