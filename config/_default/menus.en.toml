@@ -17,7 +17,7 @@
 
 [[main]]
   name = "About"
-  pageRef = "content"
+  pageRef = "about"
   weight = 9
 
 #[[main]]
@@ -50,6 +50,7 @@
 [[main]]
   name = "Contact"
   pageRef = "content"
+  url = "https://calendly.com/contact-ai-systems-today/30min"
   weight = 45
 
 #[[main]]

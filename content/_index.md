@@ -24,6 +24,15 @@ description: "This page was built using the Blowfish theme for Hugo."
 {{< youtubeLite id="SgXhGb-7QbU" label="Blowfish-tools demo" >}}
 <br>
 # AI SYSTEMS TODAY                                              
+<!-- <a href="https://calendly.com/contact-ai-systems-today/30min" 
+    target="_blank" 
+    style="text-decoration:none;">
+      <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
+      </button>
+    </a> -->
+
+
+
 
 <!-- AI SYSTEMS TODAY is a leading IT consultant in Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.
 

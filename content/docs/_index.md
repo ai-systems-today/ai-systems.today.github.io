@@ -3,9 +3,9 @@ title: "Services"
 description: "Learn how to use Blowfish and its features."
 
 cascade:
-  showDate: false
-  showAuthor: false
-  invertPagination: true
+  showDate: true
+  showAuthor: true
+  invertPagination: false
 ---
 
 {{< lead >}}

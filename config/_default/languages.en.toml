@@ -4,19 +4,15 @@ weight = 1
 title = "AI SYSTEMS TODAY"
 
 [params]
-  displayName = "English"
-  isoCode = "en"
-  rtl = false
-  dateFormat = "2 January 2006"
-  #logo = "img/662e95281b303_g.png"
-  description = "A powerful, lightweight theme for Hugo."
+displayName = "English"
+isoCode = "en"
+rtl = false
+dateFormat = "2 January 2006"
+description = "A powerful, lightweight theme for Hugo."
 
 [author]
-  name = "Kyriakos Antoniadis"
-  image = "img/662e95281b303_g.png"
-  headline = "Empowering your business with cutting-edge AI solutions"
-  bio = "AI SYSTEMS TODAY"
-  links = [
-    { x-twitter = "https://twitter.com/burufugu" },
-    { github = "https://github.com/nunocoracao/blowfish" },
-  ]
+name = "Kyriakos Antoniadis"
+image = "img/662e95281b303_g.png"
+headline = "Empowering your business with cutting-edge AI solutions"
+bio = "AI SYSTEMS TODAY"
+links = [ { email = "mailto:contact@ai-systems.today" }, { github = "https://github.com/ai-systems-today" }, { linkedin = "https://github.com/ai-systems-today" }, { medium = "https://medium.com/@ai-systems.today" }, { youtube = "https://www.youtube.com/channel/UCBwGhKFAzs_eNMw2mIxEY-Q" } ]

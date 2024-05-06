@@ -2,14 +2,14 @@
 title: Blog
 description: Thoughts and ideas from AI Systems Today
 cascade:
-  showDate: false
-  showAuthor: false
-  invertPagination: true
+  showDate: true
+  showAuthor: true
+  invertPagination: false
 type: default
 ---
 
 {{< lead >}}
-Thoughts and ideas from AI Systems Today
+Thoughts and ideas from AI SYSTEMS TODAY
 {{< /lead >}}
 
 <!-- **Blowfish user?** To add your guide to this list, [check the template](/guides/template/). -->
