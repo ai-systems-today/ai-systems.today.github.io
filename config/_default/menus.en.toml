@@ -85,6 +85,11 @@
    pageRef = "tags"
    weight = 10
 
+[[footer]]
+   name = "Categories"
+   pageRef = "categories"
+   weight = 10
+
  [[footer]]
    name = "Authors"
    pageRef = "authors"
