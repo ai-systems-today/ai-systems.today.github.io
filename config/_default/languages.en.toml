@@ -9,6 +9,8 @@ isoCode = "en"
 rtl = false
 dateFormat = "2 January 2006"
 description = "A powerful, lightweight theme for Hugo."
+# logo = "img/logo.png"
+# secondaryLogo = "img/secondary-logo.png"
 
 [author]
 name = "Kyriakos Antoniadis"
