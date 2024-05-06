@@ -23,7 +23,7 @@
 [[main]]
   name = "Services"
   pageRef = "docs"
-  weight = 30
+  weight = 25
 
 [[main]]
   name = "Blog"
@@ -38,19 +38,19 @@
   name = "Cloud"
   parent = "Tags"
   pageRef = "keywords"
-  weight = 51
+  weight = 500
 
 [[main]]
-  name = "Services"
+  name = "Categories"
   parent = "Tags"
   pageRef = "categories"
-  weight = 52
+  weight = 600
 
 [[main]]
   name = "Technologies"
   parent = "Tags"
   pageRef = "tags"
-  weight = 53
+  weight = 800
 
 [[main]]
   name = "Contact"
@@ -108,7 +108,7 @@
    weight = 12
 
 [[footer]]
-   name = "Services"
+   name = "Categories"
    pageRef = "categories"
    weight = 11
 
