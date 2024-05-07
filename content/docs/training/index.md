@@ -10,258 +10,175 @@ categories:
 tags:
 series:
   - Documentation
-series_order: 4
+series_order: 3
 ---
 
+{{< lead >}}
+Master the Art of Artificial Intelligence for Business Success
+{{< /lead >}}
 
-</br>
-{{< alert "fire" >}}
-We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:
-```bash
-npx blowfish-tools
-```
-{{< /alert >}}
+# Empower Your Team with AI Training Programs
 
+As AI becomes increasingly integral to business operations, organizations must ensure their teams have the right skills to harness its potential. Comprehensive training programs can empower teams with the knowledge needed to leverage AI effectively.
 
-The config files that ship with Blowfish contain all of the possible settings that the theme recognises. By default, many of these are commented out but you can simply uncomment them to activate or change a specific feature.
+### Understanding AI Training Programs:
+AI training programs are designed to equip teams with the skills required to understand, develop, and implement AI solutions. From fundamental concepts to advanced techniques, these programs cover a wide range of topics, ensuring organizations can harness the full potential of AI technology.
 
-## Basic configuration
+### Benefits of AI Training Programs:
+1. **Knowledge Expansion:**  
+   From fundamental concepts to advanced techniques. Comprehensive training programs provide a deep understanding of AI methodologies.
 
-Before creating any content, there are a few things you should set for a new installation. Starting in the `config.toml` file, set the `baseURL` and `languageCode` parameters. The `languageCode` should be set to the main language that you will be using to author your content.
+   **Example:**  
+   A corporate training program enabled a team of data scientists to master deep learning, improving model accuracy by 15%.
 
-```toml
-# config/_default/config.toml
+2. **Customized Training:**  
+   Tailored to meet the specific needs of your organization. Training programs can be customized to focus on specific challenges and industry requirements.
 
-baseURL = "https://your_domain.com/"
-languageCode = "en"
-```
+   **Example:**  
+   A retail firm's customer service department improved sentiment analysis accuracy by 20% through a targeted NLP training workshop.
 
-The next step is to configure the language settings. Although Blowfish supports multilingual setups, for now, just configure the main language.
+3. **Practical Implementation:**  
+   Hands-on exercises that translate to real-world application. Practical training sessions enable teams to apply new skills immediately.
 
-Locate the `languages.en.toml` file in the config folder. If your main language is English you can use this file as is. Otherwise, rename it so that it includes the correct language code in the filename. For example, for French, rename the file to `languages.fr.toml`.
+   **Example:**  
+   A logistics firm's data engineers implemented an advanced route optimization model after a practical ML workshop.
 
-{{< alert >}}
-Note that the language code in the language config filename should match the `languageCode` setting in `config.toml`.
-{{< /alert >}}
+4. **Change Management:**  
+   Training programs facilitate smooth adoption of AI technologies by helping teams embrace new workflows.
 
-```toml
-# config/_default/languages.en.toml
+   **Example:**  
+   A financial services firm improved its AI adoption rate by 30% through a comprehensive training program.
 
-title = "My awesome website"
+### Our AI Training Programs at AI Systems Today:
+At AI Systems Today, we offer comprehensive training programs and workshops designed to empower teams with the knowledge and skills needed to leverage AI effectively. Our training sessions are tailored to address specific organizational needs and challenges.
 
-[author]
-name = "My name"
-image = "img/author.jpg"
-headline = "A generally awesome human"
-bio = "A little bit about me"
-links = [
-  { twitter = "https://twitter.com/username" }
-]
-```
+1. **AI Fundamentals Training:**  
+   Basics of machine learning, deep learning, and NLP.
 
-The `[author]` configuration determines how the author information is displayed on the website. The image should be placed in the site's `assets/` folder. Links will be displayed in the order they are listed.
+   - **Machine Learning Basics:**  
+     Introduction to supervised and unsupervised learning techniques.
 
+   - **Deep Learning Fundamentals:**  
+     Understanding neural networks, CNNs, RNNs, and their applications.
 
-## Colour schemes
+   - **Natural Language Processing:**  
+     Overview of NLP techniques like sentiment analysis, entity recognition, and summarization.
 
-Blowfish ships with a number of colour schemes out of the box. To change the scheme, simply set the `colorScheme` theme parameter. Valid options are `blowfish` (default), `avocado`, `fire`, `ocean`, `forest`, `princess`, `neon`, `bloody`, `terminal`, `marvel`, `noir`, `autumn`, `congo`, and`slate`.
+   - **Practical Exercises:**  
+     Hands-on exercises using popular frameworks like TensorFlow and PyTorch.
 
-```toml
-# config/_default/params.toml
+2. **Advanced AI Techniques Training:**  
+   Reinforcement learning, computer vision, and more.
 
-colorScheme = "blowfish"
-```
+   - **Reinforcement Learning:**  
+     Introduction to Q-learning, policy gradients, and applications.
 
-Blowfish defines a three-colour palette that is used throughout the theme. Each main colour contains ten shades which are based upon the colours that are included in [Tailwind](https://tailwindcss.com/docs/customizing-colors#color-palette-reference). The three main colours are used for the header, footer, and accent colours. Here are the colors for each scheme:
+   - **Computer Vision Techniques:**  
+     Object detection, image classification, and segmentation.
 
-#### Blowfish (default)
-{{< swatches "#64748b" "#3b82f6" "#06b6d4" >}}
+   - **Generative Models:**  
+     Understanding GANs and VAEs for creative AI applications.
 
-#### Avocado
-{{< swatches "#78716c" "#84cc16" "#10b981" >}}
+   - **Advanced NLP Models:**  
+     Deep dive into transformers, BERT, and GPT models.
 
-#### Fire
-{{< swatches "#78716c" "#f97316" "#f43f5e" >}}
+3. **Custom Workshops and Bootcamps:**  
+   Designed to address specific challenges faced by your team.
 
-#### Ocean
-{{< swatches "#64748b" "#3b82f6" "#06b6d4" >}}
+   - **Industry-Specific Workshops:**  
+     Tailored workshops focusing on AI challenges in healthcare, finance, e-commerce, and more.
 
-#### Forest
-{{< swatches "#658c86" "#3bf5df" "#06d45c" >}}
+   - **Practical Bootcamps:**  
+     Intensive bootcamps with hands-on projects and real-world problem-solving.
 
-#### Princess
-{{< swatches "#8c658c" "#f53bf2" "#7706d4" >}}
+   - **Change Management and Adoption:**  
+     Training programs that facilitate smooth adoption of AI technologies.
 
-#### Neon
-{{< swatches "#8338ec" "#ff006e" "#3a86ff" >}}
+4. **Continuous Learning and Support:**  
+   Access to resources and support post-training.
 
-#### Bloody
-{{< swatches "#d90429" "#8d99ae" "#457b9d" >}}
+   - **Resource Library:**  
+     Access to curated resources, including articles, tutorials, and case studies.
 
-#### Terminal
-{{< swatches "#004b23" "#38b000" "#1a759f" >}}
+   - **Follow-Up Support:**  
+     Post-training support to help teams implement new skills.
 
-#### Marvel
-{{< swatches "#2541b2" "#d81159" "#ffbc42" >}}
+   - **Community Access:**  
+     Join a community of AI professionals for networking and knowledge sharing.
 
-#### Noir
-{{< swatches "#5c6b73" "#9db4c0" "#00a5cf" >}}
+### Case Studies:
+#### Case Study 1: Corporate Training Program for Deep Learning Mastery
+**Challenge:**  
+A global corporation needed to upskill its team of data scientists in deep learning techniques to improve model accuracy.
 
-#### Autumn
-{{< swatches "#0a9396" "#ee9b00" "#bb3e03" >}}
+**Solution:**  
+AI Systems Today developed a customized training program covering deep learning fundamentals and advanced techniques.
 
-#### Congo
-{{< swatches "#71717a" "#8b5cf6" "#d946ef" >}}
+**Implementation:**
+- Conducted a needs assessment to understand skill gaps.
+- Developed a structured training curriculum with practical exercises.
+- Delivered a 4-week training program with hands-on sessions.
 
-#### Slate
-{{< swatches "#6B7280" "#64748b" "#6B7280" >}}
+**Results:**
+- Improved deep learning model accuracy by 15%.
+- Enabled the team to implement state-of-the-art models for business applications.
+- Fostered a culture of continuous learning within the organization.
 
+#### Case Study 2: NLP Training Workshop for Customer Service Teams
+**Challenge:**  
+A retail firm wanted to improve sentiment analysis accuracy in its customer service department through NLP training.
 
+**Solution:**  
+AI Systems Today's training team developed a targeted NLP workshop focusing on sentiment analysis and entity recognition techniques.
 
-## Organising content
+**Implementation:**
+- Developed a 2-day workshop curriculum covering NLP basics and advanced models.
+- Delivered hands-on exercises using BERT and other transformer models.
+- Provided follow-up support for model implementation.
 
-By default, Blowfish doesn't force you to use a particular content type. In doing so you are free to define your content as you wish. You might prefer _pages_ for a static site, _posts_ for a blog, or _projects_ for a portfolio.
+**Results:**
+- Improved sentiment analysis accuracy by 20%.
+- Enabled customer service teams to analyze customer feedback more effectively.
+- Streamlined customer satisfaction reporting workflows.
 
-Here's a quick overview of a basic Blowfish project. All content is placed within the `content` folder:
+#### Case Study 3: Practical ML Workshop for Logistics Engineers
+**Challenge:**  
+A logistics firm needed to upskill its data engineers in machine learning techniques to implement advanced route optimization models.
 
-```shell
-.
-├── assets
-│   └── img
-│       └── author.jpg
-├── config
-│   └── _default
-├── content
-│   ├── _index.md
-│   ├── about.md
-│   └── posts
-│       ├── _index.md
-│       ├── first-post.md
-│       └── another-post
-│           ├── aardvark.jpg
-│           └── index.md
-└── themes
-    └── blowfish
-```
+**Solution:**  
+The training team at AI Systems Today designed a practical ML workshop focusing on route optimization models and deployment strategies.
 
-It's important to have a firm grasp of how Hugo expects content to be organised as the theme is designed to take full advantage of Hugo page bundles. Be sure to read the [official Hugo docs](https://gohugo.io/content-management/organization/) for more information.
+**Implementation:**
+- Conducted a skills assessment to identify training needs.
+- Developed a 3-day workshop curriculum covering ML fundamentals and optimization techniques.
+- Delivered hands-on sessions using real-world logistics data.
 
-Blowfish is also flexible when it comes to taxonomies. Some people prefer to use _tags_ and _categories_ to group their content, others prefer to use _topics_.
+**Results:**
+- Enabled data engineers to implement advanced route optimization models.
+- Reduced delivery times by 10% through optimized routing.
+- Fostered collaboration between data engineers and logistics teams.
 
-Hugo defaults to using posts, tags and categories out of the box and this will work fine if that's what you want. If you wish to customise this, however, you can do so by creating a `taxonomies.toml` configuration file:
+### Why Choose AI Systems Today for AI Training:
+1. **Industry Expertise:**  
+   Led by Kyriakos Antoniadis, a seasoned AI expert with over a decade of experience, our training team possesses deep knowledge of AI technologies and their real-world applications.
 
-```toml
-# config/_default/taxonomies.toml
+2. **Customized Programs:**  
+   Our training programs are tailored to meet specific needs and challenges, ensuring maximum relevance and impact.
 
-topic = "topics"
-```
+3. **Proven Results:**  
+   Our track record of successful training programs speaks for itself, with clients experiencing tangible improvements in team skills and project outcomes.
 
-This will replace the default _tags_ and _categories_ with _topics_. Refer to the [Hugo Taxonomy docs](https://gohugo.io/content-management/taxonomies/) for more information on naming taxonomies.
+4. **Comprehensive Support:**  
+   From program design to delivery and follow-up support, we provide end-to-end assistance to ensure the success of your AI training initiatives.
 
-When you create a new taxonomy, you will need to adjust the navigation links on the website to point to the correct sections, which is covered below.
+### How to Get Started:
+Ready to empower your team with AI training programs? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-## Menus
+<a href="https://calendly.com/contact-ai-systems-today/30min" 
+    target="_blank" 
+    style="text-decoration:none;">
+      <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
+      </button>
+    </a>
 
-Blowfish has two menus that can be customised to suit the content and layout of your site. The `main` menu appears in the site header and the `footer` menu appears at the bottom of the page just above the copyright notice.
-
-Both menus are configured in the `menus.en.toml` file. Similarly to the languages config file, if you wish to use another language, rename this file and replace `en` with the language code you wish to use.
-
-```toml
-# config/_default/menus.toml
-
-[[main]]
-  name = "Blog"
-  pageRef = "posts"
-  weight = 10
-
-[[main]]
-  name = "Topics"
-  pageRef = "topics"
-  weight = 20
-
-[[main]]
-  pre = "github"
-  name = "GitHub"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 30
-
-[[main]]
-  identifier = "github2"
-  pre = "github"
-  url = "https://github.com/nunocoracao/blowfish"
-  weight = 40
-
-[[footer]]
-  name = "Privacy"
-  url = "https://external-link"
-```
-
-The `name` parameter specifies the text that is used in the menu link. You can also optionally provide a `title` which fills the HTML title attribute for the link.
-
-The `pageRef` parameter allows you to easily reference Hugo content pages and taxonomies. It is the quickest way to configure the menu as you can simply refer to any Hugo content item and it will automatically build the correct link. To link to external URLs, the `url` parameter can be used.
-
-
-Menu links will be sorted from lowest to highest `weight`, and then alphabetically by `name`.
-
-Both menus are completely optional and can be commented out if not required. Use the template provided in the file as a guide.
-
-### Nested menus
-
-The theme also supports nested menus. In order to use them you just need to define a parent entry in `menu.toml` and its sub-menus using the `parent` parameter to reference the parent. All properties can be used for sub-menus. `pageRef` and `url` can also be used in the parent entry. Nested menus are only available in the main menu not for the footer.
-
-```toml
-# config/_default/menus.toml
-
-[[main]]
-  name = "Parent"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 1"
-  parent = "Parent"
-  pageRef = "samples"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 2"
-  parent = "Parent"
-  pageRef = "samples"
-  weight = 20
-
-[[main]]
-  name = "sub-menu 3"
-  parent = "Parent"
-  pre = "github"
-  pageRef = "samples"
-  weight = 20
-```
-
-### Sub-Navigation menu
-
-Additionally, you can also configure a sub-navigation menu. Just define new menu entries as `subnavigation` in `menus.toml`.
-This will render a second line with sub-categories below the main header menu.
-
-```toml
-# config/_default/menus.toml
-
-[[subnavigation]]
-  name = "An interesting topic"
-  pageRef = "tags/interesting-topic"
-  weight = 10
-
-[[subnavigation]]
-  name = "My Awesome Category"
-  pageRef = "categories/awesome"
-  weight = 20
-```
-
-The default `name` is the `pageRef` title cased.
-
-## Thumbnails & Backgrounds
-
-Blowfish was built so it would be easy to add visual support to your articles. If your familiar with Hugo article structure, you just need to place an image file (almost all formats are supported but we recommend `.png` or `.jpg`) that starts with `feature*` inside your article folder. And that's it, Blowfish will then be able to both use the image as a thumbnail within your website as well as for <a target="_blank" href="https://oembed.com/">oEmbed</a> cards across social platforms. 
-
-
-
-Additionally, Blowfish also supports background hero images in articles and lists. In order to use a different image than the featured one, add an image file in which the name starts with `background*`.
 
