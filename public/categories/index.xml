@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/categories/</link>
+    <description>Recent content in Categories on AI SYSTEMS TODAY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Consulting</title>
+      <link>https://localhost:1313/categories/consulting/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/consulting/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Blowfish</title>
+      <link>https://localhost:1313/categories/blowfish/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/blowfish/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Open-Source</title>
+      <link>https://localhost:1313/categories/open-source/</link>
+      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/open-source/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Development</title>
+      <link>https://localhost:1313/categories/development/</link>
+      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/development/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Support</title>
+      <link>https://localhost:1313/categories/support/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/support/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Training</title>
+      <link>https://localhost:1313/categories/training/</link>
+      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/training/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Advanced</title>
+      <link>https://localhost:1313/categories/advanced/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/advanced/</guid>
+      <description>This is the advanced tag. Just like other listing pages in Blowfish, you can add custom content to individual taxonomy terms and it will be displayed at the top of the term listing.</description>
+      
+    </item>
+    
+  </channel>
+</rss>
