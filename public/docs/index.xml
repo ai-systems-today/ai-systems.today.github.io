@@ -27,7 +27,7 @@
       <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
 Detailed installation instructions can be found below. Instructions for updating the theme are also available.
 Installation #These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/development/featured1.svg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/development/featured.svg" />
     </item>
     
     <item>

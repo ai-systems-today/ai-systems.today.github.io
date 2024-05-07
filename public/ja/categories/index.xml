@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>タグ on Blowfish</title>
+    <title>Categories on Blowfish</title>
     <link>https://localhost:1313/ja/categories/</link>
-    <description>Recent content in タグ on Blowfish</description>
+    <description>Recent content in Categories on Blowfish</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja</language>
     <copyright>© 2024 Blowfish</copyright>
@@ -25,16 +25,6 @@
       
       <guid>https://localhost:1313/ja/categories/open-source/</guid>
       <description></description>
-      
-    </item>
-    
-    <item>
-      <title>高度なタグ</title>
-      <link>https://localhost:1313/ja/categories/advanced/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/ja/categories/advanced/</guid>
-      <description>こちらは高度なタグです。 Blowfish の他のページの様に、個々の分類条項</description>
       
     </item>
     
