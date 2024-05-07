@@ -9,10 +9,13 @@ cascade:
 ---
 
 {{< lead >}}
-Empowering businesses with Cutting-Edge AI.{{< /lead >}}
+Empowering Businesses with Cutting-Edge AI.{{< /lead >}}
 
-Welcome to AI SYSTEMS TODAY, a premier IT consultancy based in Athens. Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br><br>
-Our mission is clear: to unlock the full potential of AI, fostering growth and success for businesses navigating the complexities of the digital age.
+Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br>
+- [AI Consultancy](consulting/)
+- [Custom AI Development](development)
+- [AI Training Programs](training)
+- [AI Support Services](support)
 
 <!-- 
 ## AI Consulting
