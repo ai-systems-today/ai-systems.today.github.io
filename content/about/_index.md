@@ -8,14 +8,7 @@ description: "Curriculum Vitae of Kyriakos Antoniadis - Expert in AI, ML, and Cl
 
 ## Professional Summary ##
 
-I am a seasoned expert in Artificial Intelligence with a specialization in Machine Learning, Deep Learning, and Data Engineering. With over a decade in the data world, I seamlessly bridge the gap between complex data-driven algorithms and their real-world applications. My proficiency extends to data analysis and data science, crafting models tailored to address unique challenges. As a senior figure in the industry, I have consistently demonstrated visionary leadership, driving innovation while mentoring teams to excellence.
-
-## Contact Details ##
-
-- Phone: +30 6987573368  
-- Email: [contact@ai-systems.today](mailto:contact@ai-systems.today)  
-- LinkedIn: [linkedin.com/in/kyriacos-antoniades](https://www.linkedin.com/in/kyriacos-antoniades/)  
-- Location: Piraeus, Greece  
+A seasoned expert in Artificial Intelligence with a specialization in Machine Learning, Deep Learning, and Data Engineering. With over a decade in the data world. Seamlessly bridge the gap between complex data-driven algorithms and their real-world applications. Proficiency extends to data analysis and data science, and data engineering; crafting models tailored to address unique challenges. As a senior figure in the industry, I have consistently demonstrated visionary leadership, driving innovation while mentoring teams to excellence.
 
 ## Professional Experience:
 
