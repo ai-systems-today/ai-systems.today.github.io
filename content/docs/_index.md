@@ -12,8 +12,8 @@ cascade:
 Empowering Businesses with Cutting-Edge AI.{{< /lead >}}
 
 Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br>
-- [AI Consultancy](consulting/)
-- [Custom AI Development](development)
+- [AI Consultancy Services](consulting/)
+- [AI Custom Development](development)
 - [AI Training Programs](training)
 - [AI Support Services](support)
 
