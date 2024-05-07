@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Wed, 04 Oct 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Empowering Data Science with AI</title>
+      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
+      <description>Empowering Data Science with AI #Building Data Science Workflows with Azure ML StudioIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
+      
+    </item>
+    
     <item>
       <title>Build your homepage using Blowfish and Hugo</title>
       <link>https://localhost:1313/guides/202310-blowfish-tutorial/</link>

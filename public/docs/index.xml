@@ -9,12 +9,12 @@
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
     <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>AI Consulting</title>
+      <title>AI Consultancy</title>
       <link>https://localhost:1313/docs/consulting/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/consulting/</guid>
-      <description>Blowfish is packed with tons of features.The original aim of Blowfish was to develop a theme that was simple and lightweight. The theme is a fork of Congo and expands its initial vision.</description>
+      <description>Unlock the Power of Artificial Intelligence for Strategic GrowthHow Effective AI Consultancy Can Transform Your Business #Unlock the Power of Artificial Intelligence for Strategic Growth #In today&amp;rsquo;s rapidly evolving digital landscape, businesses must stay ahead by adopting cutting-edge technologies like Artificial Intelligence (AI).</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/consulting/featured.svg" />
     </item>
     
@@ -24,9 +24,7 @@
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/development/</guid>
-      <description>Simply follow the standard Hugo Quick Start procedure to get up and running quickly.
-Detailed installation instructions can be found below. Instructions for updating the theme are also available.
-Installation #These instructions will get you up and running using Hugo and Blowfish from a completely blank state.</description>
+      <description>Innovate and Scale with Purpose-Built AI ApplicationsCustom AI Development: Building Tailored Solutions for Your Business #Off-the-shelf AI solutions often fail to address the specific needs of businesses operating in diverse industries.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/development/featured.svg" />
     </item>
     
@@ -36,8 +34,7 @@ Installation #These instructions will get you up and running using Hugo and Blo
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/support/</guid>
-      <description>We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:
-npx blowfish-tools The config files that ship with Blowfish contain all of the possible settings that the theme recognises.</description>
+      <description>Maintain the Integrity and Efficiency of Your AI SystemsAI Support: Ensuring Reliability and Optimal Performance #Implementing AI solutions is just the beginning. To maximize their value, ongoing support and maintenance are essential.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/support/featured.svg" />
     </item>
     
@@ -47,8 +44,7 @@ npx blowfish-tools The config files that ship with Blowfish contain all of the p
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://localhost:1313/docs/training/</guid>
-      <description>We just launched a CLI tool to help you get started with Blowfish. It will help you with installation and configuration. Install the CLI tool globally using:
-npx blowfish-tools The config files that ship with Blowfish contain all of the possible settings that the theme recognises.</description>
+      <description>Master the Art of Artificial Intelligence for Business SuccessEmpower Your Team with AI Training Programs #As AI becomes increasingly integral to business operations, organizations must ensure their teams have the right skills to harness its potential.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/training/featured.svg" />
     </item>
     
