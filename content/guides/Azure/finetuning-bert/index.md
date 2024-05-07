@@ -4,19 +4,19 @@ description: Building Data Science Workflows with Azure ML Studio
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:
-  - Data Science
-  - Deep Learning
+    - Data Science
+    - Deep Learning
 tags:
     - Azure Machine Learning
     - BERT
     - Transformers
     - Hugging Face
-series:
-series_order: 
-slug: finetuning-bert
+series: null
+series_order: null
+slug: deep-learning-insights-applications
 type: default
 keywords:
-  - Azure
+    - Azure
 ---
 
 {{< lead >}}
