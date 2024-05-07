@@ -11,6 +11,7 @@ series:
 series_order: 1
 slug: consulting
 type: default
+keywords: Azure
 ---
 
 {{< lead >}}
