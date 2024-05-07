@@ -5,12 +5,9 @@ draft: false
 description: All the front matter variables available in AI Training.
 slug: training
 keywords: 
-  - Azure
 categories: 
   - Training
 tags:
-  - installation
-  - docs
 series:
   - Documentation
 series_order: 4
