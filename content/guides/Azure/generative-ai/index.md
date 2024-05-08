@@ -1,6 +1,6 @@
 ---
-title: Generative AI & Its Business Impact
-description: Implementing ChatGPT-like Models with Azure OpenAI Service
+title: Implementing ChatGPT-like Models with Azure OpenAI Service
+description: Generative AI & Its Business Impact
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:
@@ -20,7 +20,7 @@ keywords:
 ---
 
 {{< lead >}}
-Implementing ChatGPT-like Models with Azure OpenAI Service
+Generative AI & Its Business Impact
 {{< /lead >}}
 
 <!-- # Generative AI & Its Business Impact

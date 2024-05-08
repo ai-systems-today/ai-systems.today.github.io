@@ -1,6 +1,6 @@
 ---
-title: Empowering Data Science with AI
-description: Building Data Science Workflows with Azure ML Studio
+title: Building Data Science Workflows with Azure ML Studio
+description: Empowering Data Science with AI
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:
@@ -18,10 +18,10 @@ keywords:
   - Azure
 ---
 
-# Empowering Data Science with AI
+<!-- # Empowering Data Science with AI -->
 
 {{< lead >}}
-Building Data Science Workflows with Azure ML Studio
+Empowering Data Science with AI
 {{< /lead >}}
 
 <!-- ### Building Data Science Workflows with Azure ML Studio -->

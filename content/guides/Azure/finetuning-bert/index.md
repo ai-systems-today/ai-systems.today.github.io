@@ -1,6 +1,6 @@
 ---
-title: Deep Learning Insights & Applications
-description: Building Data Science Workflows with Azure ML Studio
+title: Fine-tuning BERT Models for NLP Tasks in Azure
+description: Deep Learning Insights & Application
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:
@@ -20,7 +20,7 @@ keywords:
 ---
 
 {{< lead >}}
-Fine-tuning BERT Models for NLP Tasks in Azure
+Deep Learning Insights & Application
 {{< /lead >}}
 
 ## Introduction
