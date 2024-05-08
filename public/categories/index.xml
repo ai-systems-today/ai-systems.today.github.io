@@ -49,26 +49,6 @@
     </item>
     
     <item>
-      <title>Blowfish</title>
-      <link>https://localhost:1313/categories/blowfish/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/categories/blowfish/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>Open-Source</title>
-      <link>https://localhost:1313/categories/open-source/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/categories/open-source/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
       <title>Development</title>
       <link>https://localhost:1313/categories/development/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>

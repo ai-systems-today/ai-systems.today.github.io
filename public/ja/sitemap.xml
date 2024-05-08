@@ -4,7 +4,6 @@
 
   <url>
     <loc>https://localhost:1313/ja/authors/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -29,60 +28,7 @@
     />
   </url>
   <url>
-    <loc>https://localhost:1313/ja/tags/blowfish/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/tags/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/tags/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/tags/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/tags/blowfish/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/categories/blowfish/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/categories/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/categories/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/categories/blowfish/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/categories/blowfish/"
-    />
-  </url>
-  <url>
     <loc>https://localhost:1313/ja/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -108,7 +54,6 @@
   </url>
   <url>
     <loc>https://localhost:1313/ja/categories/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -130,199 +75,6 @@
       rel="alternate"
       hreflang="ja"
       href="https://localhost:1313/ja/categories/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/guides/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/guides/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/guides/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/guides/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/guides/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/tags/hugo/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/tags/hugo/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/tags/hugo/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/tags/hugo/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/tags/hugo/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/authors/nunocoracao/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/authors/nunocoracao/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/authors/nunocoracao/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/authors/nunocoracao/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/authors/nunocoracao/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/categories/open-source/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/categories/open-source/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/categories/open-source/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/categories/open-source/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/tags/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/tags/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/tags/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/tags/tutorial/</loc>
-    <lastmod>2023-10-04T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/tags/tutorial/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/tags/tutorial/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/tags/tutorial/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/tags/template/</loc>
-    <lastmod>1987-12-22T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/tags/template/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/tags/template/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/tags/template/"
-    />
-  </url>
-  <url>
-    <loc>https://localhost:1313/ja/guides/template/</loc>
-    <lastmod>1987-12-22T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link
-      rel="alternate"
-      hreflang="en"
-      href="https://localhost:1313/guides/template/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="it"
-      href="https://localhost:1313/it/guides/template/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="zh-cn"
-      href="https://localhost:1313/zh-cn/guides/template/"
-    />
-    <xhtml:link
-      rel="alternate"
-      hreflang="ja"
-      href="https://localhost:1313/ja/guides/template/"
     />
   </url>
   <url>
@@ -373,6 +125,31 @@
       rel="alternate"
       hreflang="ja"
       href="https://localhost:1313/ja/series/"
+    />
+  </url>
+  <url>
+    <loc>https://localhost:1313/ja/tags/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+    <xhtml:link
+      rel="alternate"
+      hreflang="en"
+      href="https://localhost:1313/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="it"
+      href="https://localhost:1313/it/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="zh-cn"
+      href="https://localhost:1313/zh-cn/tags/"
+    />
+    <xhtml:link
+      rel="alternate"
+      hreflang="ja"
+      href="https://localhost:1313/ja/tags/"
     />
   </url>
 </urlset>

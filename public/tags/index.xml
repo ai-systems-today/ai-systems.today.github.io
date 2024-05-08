@@ -98,45 +98,5 @@
       
     </item>
     
-    <item>
-      <title>blowfish</title>
-      <link>https://localhost:1313/tags/blowfish/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/tags/blowfish/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>hugo</title>
-      <link>https://localhost:1313/tags/hugo/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/tags/hugo/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>tutorial</title>
-      <link>https://localhost:1313/tags/tutorial/</link>
-      <pubDate>Wed, 04 Oct 2023 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/tags/tutorial/</guid>
-      <description></description>
-      
-    </item>
-    
-    <item>
-      <title>template</title>
-      <link>https://localhost:1313/tags/template/</link>
-      <pubDate>Tue, 22 Dec 1987 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/tags/template/</guid>
-      <description></description>
-      
-    </item>
-    
   </channel>
 </rss>

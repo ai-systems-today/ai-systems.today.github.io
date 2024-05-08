@@ -35,7 +35,7 @@
       
       <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
       <description>Implementing ChatGPT-like Models with Azure OpenAI ServiceIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
     </item>
     
   </channel>
