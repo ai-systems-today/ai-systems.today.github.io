@@ -9,14 +9,38 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/docs/custom-bots/</loc>
+    <loc>https://localhost:1313/docs/bots/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/docs/ai-workshops/</loc>
+    <loc>https://localhost:1313/docs/workshops/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/docs/</loc>
+    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/docs/development/</loc>
+    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/docs/support/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/docs/training/</loc>
+    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
@@ -213,12 +237,6 @@
     />
   </url>
   <url>
-    <loc>https://localhost:1313/docs/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:1313/tags/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -289,26 +307,8 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/docs/development/</loc>
-    <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:1313/categories/development/</loc>
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/docs/support/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/docs/training/</loc>
-    <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
