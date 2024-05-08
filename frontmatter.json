@@ -7,131 +7,39 @@
       "previewPath": null,
       "fields": [
         {
-          "title": "title",
+          "title": "Title",
           "name": "title",
           "type": "string"
         },
         {
-          "title": "date",
-          "name": "date",
-          "type": "datetime"
-        },
-        {
-          "title": "draft",
-          "name": "draft",
-          "type": "draft"
-        },
-        {
-          "title": "description",
+          "title": "Description",
           "name": "description",
           "type": "string"
         },
         {
-          "title": "tags",
-          "name": "tags",
-          "type": "tags"
-        },
-        {
-          "title": "series",
-          "name": "series",
-          "type": "choice",
-          "choices": [
-            "Documentation"
-          ]
-        },
-        {
-          "title": "series_order",
-          "name": "series_order",
-          "type": "number"
-        },
-        {
-          "title": "cascade",
-          "name": "cascade",
-          "type": "fields",
-          "fields": [
-            {
-              "title": "showDate",
-              "name": "showDate",
-              "type": "boolean"
-            },
-            {
-              "title": "showAuthor",
-              "name": "showAuthor",
-              "type": "boolean"
-            },
-            {
-              "title": "invertPagination",
-              "name": "invertPagination",
-              "type": "boolean"
-            }
-          ]
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "keywords",
-          "name": "keywords",
-          "type": "string"
-        },
-        {
-          "title": "categories",
-          "name": "categories",
-          "type": "categories"
-        }
-      ]
-    },
-    {
-      "name": "keywords",
-      "pageBundle": false,
-      "fields": [
-        {
-          "title": "title",
-          "name": "title",
-          "type": "string"
-        },
-        {
-          "title": "date",
+          "title": "Publishing date",
           "name": "date",
-          "type": "datetime"
+          "type": "datetime",
+          "default": "{{now}}",
+          "isPublishDate": true
         },
         {
-          "title": "draft",
+          "title": "Content preview",
+          "name": "preview",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
           "name": "draft",
           "type": "draft"
         },
         {
-          "title": "description",
-          "name": "description",
-          "type": "string"
-        },
-        {
-          "title": "tags",
+          "title": "Tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "series",
-          "name": "series",
-          "type": "choice",
-          "choices": [
-            "Documentation"
-          ]
-        },
-        {
-          "title": "series_order",
-          "name": "series_order",
-          "type": "number"
-        },
-        {
-          "title": "type",
-          "name": "type",
-          "type": "string"
-        },
-        {
-          "title": "categories",
+          "title": "Categories",
           "name": "categories",
           "type": "categories"
         }
@@ -143,8 +51,12 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
-      "title": "content",
-      "path": "[[workspace]]/content"
+      "title": "docs",
+      "path": "[[workspace]]/content/docs"
+    },
+    {
+      "title": "guides",
+      "path": "[[workspace]]/content/guides"
     }
   ],
   "frontMatter.git.enabled": true
