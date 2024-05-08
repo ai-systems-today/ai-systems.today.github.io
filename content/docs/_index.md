@@ -6,18 +6,11 @@ cascade:
   showDate: false
   showAuthor: false
   invertPagination: true
-  weight: 1
 ---
 
 {{< lead >}}
 Empowering Businesses with Cutting-Edge AI.
 {{< /lead >}}
-
-<ul>
-{{ range (sort (where .Site.Pages "Section" "docs") ".Params.series_order") }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>
 
 Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br>
 - [AI Consultancy Services](consulting/)
