@@ -8,14 +8,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta http-equiv="X-UA-Compatible" content="ie=edge" />
   
-  <title>Deep Learning Insights & Applications &middot; AI SYSTEMS TODAY</title>
-  <meta name="title" content="Deep Learning Insights & Applications &middot; AI SYSTEMS TODAY" />
+  <title>Generative AI & Its Business Impact &middot; AI SYSTEMS TODAY</title>
+  <meta name="title" content="Generative AI & Its Business Impact &middot; AI SYSTEMS TODAY" />
   
-  <meta name="description" content="Building Data Science Workflows with Azure ML Studio" />
-  <meta name="keywords" content="Azure Machine Learning, BERT, Transformers, Hugging Face, " />
+  <meta name="description" content="Implementing ChatGPT-like Models with Azure OpenAI Service" />
+  <meta name="keywords" content="Azure OpenAI, GPT4, Transformers, Hugging Face, " />
   
   
-  <link rel="canonical" href="https://localhost:1313/guides/azure/deep-learning-insights-applications/" />
+  <link rel="canonical" href="https://localhost:1313/guides/azure/generative-ai-business-impact/" />
   
   
   
@@ -63,18 +63,17 @@
   
   
   
-  <meta property="og:title" content="Deep Learning Insights &amp; Applications" />
-<meta property="og:description" content="Building Data Science Workflows with Azure ML Studio" />
+  <meta property="og:title" content="Generative AI &amp; Its Business Impact" />
+<meta property="og:description" content="Implementing ChatGPT-like Models with Azure OpenAI Service" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://localhost:1313/guides/azure/deep-learning-insights-applications/" /><meta property="og:image" content="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg"/><meta property="article:section" content="guides" />
+<meta property="og:url" content="https://localhost:1313/guides/azure/generative-ai-business-impact/" /><meta property="article:section" content="guides" />
 <meta property="article:published_time" content="2024-05-06T11:13:34+00:00" />
 <meta property="article:modified_time" content="2024-05-06T11:13:34+00:00" />
 
 
-  <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg"/>
-<meta name="twitter:title" content="Deep Learning Insights &amp; Applications"/>
-<meta name="twitter:description" content="Building Data Science Workflows with Azure ML Studio"/>
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Generative AI &amp; Its Business Impact"/>
+<meta name="twitter:description" content="Implementing ChatGPT-like Models with Azure OpenAI Service"/>
 
   
   <script type="application/ld+json">
@@ -82,12 +81,12 @@
     "@context": "https://schema.org",
     "@type": "Article",
     "articleSection": "Blog",
-    "name": "Deep Learning Insights \u0026 Applications",
-    "headline": "Deep Learning Insights \u0026 Applications",
-    "description": "Building Data Science Workflows with Azure ML Studio",
-    "abstract": "Fine-tuning BERT Models for NLP Tasks in Azure\rIntroduction #\rNatural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication.",
+    "name": "Generative AI \u0026 Its Business Impact",
+    "headline": "Generative AI \u0026 Its Business Impact",
+    "description": "Implementing ChatGPT-like Models with Azure OpenAI Service",
+    "abstract": "Implementing ChatGPT-like Models with Azure OpenAI Service\rIntroduction #\rIn recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations.",
     "inLanguage": "en",
-    "url" : "https:\/\/localhost:1313\/guides\/azure\/deep-learning-insights-applications\/",
+    "url" : "https:\/\/localhost:1313\/guides\/azure\/generative-ai-business-impact\/",
     "author" : {
       "@type": "Person",
       "name": "Kyriakos Antoniadis"
@@ -101,7 +100,7 @@
     "keywords": ["Azure"],
     
     "mainEntityOfPage": "true",
-    "wordCount": "1071"
+    "wordCount": "919"
   }]
   </script>
 
@@ -659,6 +658,12 @@
   
   
   
+ 
+  
+   
+  
+ 
+
 
 
 <div id="hero" class="h-[150px] md:h-[200px]"></div>
@@ -667,7 +672,7 @@
 
     
     <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
-    style="background-image:url(/guides/azure/deep-learning-insights-applications/featured_hu3dc01b828c24ce9874547aac851e59cb_165856_1200x0_resize_q75_box.jpg);">
+    style="background-image:url(/img/background.svg);">
     
 
 
@@ -720,8 +725,8 @@
   <li class="inline hidden">
     <a
       class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
-      href="/guides/azure/deep-learning-insights-applications/"
-      >Deep Learning Insights &amp; Applications</a
+      href="/guides/azure/generative-ai-business-impact/"
+      >Generative AI &amp; Its Business Impact</a
     ><span class="px-1 text-primary-500">/</span>
   </li>
 
@@ -730,7 +735,7 @@
 
     
     <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
-      Deep Learning Insights & Applications
+      Generative AI & Its Business Impact
     </h1>
     <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
       
@@ -781,7 +786,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -794,7 +799,7 @@
       
     
   
-  <span id="views_guides\Azure\finetuning-bert\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_guides\Azure\generative-ai\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -816,7 +821,7 @@
       
     
   
-  <span id="likes_guides\Azure\finetuning-bert\index.md"
+  <span id="likes_guides\Azure\generative-ai\index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -912,10 +917,10 @@
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/deep-learning/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/generative-ai/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Deep Learning
+    Generative AI
   </span>
 </span>
   </span>
@@ -942,18 +947,18 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-openai/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Azure Machine Learning
+    Azure OpenAI
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bert/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpt4/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    BERT
+    GPT4
   </span>
 </span>
   </span>
@@ -1151,22 +1156,27 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#key-concepts">Key Concepts</a>
-      <ul>
-        <li><a href="#bert-bidirectional-encoder-representations-from-transformers">BERT (Bidirectional Encoder Representations from Transformers)</a></li>
-        <li><a href="#hugging-face-transformers">Hugging Face Transformers</a></li>
-      </ul>
-    </li>
-    <li><a href="#setting-up-the-environment">Setting Up the Environment</a>
+    <li><a href="#key-features-of-azure-openai-service">Key Features of Azure OpenAI Service</a></li>
+    <li><a href="#use-cases-of-generative-ai-in-business">Use Cases of Generative AI in Business</a></li>
+    <li><a href="#setting-up-azure-openai-service">Setting Up Azure OpenAI Service</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#azure-machine-learning-setup">Azure Machine Learning Setup</a></li>
-        <li><a href="#setting-up-the-training-environment">Setting Up the Training Environment</a></li>
+        <li><a href="#creating-and-configuring-an-azure-openai-resource">Creating and Configuring an Azure OpenAI Resource</a></li>
       </ul>
     </li>
-    <li><a href="#preparing-the-dataset">Preparing the Dataset</a></li>
-    <li><a href="#fine-tuning-bert-model">Fine-Tuning BERT Model</a></li>
-    <li><a href="#deploying-the-fine-tuned-model">Deploying the Fine-Tuned Model</a></li>
+    <li><a href="#implementing-chatgpt-like-models">Implementing ChatGPT-like Models</a>
+      <ul>
+        <li><a href="#preparing-the-development-environment">Preparing the Development Environment</a></li>
+        <li><a href="#interacting-with-gpt-4-models">Interacting with GPT-4 Models</a></li>
+        <li><a href="#fine-tuning-gpt-models-with-hugging-face-transformers">Fine-Tuning GPT Models with Hugging Face Transformers</a></li>
+      </ul>
+    </li>
+    <li><a href="#deploying-and-scaling-gpt-4-models">Deploying and Scaling GPT-4 Models</a>
+      <ul>
+        <li><a href="#deploying-a-gpt-4-api-endpoint">Deploying a GPT-4 API Endpoint</a></li>
+        <li><a href="#scaling-gpt-4-models">Scaling GPT-4 Models</a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#next-steps">Next Steps</a></li>
   </ul>
@@ -1183,22 +1193,27 @@
     <nav id="TableOfContents">
   <ul>
     <li><a href="#introduction">Introduction</a></li>
-    <li><a href="#key-concepts">Key Concepts</a>
-      <ul>
-        <li><a href="#bert-bidirectional-encoder-representations-from-transformers">BERT (Bidirectional Encoder Representations from Transformers)</a></li>
-        <li><a href="#hugging-face-transformers">Hugging Face Transformers</a></li>
-      </ul>
-    </li>
-    <li><a href="#setting-up-the-environment">Setting Up the Environment</a>
+    <li><a href="#key-features-of-azure-openai-service">Key Features of Azure OpenAI Service</a></li>
+    <li><a href="#use-cases-of-generative-ai-in-business">Use Cases of Generative AI in Business</a></li>
+    <li><a href="#setting-up-azure-openai-service">Setting Up Azure OpenAI Service</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#azure-machine-learning-setup">Azure Machine Learning Setup</a></li>
-        <li><a href="#setting-up-the-training-environment">Setting Up the Training Environment</a></li>
+        <li><a href="#creating-and-configuring-an-azure-openai-resource">Creating and Configuring an Azure OpenAI Resource</a></li>
       </ul>
     </li>
-    <li><a href="#preparing-the-dataset">Preparing the Dataset</a></li>
-    <li><a href="#fine-tuning-bert-model">Fine-Tuning BERT Model</a></li>
-    <li><a href="#deploying-the-fine-tuned-model">Deploying the Fine-Tuned Model</a></li>
+    <li><a href="#implementing-chatgpt-like-models">Implementing ChatGPT-like Models</a>
+      <ul>
+        <li><a href="#preparing-the-development-environment">Preparing the Development Environment</a></li>
+        <li><a href="#interacting-with-gpt-4-models">Interacting with GPT-4 Models</a></li>
+        <li><a href="#fine-tuning-gpt-models-with-hugging-face-transformers">Fine-Tuning GPT Models with Hugging Face Transformers</a></li>
+      </ul>
+    </li>
+    <li><a href="#deploying-and-scaling-gpt-4-models">Deploying and Scaling GPT-4 Models</a>
+      <ul>
+        <li><a href="#deploying-a-gpt-4-api-endpoint">Deploying a GPT-4 API Endpoint</a></li>
+        <li><a href="#scaling-gpt-4-models">Scaling GPT-4 Models</a></li>
+      </ul>
+    </li>
     <li><a href="#conclusion">Conclusion</a></li>
     <li><a href="#next-steps">Next Steps</a></li>
   </ul>
@@ -1256,9 +1271,12 @@
 
         <div class="article-content max-w-prose mb-20">
           <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
-  Fine-tuning BERT Models for NLP Tasks in Azure
+  Implementing ChatGPT-like Models with Azure OpenAI Service
 </div>
 
+<!-- # Generative AI & Its Business Impact
+
+### Implementing ChatGPT-like Models with Azure OpenAI Service -->
 
 
 <h2 class="relative group">Introduction 
@@ -1271,67 +1289,78 @@
     </span>        
     
 </h2>
-<p>Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong> have set new standards for performance.</p>
-<p><strong>Azure Machine Learning</strong> provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently. By combining the power of <strong>Azure Machine Learning</strong> with <strong>Hugging Face Transformers</strong>, organizations can leverage state-of-the-art models like BERT to solve various NLP tasks.</p>
-<p>This blog will guide you through fine-tuning BERT models for NLP tasks using the Azure Machine Learning platform and the Hugging Face Transformers library.</p>
+<p>In recent years, generative AI models like <strong>ChatGPT</strong> have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations. For businesses, the potential applications of such models are immense, ranging from customer support and marketing to research and development.</p>
+<p>The <strong>Azure OpenAI Service</strong>, a partnership between Microsoft and OpenAI, brings state-of-the-art generative models like <strong>GPT-4</strong> to Azure. With this service, businesses can leverage powerful models for various use cases while maintaining data security and compliance.</p>
+<p>In this blog, we will explore how to implement ChatGPT-like models using Azure OpenAI Service and discuss their potential impact on businesses.</p>
 
 
-<h2 class="relative group">Key Concepts 
-    <div id="key-concepts" class="anchor"></div>
+<h2 class="relative group">Key Features of Azure OpenAI Service 
+    <div id="key-features-of-azure-openai-service" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#key-concepts" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#key-features-of-azure-openai-service" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
+<ol>
+<li><strong>Access to Powerful Models:</strong> GPT-4, GPT-3.5, Codex, and other OpenAI models are available through the service.</li>
+<li><strong>Secure and Compliant:</strong> Built on Azure&rsquo;s secure infrastructure, ensuring data privacy and compliance.</li>
+<li><strong>Scalable and Reliable:</strong> Supports scalable deployment with enterprise-grade reliability.</li>
+<li><strong>Flexible Pricing Models:</strong> Pay-as-you-go and reserved pricing options.</li>
+</ol>
 
 
-<h3 class="relative group">BERT (Bidirectional Encoder Representations from Transformers) 
-    <div id="bert-bidirectional-encoder-representations-from-transformers" class="anchor"></div>
+<h2 class="relative group">Use Cases of Generative AI in Business 
+    <div id="use-cases-of-generative-ai-in-business" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#bert-bidirectional-encoder-representations-from-transformers" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ul>
-<li><strong>BERT</strong> is a transformer-based model developed by Google. It uses a bidirectional approach to understand the context of words in a sentence.</li>
-<li><strong>Pre-training:</strong> BERT is pre-trained on a large corpus using tasks like Masked Language Modeling (MLM) and Next Sentence Prediction (NSP).</li>
-<li><strong>Fine-tuning:</strong> BERT can be fine-tuned for specific NLP tasks like text classification, question answering, and named entity recognition.</li>
-</ul>
-
-
-<h3 class="relative group">Hugging Face Transformers 
-    <div id="hugging-face-transformers" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#hugging-face-transformers" aria-label="Anchor">#</a>
-    </span>        
-    
-</h3>
-<ul>
-<li><strong>Hugging Face Transformers</strong> is an open-source library that provides pre-trained models and utilities for NLP.</li>
-<li>It supports multiple transformer architectures (e.g., BERT, GPT-2, RoBERTa) and simplifies fine-tuning and inference.</li>
-</ul>
-
-
-<h2 class="relative group">Setting Up the Environment 
-    <div id="setting-up-the-environment" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#setting-up-the-environment" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#use-cases-of-generative-ai-in-business" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>Before we start fine-tuning the BERT model, ensure you have the following prerequisites:</p>
+<p>Generative AI can transform various business functions by automating and enhancing processes:</p>
+<ol>
+<li><strong>Customer Support:</strong>
+<ul>
+<li>Automate responses to common customer inquiries.</li>
+<li>Provide personalized recommendations and support.</li>
+</ul>
+</li>
+<li><strong>Content Creation and Marketing:</strong>
+<ul>
+<li>Generate blog posts, social media content, and marketing copy.</li>
+<li>Create personalized email campaigns.</li>
+</ul>
+</li>
+<li><strong>Research and Development:</strong>
+<ul>
+<li>Summarize technical papers and industry reports.</li>
+<li>Assist with writing code and automating workflows.</li>
+</ul>
+</li>
+<li><strong>Internal Knowledge Management:</strong>
+<ul>
+<li>Answer employees&rsquo; questions about internal policies and procedures.</li>
+<li>Assist in onboarding new employees.</li>
+</ul>
+</li>
+</ol>
+
+
+<h2 class="relative group">Setting Up Azure OpenAI Service 
+    <div id="setting-up-azure-openai-service" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#setting-up-azure-openai-service" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
 
 
 <h3 class="relative group">Prerequisites 
@@ -1346,315 +1375,259 @@
 </h3>
 <ol>
 <li><strong>Azure Subscription:</strong> If you don&rsquo;t have one, create a free account at azure.com/free.</li>
-<li><strong>Azure Machine Learning Workspace:</strong> Create a workspace following the official guide <a href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace"   target="_blank">
-    here</a>.</li>
-<li><strong>Familiarity with Python Programming:</strong> Basic knowledge of Python and NLP concepts.</li>
+<li><strong>Azure OpenAI Access:</strong> Request access to the service via Azure OpenAI Application.</li>
 </ol>
 
 
-<h3 class="relative group">Azure Machine Learning Setup 
-    <div id="azure-machine-learning-setup" class="anchor"></div>
+<h3 class="relative group">Creating and Configuring an Azure OpenAI Resource 
+    <div id="creating-and-configuring-an-azure-openai-resource" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#azure-machine-learning-setup" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#creating-and-configuring-an-azure-openai-resource" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
 <ol>
-<li><strong>Create and Configure a Workspace:</strong>
+<li><strong>Create the Azure OpenAI Resource:</strong>
 <ul>
 <li>Log in to the <a href="https://portal.azure.com/"   target="_blank">
     Azure Portal</a>.</li>
-<li>Create an Azure Machine Learning Workspace as described in the official guide.</li>
+<li>Click &ldquo;<strong>Create a resource</strong>,&rdquo; search for &ldquo;Azure OpenAI,&rdquo; and click &ldquo;<strong>Create</strong>.&rdquo;</li>
+<li>Provide the necessary information (subscription, resource group, region, etc.) and click &ldquo;<strong>Create</strong>.&rdquo;</li>
 </ul>
 </li>
-<li><strong>Launch Azure ML Studio:</strong>
+<li><strong>Retrieve API Credentials:</strong>
 <ul>
-<li>Navigate to the workspace in the Azure Portal and click &ldquo;<strong>Launch studio</strong>.&rdquo;</li>
-</ul>
-</li>
-<li><strong>Create a Compute Cluster:</strong>
-<ul>
-<li>In Azure ML Studio, navigate to &ldquo;<strong>Compute</strong>&rdquo; and create a GPU-enabled compute cluster.</li>
+<li>Navigate to the newly created Azure OpenAI resource.</li>
+<li>Click on &ldquo;<strong>Keys and Endpoint</strong>&rdquo; to retrieve the API key and endpoint URL.</li>
 </ul>
 </li>
 </ol>
 
 
-<h3 class="relative group">Setting Up the Training Environment 
-    <div id="setting-up-the-training-environment" class="anchor"></div>
+<h2 class="relative group">Implementing ChatGPT-like Models 
+    <div id="implementing-chatgpt-like-models" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#setting-up-the-training-environment" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#implementing-chatgpt-like-models" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Preparing the Development Environment 
+    <div id="preparing-the-development-environment" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preparing-the-development-environment" aria-label="Anchor">#</a>
     </span>        
     
 </h3>
 <ol>
-<li>Create a Conda Environment:
-<ul>
-<li>Create a conda environment file (<code>environment.yml</code>) with the necessary dependencies:</li>
-</ul>
-</li>
+<li><strong>Install Required Libraries:</strong></li>
 </ol>
-<pre tabindex="0"><code>yamlCopy codename: huggingface_env
-channels:
-  - conda-forge
-dependencies:
-  - python=3.8
-  - pip
-  - pip:
-      - azureml-core
-      - azureml-sdk
-      - azureml-mlflow
-      - transformers
-      - torch
-      - datasets
+<pre tabindex="0"><code>bash
+Copy code
+pip install openai azure-openai transformers
 </code></pre><ol>
-<li>Register the Environment in Azure ML:
-<ul>
-<li>Register the environment in Azure Machine Learning:</li>
-</ul>
-</li>
+<li><strong>Set Up API Key and Endpoint:</strong></li>
 </ol>
-<pre tabindex="0"><code>pythonCopy codefrom azureml.core import Workspace, Environment
+<pre tabindex="0"><code>pythonCopy codeimport openai
 
-# Load the workspace
-ws = Workspace.from_config()
-
-# Define and register the environment
-env = Environment.from_conda_specification(name=&#34;huggingface_env&#34;, file_path=&#34;environment.yml&#34;)
-env.register(workspace=ws)
+# Replace with your Azure OpenAI credentials
+openai.api_key = &#34;YOUR_API_KEY&#34;
+openai.api_base = &#34;YOUR_ENDPOINT&#34;
+openai.api_type = &#34;azure&#34;
+openai.api_version = &#34;2023-03-15-preview&#34;
 </code></pre>
 
-<h2 class="relative group">Preparing the Dataset 
-    <div id="preparing-the-dataset" class="anchor"></div>
+<h3 class="relative group">Interacting with GPT-4 Models 
+    <div id="interacting-with-gpt-4-models" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#preparing-the-dataset" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#interacting-with-gpt-4-models" aria-label="Anchor">#</a>
     </span>        
     
-</h2>
-<p>For demonstration purposes, let&rsquo;s fine-tune BERT for text classification using the IMDb movie reviews dataset.</p>
+</h3>
 <ol>
-<li><strong>Download the Dataset:</strong></li>
+<li><strong>ChatGPT-like Conversations:</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy code# Define a system message to set the conversation context
+messages = [
+    {&#34;role&#34;: &#34;system&#34;, &#34;content&#34;: &#34;You are an intelligent assistant helping with customer support queries.&#34;},
+    {&#34;role&#34;: &#34;user&#34;, &#34;content&#34;: &#34;How can I reset my password?&#34;}
+]
+
+# Query the GPT-4 model
+response = openai.ChatCompletion.create(
+    engine=&#34;gpt-4&#34;,  # Replace with the model deployment name in your Azure OpenAI resource
+    messages=messages,
+    max_tokens=100,
+    temperature=0.7
+)
+
+# Display the assistant&#39;s response
+print(response.choices[0].message[&#39;content&#39;])
+</code></pre><ol>
+<li><strong>Content Generation (Blog Post):</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy code# Provide a prompt to generate a blog post outline
+prompt = &#34;Generate an outline for a blog post about the benefits of generative AI in marketing.&#34;
+
+response = openai.Completion.create(
+    engine=&#34;gpt-4&#34;,  # Replace with the model deployment name in your Azure OpenAI resource
+    prompt=prompt,
+    max_tokens=200,
+    temperature=0.7
+)
+
+# Display the generated outline
+print(response.choices[0].text.strip())
+</code></pre>
+
+<h3 class="relative group">Fine-Tuning GPT Models with Hugging Face Transformers 
+    <div id="fine-tuning-gpt-models-with-hugging-face-transformers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#fine-tuning-gpt-models-with-hugging-face-transformers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<p>While Azure OpenAI Service does not directly support fine-tuning GPT-4 models, you can fine-tune similar models like GPT-2 or GPT-Neo using the Hugging Face Transformers library.</p>
+<ol>
+<li><strong>Install Transformers and Dataset Libraries:</strong></li>
+</ol>
+<pre tabindex="0"><code>bash
+Copy code
+pip install transformers datasets
+</code></pre><ol>
+<li><strong>Prepare the Dataset:</strong></li>
 </ol>
 <pre tabindex="0"><code>pythonCopy codefrom datasets import load_dataset
 
-# Load IMDb dataset
-dataset = load_dataset(&#39;imdb&#39;)
+# Load a dataset (e.g., IMDB for sentiment analysis)
+dataset = load_dataset(&#34;imdb&#34;)
 </code></pre><ol>
-<li><strong>Preprocess the Data:</strong></li>
+<li><strong>Preprocess the Dataset:</strong></li>
 </ol>
-<pre tabindex="0"><code>pythonCopy codefrom transformers import BertTokenizer
+<pre tabindex="0"><code>pythonCopy codefrom transformers import GPT2Tokenizer
 
 # Initialize the tokenizer
-tokenizer = BertTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
+tokenizer = GPT2Tokenizer.from_pretrained(&#34;gpt2&#34;)
 
-# Define a function for preprocessing
+# Preprocess function
 def preprocess(example):
-    return tokenizer(example[&#39;text&#39;], padding=&#39;max_length&#39;, max_length=512, truncation=True)
+    return tokenizer(example[&#39;text&#39;], truncation=True, padding=&#34;max_length&#34;, max_length=512)
 
-# Apply preprocessing to the dataset
-train_dataset = dataset[&#39;train&#39;].map(preprocess, batched=True)
-test_dataset = dataset[&#39;test&#39;].map(preprocess, batched=True)
-
-# Remove unnecessary columns
-train_dataset = train_dataset.remove_columns([&#39;text&#39;])
-test_dataset = test_dataset.remove_columns([&#39;text&#39;])
-
-# Set format for PyTorch
-train_dataset.set_format(type=&#39;torch&#39;, columns=[&#39;input_ids&#39;, &#39;attention_mask&#39;, &#39;label&#39;])
-test_dataset.set_format(type=&#39;torch&#39;, columns=[&#39;input_ids&#39;, &#39;attention_mask&#39;, &#39;label&#39;])
-</code></pre>
-
-<h2 class="relative group">Fine-Tuning BERT Model 
-    <div id="fine-tuning-bert-model" class="anchor"></div>
-    
-    <span
-        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
-        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#fine-tuning-bert-model" aria-label="Anchor">#</a>
-    </span>        
-    
-</h2>
-<ol>
-<li><strong>Create a Training Script (<code>train.py</code>):</strong></li>
+# Apply preprocessing
+dataset = dataset.map(preprocess, batched=True)
+dataset.set_format(type=&#39;torch&#39;, columns=[&#39;input_ids&#39;, &#39;attention_mask&#39;, &#39;label&#39;])
+</code></pre><ol>
+<li><strong>Fine-Tune the Model:</strong></li>
 </ol>
-<pre tabindex="0"><code>pythonCopy code# train.py
-import argparse
-from transformers import BertForSequenceClassification, Trainer, TrainingArguments
-from datasets import load_from_disk
+<pre tabindex="0"><code>pythonCopy codefrom transformers import GPT2LMHeadModel, Trainer, TrainingArguments
 
-# Parse arguments
-parser = argparse.ArgumentParser()
-parser.add_argument(&#34;--train_dataset&#34;, type=str, help=&#34;Path to the training dataset&#34;)
-parser.add_argument(&#34;--test_dataset&#34;, type=str, help=&#34;Path to the testing dataset&#34;)
-parser.add_argument(&#34;--output_dir&#34;, type=str, help=&#34;Path to save the trained model&#34;)
-args = parser.parse_args()
-
-# Load datasets
-train_dataset = load_from_disk(args.train_dataset)
-test_dataset = load_from_disk(args.test_dataset)
-
-# Load BERT model
-model = BertForSequenceClassification.from_pretrained(&#39;bert-base-uncased&#39;, num_labels=2)
+# Load a pre-trained GPT-2 model
+model = GPT2LMHeadModel.from_pretrained(&#34;gpt2&#34;)
 
 # Define training arguments
 training_args = TrainingArguments(
-    output_dir=args.output_dir,
+    output_dir=&#34;./results&#34;,
     num_train_epochs=3,
     per_device_train_batch_size=8,
-    per_device_eval_batch_size=8,
-    evaluation_strategy=&#34;epoch&#34;,
-    save_strategy=&#34;epoch&#34;,
-    logging_dir=&#34;./logs&#34;
+    save_steps=10_000,
+    save_total_limit=2,
 )
 
 # Initialize Trainer
 trainer = Trainer(
     model=model,
     args=training_args,
-    train_dataset=train_dataset,
-    eval_dataset=test_dataset
+    train_dataset=dataset[&#39;train&#39;],
+    eval_dataset=dataset[&#39;test&#39;]
 )
 
 # Train the model
 trainer.train()
 
 # Save the model
-trainer.save_model(args.output_dir)
-</code></pre><ol>
-<li><strong>Create a Pipeline Script (<code>pipeline.py</code>):</strong></li>
-</ol>
-<pre tabindex="0"><code>pythonCopy code# pipeline.py
-from azureml.core import Workspace, Dataset, Experiment, ScriptRunConfig
-from azureml.pipeline.core import Pipeline, PipelineData
-from azureml.pipeline.steps import PythonScriptStep
-from azureml.core.environment import Environment
-
-# Load the workspace
-ws = Workspace.from_config()
-
-# Load the registered environment
-env = Environment.get(workspace=ws, name=&#34;huggingface_env&#34;)
-
-# Define datasets
-train_dataset = Dataset.File.from_files(&#39;path/to/train_dataset&#39;)
-test_dataset = Dataset.File.from_files(&#39;path/to/test_dataset&#39;)
-
-# Create PipelineData
-output_dir = PipelineData(&#34;output_dir&#34;, datastore=ws.get_default_datastore())
-
-# Create a PythonScriptStep for training
-train_step = PythonScriptStep(
-    name=&#34;Fine-Tune BERT&#34;,
-    source_directory=&#34;.&#34;,
-    script_name=&#34;train.py&#34;,
-    arguments=[
-        &#34;--train_dataset&#34;, train_dataset.as_mount(),
-        &#34;--test_dataset&#34;, test_dataset.as_mount(),
-        &#34;--output_dir&#34;, output_dir
-    ],
-    outputs=[output_dir],
-    compute_target=&#34;your-compute-cluster&#34;,
-    environment=env
-)
-
-# Create a pipeline
-pipeline = Pipeline(workspace=ws, steps=[train_step])
-
-# Submit the experiment
-experiment = Experiment(ws, &#34;bert-fine-tuning&#34;)
-pipeline_run = experiment.submit(pipeline)
+model.save_pretrained(&#34;./fine-tuned-gpt2&#34;)
 </code></pre>
 
-<h2 class="relative group">Deploying the Fine-Tuned Model 
-    <div id="deploying-the-fine-tuned-model" class="anchor"></div>
+<h2 class="relative group">Deploying and Scaling GPT-4 Models 
+    <div id="deploying-and-scaling-gpt-4-models" class="anchor"></div>
     
     <span
         class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
         <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
-            style="text-decoration-line: none !important;" href="#deploying-the-fine-tuned-model" aria-label="Anchor">#</a>
+            style="text-decoration-line: none !important;" href="#deploying-and-scaling-gpt-4-models" aria-label="Anchor">#</a>
     </span>        
     
 </h2>
-<p>After fine-tuning the BERT model, it can be deployed as an API using Azure Machine Learning.</p>
+
+
+<h3 class="relative group">Deploying a GPT-4 API Endpoint 
+    <div id="deploying-a-gpt-4-api-endpoint" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#deploying-a-gpt-4-api-endpoint" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
 <ol>
-<li><strong>Create a Scoring Script (<code>score.py</code>):</strong></li>
+<li><strong>Deploy the Model in Azure OpenAI Service:</strong>
+<ul>
+<li>In the Azure Portal, navigate to the Azure OpenAI resource.</li>
+<li>Click on &ldquo;<strong>Deployments</strong>&rdquo; and create a new deployment.</li>
+<li>Select <strong>GPT-4</strong> as the model and specify a deployment name.</li>
+</ul>
+</li>
+<li><strong>Secure the API Endpoint:</strong>
+<ul>
+<li>Use Azure Active Directory or API keys to secure the endpoint.</li>
+<li>Ensure that only authorized applications can access the service.</li>
+</ul>
+</li>
 </ol>
-<pre tabindex="0"><code>pythonCopy code# score.py
-import json
-from transformers import BertForSequenceClassification, BertTokenizer
-import torch
 
-# Initialize the model and tokenizer
-def init():
-    global model, tokenizer
-    model_path = &#34;your_model_path&#34;
-    model = BertForSequenceClassification.from_pretrained(model_path)
-    tokenizer = BertTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
 
-# Run inference
-def run(raw_data):
-    data = json.loads(raw_data)
-    inputs = tokenizer(data[&#39;text&#39;], return_tensors=&#39;pt&#39;, padding=True, truncation=True, max_length=512)
-    outputs = model(**inputs)
-    predictions = torch.argmax(outputs.logits, dim=-1)
-    return json.dumps({&#34;predictions&#34;: predictions.tolist()})
-</code></pre><ol>
-<li><strong>Deploy the Model:</strong></li>
+<h3 class="relative group">Scaling GPT-4 Models 
+    <div id="scaling-gpt-4-models" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#scaling-gpt-4-models" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong>Scaling Options:</strong>
+<ul>
+<li>Use <strong>Reserved Units</strong> to ensure dedicated capacity for high-traffic applications.</li>
+<li>Utilize <strong>Load Balancers</strong> and <strong>API Gateways</strong> for efficient request routing.</li>
+</ul>
+</li>
+<li><strong>Monitoring and Optimization:</strong>
+<ul>
+<li>Monitor API usage and latency using Azure Monitor and Application Insights.</li>
+<li>Optimize model parameters (e.g., <code>max_tokens</code>, <code>temperature</code>) to improve response quality and reduce costs.</li>
+</ul>
+</li>
 </ol>
-<pre tabindex="0"><code>pythonCopy codefrom azureml.core import Model, InferenceConfig, Webservice, AciWebservice
 
-# Register the fine-tuned model
-model = Model.register(workspace=ws, model_name=&#34;bert-fine-tuned&#34;, model_path=&#34;outputs&#34;)
-
-# Create an inference environment
-inference_env = Environment.get(workspace=ws, name=&#34;huggingface_env&#34;)
-
-# Define an inference configuration
-inference_config = InferenceConfig(
-    entry_script=&#34;score.py&#34;,
-    environment=inference_env
-)
-
-# Define deployment configuration
-aci_config = AciWebservice.deploy_configuration(cpu_cores=2, memory_gb=4)
-
-# Deploy the model
-service = Model.deploy(
-    workspace=ws,
-    name=&#34;bert-fine-tuned-service&#34;,
-    models=[model],
-    inference_config=inference_config,
-    deployment_config=aci_config
-)
-
-# Wait for deployment completion
-service.wait_for_deployment(show_output=True)
-</code></pre><ol>
-<li><strong>Test the Deployed Model:</strong></li>
-</ol>
-<pre tabindex="0"><code>pythonCopy codeimport requests
-import json
-
-# Prepare test data
-test_data = json.dumps({&#34;text&#34;: [&#34;This movie is great!&#34;, &#34;The acting was terrible.&#34;]})
-headers = {&#34;Content-Type&#34;: &#34;application/json&#34;}
-
-# Send a POST request to the web service
-url = service.scoring_uri
-response = requests.post(url, data=test_data, headers=headers)
-
-# Display predictions
-print(response.json())
-</code></pre>
 
 <h2 class="relative group">Conclusion 
     <div id="conclusion" class="anchor"></div>
@@ -1666,8 +1639,8 @@ print(response.json())
     </span>        
     
 </h2>
-<p>Fine-tuning BERT models for specific NLP tasks allows businesses to create custom solutions tailored to their unique requirements. By leveraging <strong>Azure Machine Learning</strong> and <strong>Hugging Face Transformers</strong>, the process of training and deploying state-of-the-art NLP models becomes streamlined and efficient.</p>
-<p>With the provided code snippets and best practices, you can now fine-tune BERT models for your organization&rsquo;s NLP needs. Harness the power of Azure Machine Learning and deep learning to unlock valuable insights from your text data.</p>
+<p>Implementing ChatGPT-like models with Azure OpenAI Service empowers businesses to deliver intelligent and scalable solutions across various functions. By leveraging generative AI models like GPT-4, organizations can automate customer support, enhance content creation, and streamline internal knowledge management.</p>
+<p>With Azure&rsquo;s secure infrastructure and compliance features, businesses can harness the potential of generative AI while maintaining data privacy and regulatory standards.</p>
 
 
 <h2 class="relative group">Next Steps 
@@ -1681,11 +1654,12 @@ print(response.json())
     
 </h2>
 <ul>
-<li><strong>Learn More:</strong> Explore the official Hugging Face Transformers documentation for advanced NLP techniques.</li>
-<li><strong>Experiment:</strong> Try fine-tuning other transformer models (e.g., RoBERTa, GPT-3) for various NLP tasks using Azure ML.</li>
-<li><strong>Expand Your Skills:</strong> Enroll in advanced deep learning courses or participate in the NLP community for the latest developments.</li>
+<li><strong>Learn More:</strong> Explore the <a href="https://learn.microsoft.com/en-us/azure/cognitive-services/openai/"   target="_blank">
+    Azure OpenAI Service documentation</a>.</li>
+<li><strong>Experiment:</strong> Implement additional use cases like code generation or document summarization using GPT-4.</li>
+<li><strong>Stay Updated:</strong> Follow the latest developments in generative AI by subscribing to research publications and communities.</li>
 </ul>
-<p>Happy fine-tuning!</p>
+<p>Unleash the power of generative AI for your business today!</p>
 
         </div>
         
@@ -1702,11 +1676,11 @@ print(response.json())
   
   
 
-  <a href="/guides/azure/generative-ai-business-impact/" class="min-w-full">
+  <a href="/guides/azure/deep-learning-insights-applications/" class="min-w-full">
     
     <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
         
-        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/img/featured.svg);"></div>
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/deep-learning-insights-applications/featured_hu3dc01b828c24ce9874547aac851e59cb_165856_600x0_resize_q75_box.jpg);"></div>
         
       
 
@@ -1714,7 +1688,7 @@ print(response.json())
 
         
         <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
-          href="/guides/azure/generative-ai-business-impact/">Generative AI & Its Business Impact</div>
+          href="/guides/azure/deep-learning-insights-applications/">Deep Learning Insights & Applications</div>
         
 
         <div class="text-sm text-neutral-500 dark:text-neutral-400">
@@ -1759,7 +1733,7 @@ print(response.json())
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
+  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1772,7 +1746,7 @@ print(response.json())
       
     
   
-  <span id="views_guides\Azure\generative-ai\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
+  <span id="views_guides\Azure\finetuning-bert\index.md" class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400" title="views">loading</span>
   <span class="inline-block align-text-bottom">
 
   <span class="relative block icon">
@@ -1794,7 +1768,7 @@ print(response.json())
       
     
   
-  <span id="likes_guides\Azure\generative-ai\index.md"
+  <span id="likes_guides\Azure\finetuning-bert\index.md"
     class="animate-pulse inline-block text-transparent max-h-3 rounded-full mt-[-2px] align-middle bg-neutral-300 dark:bg-neutral-400"
     title="likes">loading</span>
   <span class="inline-block align-text-bottom">
@@ -1847,10 +1821,10 @@ print(response.json())
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/generative-ai/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/deep-learning/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Generative AI
+    Deep Learning
   </span>
 </span>
   </span>
@@ -1877,18 +1851,18 @@ print(response.json())
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-openai/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Azure OpenAI
+    Azure Machine Learning
   </span>
 </span>
   </span>
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpt4/&#34;,'_self');">
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bert/&#34;,'_self');">
     <span class="flex" style="cursor: pointer;">
   <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    GPT4
+    BERT
   </span>
 </span>
   </span>
@@ -2347,8 +2321,8 @@ print(response.json())
           
         
       <script>
-        var oid = "views_guides\\Azure\\finetuning-bert\\index.md"
-        var oid_likes = "likes_guides\\Azure\\finetuning-bert\\index.md"
+        var oid = "views_guides\\Azure\\generative-ai\\index.md"
+        var oid_likes = "likes_guides\\Azure\\generative-ai\\index.md"
       </script>
       
       
@@ -2371,10 +2345,15 @@ print(response.json())
       <div class="flex justify-between pt-3">
         <span>
           
-        </span>
-        <span>
-          
-            <a class="flex text-right group ml-3" href="/guides/azure/ds-workflow-ml-studio/">
+            <a class="flex group mr-3" href="/guides/azure/ds-workflow-ml-studio/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
               <span class="flex flex-col">
                 <span
                   class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
@@ -2383,6 +2362,23 @@ print(response.json())
                 <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
                   
                     <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/guides/202310-blowfish-tutorial/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Build your homepage using Blowfish and Hugo</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2023-10-04 00:00:00 &#43;0000 UTC">4 October 2023</time>
                   
                 </span>
               </span>

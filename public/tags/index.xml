@@ -19,11 +19,31 @@
     </item>
     
     <item>
+      <title>Azure OpenAI</title>
+      <link>https://localhost:1313/tags/azure-openai/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-openai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>BERT</title>
       <link>https://localhost:1313/tags/bert/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/tags/bert/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GPT4</title>
+      <link>https://localhost:1313/tags/gpt4/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/gpt4/</guid>
       <description></description>
       
     </item>
