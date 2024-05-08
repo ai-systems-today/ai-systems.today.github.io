@@ -9,7 +9,7 @@ tags: null
 series:
   - Documentation
 series_order: 5
-slug: ai-workshops
+slug: workshops
 type: default
 keywords: null
 ---

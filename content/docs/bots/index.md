@@ -6,13 +6,12 @@ draft: false
 categories:
   - Custom Bots
 tags: null
-slug: custom-bots
+slug: bots
 type: default
-keywords:
+keywords: null
 series:
   - Documentation
 series_order: 6
----
 ---
 
 {{< lead >}}

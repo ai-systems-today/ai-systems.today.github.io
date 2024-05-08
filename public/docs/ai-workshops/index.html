@@ -86,7 +86,7 @@
     "name": "AI Workshops",
     "headline": "AI Workshops",
     "description": "Discover how to develop your own bot for your company",
-    
+    "abstract": "\rUnlock the Power of Artificial Intelligence for Strategic Growth\rHow Effective AI Consultancy Can Transform Your Business #\rUnlock the Power of Artificial Intelligence for Strategic Growth #\r",
     "inLanguage": "en",
     "url" : "https:\/\/localhost:1313\/docs\/ai-workshops\/",
     "author" : {
@@ -99,10 +99,10 @@
     
     "dateModified": "2024-05-06T11:13:34\u002b00:00",
     
-    "keywords": ["Azure","AWS"],
+    
     
     "mainEntityOfPage": "true",
-    "wordCount": "0"
+    "wordCount": "28"
   }]
   </script>
 
@@ -755,6 +755,8 @@
 
 
 
+  
+
 
 
   
@@ -778,7 +780,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>
+  <span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -915,24 +917,6 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Azure
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/aws/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    AWS
-  </span>
-</span>
-  </span>
-  
-  
-  
   
   
   
@@ -970,7 +954,81 @@
   
   <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
     
-    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#unlock-the-power-of-artificial-intelligence-for-strategic-growth">Unlock the Power of Artificial Intelligence for Strategic Growth</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#unlock-the-power-of-artificial-intelligence-for-strategic-growth">Unlock the Power of Artificial Intelligence for Strategic Growth</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
+      
 
       <div class="min-w-0 min-h-0 max-w-fit">
         
@@ -1042,7 +1100,36 @@
 
 
         <div class="article-content max-w-prose mb-20">
-          
+          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  Unlock the Power of Artificial Intelligence for Strategic Growth
+</div>
+
+
+
+<h1 class="relative group">How Effective AI Consultancy Can Transform Your Business 
+    <div id="how-effective-ai-consultancy-can-transform-your-business" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#how-effective-ai-consultancy-can-transform-your-business" aria-label="Anchor">#</a>
+    </span>        
+    
+</h1>
+
+
+<h2 class="relative group">Unlock the Power of Artificial Intelligence for Strategic Growth 
+    <div id="unlock-the-power-of-artificial-intelligence-for-strategic-growth" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#unlock-the-power-of-artificial-intelligence-for-strategic-growth" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<hr>
+
         </div>
         
         
@@ -1271,24 +1358,6 @@
   
   
   
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Azure
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/aws/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    AWS
-  </span>
-</span>
-  </span>
-  
-  
-  
   
   
   
@@ -1346,6 +1415,8 @@
 
 
 
+  
+
 
 
   
@@ -1365,7 +1436,7 @@
 <div class="flex flex-row flex-wrap items-center">
   
   
-  <span>
+  <span title="Reading time">1 min</span><span class="px-2 text-primary-500">&middot;</span><span>
   
   
     
@@ -1456,24 +1527,6 @@
   
   
   
-  
-  
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    Azure
-  </span>
-</span>
-  </span>
-  
-  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/aws/&#34;,'_self');">
-    <span class="flex" style="cursor: pointer;">
-  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
-    AWS
-  </span>
-</span>
-  </span>
   
   
   
@@ -2322,7 +2375,13 @@
   </footer>
 </article>
 
-      
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
     </main><footer id="site-footer" class="py-10 print:hidden">
   
   
