@@ -19,13 +19,23 @@
     </item>
     
     <item>
+      <title>Deep Learning Insights &amp; Applications</title>
+      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
+      <description>Fine-tuning BERT Models for NLP Tasks in AzureIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
+    </item>
+    
+    <item>
       <title>Empowering Data Science with AI</title>
       <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
       <description>Empowering Data Science with AI #Building Data Science Workflows with Azure ML StudioIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
     </item>
     
     <item>

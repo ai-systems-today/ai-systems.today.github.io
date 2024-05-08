@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Data Science on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/categories/data-science/</link>
-    <description>Recent content in Data Science on AI SYSTEMS TODAY</description>
+    <title>Hugging Face on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/tags/hugging-face/</link>
+    <description>Recent content in Hugging Face on AI SYSTEMS TODAY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/data-science/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/hugging-face/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Deep Learning Insights &amp; Applications</title>
       <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
@@ -16,16 +16,6 @@
       <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
       <description>Fine-tuning BERT Models for NLP Tasks in AzureIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Empowering Data Science with AI</title>
-      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
-      <description>Empowering Data Science with AI #Building Data Science Workflows with Azure ML StudioIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
     </item>
     
   </channel>

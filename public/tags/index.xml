@@ -19,6 +19,26 @@
     </item>
     
     <item>
+      <title>BERT</title>
+      <link>https://localhost:1313/tags/bert/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/bert/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugging Face</title>
+      <link>https://localhost:1313/tags/hugging-face/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/hugging-face/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Pandas</title>
       <link>https://localhost:1313/tags/pandas/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
@@ -44,6 +64,16 @@
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/tags/scikit-learn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>https://localhost:1313/tags/transformers/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/transformers/</guid>
       <description></description>
       
     </item>
