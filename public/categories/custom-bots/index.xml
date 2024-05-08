@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Custom Bots on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/categories/custom-bots/</link>
+    <description>Recent content in Custom Bots on AI SYSTEMS TODAY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/custom-bots/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI Custom Bots</title>
+      <link>https://localhost:1313/docs/custom-bots/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/docs/custom-bots/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/custom-bots/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

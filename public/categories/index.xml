@@ -19,6 +19,16 @@
     </item>
     
     <item>
+      <title>Custom Bots</title>
+      <link>https://localhost:1313/categories/custom-bots/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/custom-bots/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
       <title>Data Science</title>
       <link>https://localhost:1313/categories/data-science/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
@@ -44,6 +54,16 @@
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/categories/generative-ai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Workshops</title>
+      <link>https://localhost:1313/categories/workshops/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/workshops/</guid>
       <description></description>
       
     </item>

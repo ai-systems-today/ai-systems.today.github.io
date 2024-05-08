@@ -9,12 +9,12 @@
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
     <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/python/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Empowering Data Science with AI</title>
+      <title>Building Data Science Workflows with Azure ML Studio</title>
       <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
-      <description>Empowering Data Science with AI #Building Data Science Workflows with Azure ML StudioIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
+      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
     </item>
     

@@ -11,7 +11,14 @@ series:
 series_order: 5
 slug: ai-workshops
 type: default
-keywords:
-  - Azure
-  - AWS
+keywords: null
+---
+{{< lead >}}
+Unlock the Power of Artificial Intelligence for Strategic Growth
+{{< /lead >}}
+
+# How Effective AI Consultancy Can Transform Your Business
+
+## Unlock the Power of Artificial Intelligence for Strategic Growth
+
 ---
