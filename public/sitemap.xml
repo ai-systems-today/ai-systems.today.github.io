@@ -9,6 +9,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:1313/docs/bots/</loc>
+    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/docs/integrations/</loc>
+    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:1313/keywords/azure/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -57,6 +69,12 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://localhost:1313/categories/custom-bots/</loc>
+    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:1313/categories/data-science/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -100,6 +118,12 @@
   </url>
   <url>
     <loc>https://localhost:1313/guides/azure/generative-ai-business-impact/</loc>
+    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/integrations/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>

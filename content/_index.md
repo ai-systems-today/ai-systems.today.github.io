@@ -3,27 +3,15 @@ title: "Welcome to AI SYSTEMS TODAY"
 description: "AI SYSTEMS TODAY Homepage"
 ---
 
+{{< youtubeLite id="N2A6DqjzOhI" label="Blowfish-tools demo">}}
 
-<!-- <div class="flex px-4 py-2 mb-8 text-base rounded-md bg-primary-100 dark:bg-primary-900">
-  <span class="flex items-center ltr:pr-3 rtl:pl-3 text-primary-400">
-    {{< icon "triangle-exclamation" >}}
-  </span>
-  <span class="flex items-center justify-between grow dark:text-neutral-300">
-    <span class="prose dark:prose-invert">This is a demo of the <code id="layout">background</code> layout.</span>
-    <button
-      id="switch-layout-button"
-      class="px-4 !text-neutral !no-underline rounded-md bg-primary-600 hover:!bg-primary-500 dark:bg-primary-800 dark:hover:!bg-primary-700"
-    >
-      Switch layout &orarr;
-    </button>
-  </span>
-</div> -->
+<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe> -->
 
 
-
-{{< youtubeLite id="N2A6DqjzOhI" label="Blowfish-tools demo" >}}
 <br>
-# AI SYSTEMS TODAY                                              
+
+# AI SYSTEMS TODAY
+
 <a href="https://calendly.com/contact-ai-systems-today/30min" 
     target="_blank" 
     style="text-decoration:none;">
@@ -31,9 +19,19 @@ description: "AI SYSTEMS TODAY Homepage"
       </button>
     </a>
 
+{{< typeit 
+  tag=h4
+  speed=50
+  breakLines=false
+  loop=false
+  startdelay=0
+>}}
+
+<a href="/docs/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b><br>Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
+{{< /typeit >}}
 
 
-<!-- AI SYSTEMS TODAY is a leading IT consultant in Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.
+<!-- AI SYSTEMS TODAY is a leading IT consultant in  Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.
 
 ## Services Offered
 

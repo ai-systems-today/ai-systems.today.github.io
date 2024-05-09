@@ -13,12 +13,13 @@ Empowering Businesses with Cutting-Edge AI.
 {{< /lead >}}
 
 Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br>
-- [AI Consultancy Services](consulting/)
-- [AI Custom Development](development)
-- [AI Training Programs](training)
-- [AI Support Services](support)
-- [AI Workshops](workshops)
+- [AI Integrations](integrations)
 - [AI Custom Bots](bots)
+- [AI Consultancy](consulting/)
+- [AI Development](development)
+- [AI Training](training)
+- [AI Support](support)
+
 
 <!-- 
 ## AI Consulting
@@ -36,11 +37,5 @@ We offer comprehensive training programs and workshops designed to empower teams
 ## AI Support
 
 Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way. -->
-
-<ul>
-{{ range (sort (where .Site.Pages "Section" "docs") ".Params.series_order") }}
-  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
-{{ end }}
-</ul>
 
 ---

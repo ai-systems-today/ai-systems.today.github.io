@@ -11,9 +11,8 @@ type: default
 keywords: null
 series:
   - Documentation
-series_order: 6
+series_order: 2
 ---
-
 {{< lead >}}
 Unlock the Power of Artificial Intelligence for Strategic Growth
 {{< /lead >}}
