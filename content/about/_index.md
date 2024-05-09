@@ -95,7 +95,7 @@ _New York, USA_
 Python, Flask, Docker, TensorFlow.
 
 ### CEO-Founder  
-**AI Systems Today**  
+**AI SYSTEMS TODAY**  
 _Athens, Greece_  
 **11-2015 – 09-2020**  
 - Built infrastructure of containerized cloud services with AI.

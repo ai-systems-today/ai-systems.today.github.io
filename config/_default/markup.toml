@@ -3,7 +3,7 @@
 
 [goldmark]
 [goldmark.renderer]
-  unsafe = false
+  unsafe = true
 
 [highlight]
   noClasses = false

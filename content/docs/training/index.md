@@ -50,8 +50,8 @@ AI training programs are designed to equip teams with the skills required to und
    **Example:**  
    A financial services firm improved its AI adoption rate by 30% through a comprehensive training program.
 
-### Our AI Training Programs at AI Systems Today:
-At AI Systems Today, we offer comprehensive training programs and workshops designed to empower teams with the knowledge and skills needed to leverage AI effectively. Our training sessions are tailored to address specific organizational needs and challenges.
+### Our AI Training Programs at AI SYSTEMS TODAY:
+At AI SYSTEMS TODAY, we offer comprehensive training programs and workshops designed to empower teams with the knowledge and skills needed to leverage AI effectively. Our training sessions are tailored to address specific organizational needs and challenges.
 
 1. **AI Fundamentals Training:**  
    Basics of machine learning, deep learning, and NLP.
@@ -113,7 +113,7 @@ At AI Systems Today, we offer comprehensive training programs and workshops desi
 A global corporation needed to upskill its team of data scientists in deep learning techniques to improve model accuracy.
 
 **Solution:**  
-AI Systems Today developed a customized training program covering deep learning fundamentals and advanced techniques.
+AI SYSTEMS TODAY developed a customized training program covering deep learning fundamentals and advanced techniques.
 
 **Implementation:**
 - Conducted a needs assessment to understand skill gaps.
@@ -130,7 +130,7 @@ AI Systems Today developed a customized training program covering deep learning 
 A retail firm wanted to improve sentiment analysis accuracy in its customer service department through NLP training.
 
 **Solution:**  
-AI Systems Today's training team developed a targeted NLP workshop focusing on sentiment analysis and entity recognition techniques.
+AI SYSTEMS TODAY's training team developed a targeted NLP workshop focusing on sentiment analysis and entity recognition techniques.
 
 **Implementation:**
 - Developed a 2-day workshop curriculum covering NLP basics and advanced models.
@@ -147,7 +147,7 @@ AI Systems Today's training team developed a targeted NLP workshop focusing on s
 A logistics firm needed to upskill its data engineers in machine learning techniques to implement advanced route optimization models.
 
 **Solution:**  
-The training team at AI Systems Today designed a practical ML workshop focusing on route optimization models and deployment strategies.
+The training team at AI SYSTEMS TODAY designed a practical ML workshop focusing on route optimization models and deployment strategies.
 
 **Implementation:**
 - Conducted a skills assessment to identify training needs.
@@ -159,7 +159,7 @@ The training team at AI Systems Today designed a practical ML workshop focusing 
 - Reduced delivery times by 10% through optimized routing.
 - Fostered collaboration between data engineers and logistics teams.
 
-### Why Choose AI Systems Today for AI Training:
+### Why Choose AI SYSTEMS TODAY for AI Training:
 1. **Industry Expertise:**  
    Led by Kyriakos Antoniadis, a seasoned AI expert with over a decade of experience, our training team possesses deep knowledge of AI technologies and their real-world applications.
 

@@ -1,6 +1,6 @@
 ---
 title: Blog
-description: Thoughts and ideas from AI Systems Today
+description: Thoughts and ideas from AI SYSTEMS TODAY
 cascade:
   showDate: true
   showAuthor: true
