@@ -27,7 +27,7 @@ description: "AI SYSTEMS TODAY Homepage"
   startdelay=0
 >}}
 
-<a href="/docs/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b><br>Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
+<a href="/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b><br>Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
 {{< /typeit >}}
 
 
