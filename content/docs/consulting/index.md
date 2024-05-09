@@ -1,6 +1,6 @@
 ---
 title: AI Consultancy
-description: Discover what's new in AI SYSTEMS TODAY
+description: Consultin
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:

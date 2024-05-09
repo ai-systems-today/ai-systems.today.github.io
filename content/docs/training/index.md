@@ -2,7 +2,7 @@
 title: AI Training
 date: 2020-08-15
 draft: false
-description: All the front matter variables available in AI Training.
+description: Training
 slug: training
 keywords: null
 categories:
@@ -11,6 +11,7 @@ tags: null
 series:
   - Documentation
 series_order: 3
+type: default
 ---
 
 {{< lead >}}

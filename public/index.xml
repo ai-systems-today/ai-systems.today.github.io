@@ -19,23 +19,33 @@
     </item>
     
     <item>
-      <title>AI Custom Bots</title>
-      <link>https://localhost:1313/docs/bots/</link>
+      <title>Building Data Science Workflows with Azure ML Studio</title>
+      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/docs/bots/</guid>
-      <description>Unlock the Power of Artificial Intelligence for Strategic GrowthHow Effective AI Consultancy Can Transform Your Business #Unlock the Power of Artificial Intelligence for Strategic Growth #</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/bots/featured.png" />
+      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
+      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
     </item>
     
     <item>
-      <title>AI Workshops</title>
-      <link>https://localhost:1313/docs/workshops/</link>
+      <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
+      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/docs/workshops/</guid>
-      <description>Unlock the Power of Artificial Intelligence for Strategic GrowthHow Effective AI Consultancy Can Transform Your Business #Unlock the Power of Artificial Intelligence for Strategic Growth #</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/workshops/featured.png" />
+      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
+      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Implementing ChatGPT-like Models with Azure OpenAI Service</title>
+      <link>https://localhost:1313/guides/azure/generative-ai-business-impact/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
+      <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
     </item>
     
     <item>
@@ -66,36 +76,6 @@
       <guid>https://localhost:1313/docs/training/</guid>
       <description>Master the Art of Artificial Intelligence for Business SuccessEmpower Your Team with AI Training Programs #As AI becomes increasingly integral to business operations, organizations must ensure their teams have the right skills to harness its potential.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/training/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Building Data Science Workflows with Azure ML Studio</title>
-      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
-      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
-    </item>
-    
-    <item>
-      <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
-      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
-      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Implementing ChatGPT-like Models with Azure OpenAI Service</title>
-      <link>https://localhost:1313/guides/azure/generative-ai-business-impact/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
-      <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
     </item>
     
   </channel>

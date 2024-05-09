@@ -1,8 +1,8 @@
 ---
 title: AI Development
 date: 2020-08-16
-draft: false
 description: How to install the Blowfish theme.
+draft: false
 slug: development
 tags: null
 series:
@@ -10,6 +10,7 @@ series:
 series_order: 2
 categories:
    - Development
+type: default
 ---
 {{< lead >}}
 Innovate and Scale with Purpose-Built AI Applications

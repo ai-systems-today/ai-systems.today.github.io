@@ -37,6 +37,10 @@ We offer comprehensive training programs and workshops designed to empower teams
 
 Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way. -->
 
-
+<ul>
+{{ range (sort (where .Site.Pages "Section" "docs") ".Params.series_order") }}
+  <li><a href="{{ .Permalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
 
 ---

@@ -9,7 +9,8 @@
         {
           "title": "Title",
           "name": "title",
-          "type": "string"
+          "type": "string",
+          "single": true
         },
         {
           "title": "Description",
@@ -26,7 +27,8 @@
         {
           "title": "Content preview",
           "name": "preview",
-          "type": "image"
+          "type": "image",
+          "isPreviewImage": true
         },
         {
           "title": "Is in draft",
@@ -42,6 +44,29 @@
           "title": "Categories",
           "name": "categories",
           "type": "categories"
+        },
+        {
+          "title": "series",
+          "name": "series",
+          "type": "choice",
+          "choices": [
+            "Documentation"
+          ]
+        },
+        {
+          "title": "series_order",
+          "name": "series_order",
+          "type": "number"
+        },
+        {
+          "title": "type",
+          "name": "type",
+          "type": "string"
+        },
+        {
+          "title": "keywords",
+          "name": "keywords",
+          "type": "tags"
         }
       ]
     }
@@ -52,11 +77,13 @@
   "frontMatter.content.pageFolders": [
     {
       "title": "docs",
-      "path": "[[workspace]]/content/docs"
+      "path": "[[workspace]]/content/docs/consulting",
+      "previewPath": "'/docs/consulting'"
     },
     {
       "title": "guides",
-      "path": "[[workspace]]/content/guides"
+      "path": "[[workspace]]/content/guides",
+      "previewPath": "'guides'"
     }
   ],
   "frontMatter.git.enabled": true

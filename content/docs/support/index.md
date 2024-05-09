@@ -2,7 +2,7 @@
 title: AI Support
 date: 2020-08-15
 draft: false
-description: All the front matter variables available in Blowfish.
+description: Support
 slug: support
 tags: []
 series:
