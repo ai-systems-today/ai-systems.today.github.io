@@ -3,7 +3,7 @@ title: Workshops
 cascade:
   showDate: false
   showAuthor: false
-  invertPagination: false
+  invertPagination: true
 ---
 
 - [**AI-900: Azure AI Fundamentals**](ai-900)
