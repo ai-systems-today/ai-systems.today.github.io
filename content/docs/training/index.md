@@ -9,7 +9,7 @@ categories:
   - Training
 tags: null
 series:
-  - Documentation
+  - Services
 series_order: 5
 type: default
 ---
@@ -147,9 +147,7 @@ The training team at AI SYSTEMS TODAY designed a practical ML workshop focusing 
 
 Ready to empower your team with AI training programs? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min" 
-    target="_blank" 
-    style="text-decoration:none;">`
+`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
       `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
       `</button>`
     `</a>`

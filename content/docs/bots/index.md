@@ -10,7 +10,7 @@ slug: bots
 type: default
 keywords: null
 series:
-  - Documentation
+  - Services
 series_order: 2
 ---
 {{< lead >}}

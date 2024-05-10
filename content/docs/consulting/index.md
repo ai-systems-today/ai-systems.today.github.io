@@ -7,7 +7,7 @@ categories:
    - Consulting
 tags: null
 series:
-   - Documentation
+   - Services
 series_order: 3
 slug: consulting
 type: default
@@ -147,9 +147,7 @@ AI SYSTEMS TODAY conducted a thorough analysis of the firm's transportation data
 
 Ready to transform your business with AI consultancy? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min" 
-    target="_blank" 
-    style="text-decoration:none;">`
+`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
       `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
       `</button>`
 `</a>`

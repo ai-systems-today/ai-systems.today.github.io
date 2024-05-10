@@ -6,7 +6,7 @@ description: Support
 slug: support
 tags: []
 series:
-  - Documentation
+  - Services
 series_order: 6
 categories:
   - Support
@@ -144,9 +144,7 @@ The support team at AI SYSTEMS TODAY developed a change management strategy to f
 
 Ready to ensure the reliability and optimal performance of your AI systems? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific support needs.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min" 
-    target="_blank" 
-    style="text-decoration:none;">`
+`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
       `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
       `</button>`
     `</a>`

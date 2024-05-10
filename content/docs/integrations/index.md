@@ -10,7 +10,7 @@ slug: integrations
 type: default
 keywords: null
 series:
-  - Documentation
+  - Services
 series_order: 1
 ---
 {{< lead >}}

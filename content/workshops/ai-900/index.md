@@ -17,7 +17,7 @@ type: default
 
 Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure's AI services, equipping individuals with the skills required to leverage these technologies effectively.
 
-At AI Systems Today, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed. We are excited to offer comprehensive workshops tailored to help you ace the AI-900 certification exam. This article provides an overview of the certification, associated resources, and details about our workshops and schedules.
+At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed. We are excited to offer comprehensive workshops tailored to help you ace the AI-900 certification exam. This article provides an overview of the certification, associated resources, and details about our workshops and schedules.
 
 ## Microsoft Azure AI Fundamentals Certification (AI-900)
 
@@ -92,13 +92,11 @@ Microsoft provides various resources to help candidates prepare for the AI-900 c
 
    Link: [AI-900 Practice Assessment](https://learn.microsoft.com/en-gb/credentials/certifications/azure-ai-fundamentals/?practice-assessment-type=certification)
 
-### Official GitHub Repositories
-
-## AI Systems Today Workshops for AI-900 Certification
+## Workshops for AI-900 Certification
 
 ### Why Choose Our Workshops?
 
-At AI Systems Today, we understand the importance of practical, hands-on learning. Our workshops are designed to provide immersive training, combining theoretical knowledge with practical implementation. Here's why you should consider joining:
+At AI SYSTEMS TODAY, we understand the importance of practical, hands-on learning. Our workshops are designed to provide immersive training, combining theoretical knowledge with practical implementation. Here's why you should consider joining:
 
 - **Expert Instructors:** Learn from Microsoft-certified experts with industry experience.
 - **Comprehensive Curriculum:** Coverage of all exam objectives and practical labs.
@@ -169,7 +167,7 @@ We offer multiple schedules to accommodate different time zones and availability
 
 ### How to Register
 
-Registration is easy! Visit our website at [AI Systems Today Workshops](https://aisystemstoday.com/workshops/ai-900) or contact us via email at workshops@aisystemstoday.com to secure your spot. Spaces are limited due to our small class sizes, so register early.
+Registration is easy! Visit our website at [AI SYSTEMS TODAY Workshops](https://aisystemstoday.com/workshops/ai-900) or contact us via email at workshops@aisystemstoday.com to secure your spot. Spaces are limited due to our small class sizes, so register early.
 
 ### Workshop Fees
 
@@ -179,7 +177,7 @@ Registration is easy! Visit our website at [AI Systems Today Workshops](https://
 
 ## Conclusion
 
-The Microsoft Azure AI Fundamentals certification (AI-900) is a valuable credential for professionals seeking to understand the potential of AI and Azure's AI services. With the right preparation, passing this exam can open doors to numerous opportunities in the AI domain. At AI Systems Today, our goal is to provide top-quality workshops that equip you with the skills and confidence needed to excel.
+The Microsoft Azure AI Fundamentals certification (AI-900) is a valuable credential for professionals seeking to understand the potential of AI and Azure's AI services. With the right preparation, passing this exam can open doors to numerous opportunities in the AI domain. At AI SYSTEMS TODAY, our goal is to provide top-quality workshops that equip you with the skills and confidence needed to excel.
 
 Join us to master the fundamentals of AI and gain a solid understanding of Microsoft Azure's powerful AI services. Together, let's embark on a journey to shape the future of technology!
 
