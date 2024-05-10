@@ -3,6 +3,48 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://localhost:1313/workshops/workshops/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/series/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/series/workshops/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/workshops/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/</loc>
+    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:1313/docs/consulting/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -147,18 +189,6 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/series/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/categories/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
     <loc>https://localhost:1313/docs/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -172,12 +202,6 @@
   </url>
   <url>
     <loc>https://localhost:1313/tags/transformers/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -226,6 +250,46 @@
   </url>
   <url>
     <loc>https://localhost:1313/authors/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/az-400/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-102/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/pl-300/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/dp-203/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/dp-100/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/dp-300/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/az-204/</loc>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/az-400/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

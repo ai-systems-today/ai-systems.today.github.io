@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2024 17:12:24 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Workshops</title>
+      <link>https://localhost:1313/categories/workshops/</link>
+      <pubDate>Thu, 09 May 2024 17:12:24 +0000</pubDate>
+      
+      <guid>https://localhost:1313/categories/workshops/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Consulting</title>
       <link>https://localhost:1313/categories/consulting/</link>

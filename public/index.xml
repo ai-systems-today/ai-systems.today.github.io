@@ -7,7 +7,17 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 May 2024 17:12:24 +0000</lastBuildDate><atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure AI Fundamentals</title>
+      <link>https://localhost:1313/workshops/workshops/</link>
+      <pubDate>Thu, 09 May 2024 17:12:24 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/workshops/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>AI Consultancy</title>
       <link>https://localhost:1313/docs/consulting/</link>
@@ -96,6 +106,76 @@
       <guid>https://localhost:1313/docs/training/</guid>
       <description>Master the Art of Artificial Intelligence for Business SuccessEmpower Your Team with AI Training Programs #As AI becomes increasingly integral to business operations, organizations must ensure their teams have the right skills to harness its potential.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/training/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Azure AI Solution Developer</title>
+      <link>https://localhost:1313/workshops/ai-102/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-102/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Data Analyst Associate</title>
+      <link>https://localhost:1313/workshops/pl-300/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/pl-300/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Data Engineer Associate</title>
+      <link>https://localhost:1313/workshops/dp-203/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/dp-203/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Data Scientist Associate</title>
+      <link>https://localhost:1313/workshops/dp-100/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/dp-100/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Database Administrator Associate</title>
+      <link>https://localhost:1313/workshops/dp-300/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/dp-300/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Developer Associate</title>
+      <link>https://localhost:1313/workshops/az-204/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/az-204/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure DevOps Engineer Expert</title>
+      <link>https://localhost:1313/workshops/az-400/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/az-400/</guid>
+      <description></description>
+      
     </item>
     
   </channel>
