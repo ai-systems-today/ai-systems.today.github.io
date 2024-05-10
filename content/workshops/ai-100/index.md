@@ -1,5 +1,5 @@
 ---
-title: Azure AI Solution Developer
+title: Azure AI Engineer Associate
 description: AI-102
 draft: false
 categories: Workshops
