@@ -23,12 +23,14 @@ description: "AI SYSTEMS TODAY Homepage"
   tag=h4
   speed=50
   breakLines=false
-  loop=false
+  loop=true
   startdelay=0
 >}}
 
-<a href="/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b><br>Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
+<a href="/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b></a>
 {{< /typeit >}}
+
+<a href="/workshops/">Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
 
 
 <!-- AI SYSTEMS TODAY is a leading IT consultant in  Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.

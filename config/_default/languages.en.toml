@@ -20,7 +20,7 @@ bio = "AI SYSTEMS TODAY"
 links = [ 
     { email = "mailto:contact@ai-systems.today" }, 
     { github = "https://github.com/ai-systems-today" }, 
-    { linkedin = "https://github.com/ai-systems-today" }, 
+    { linkedin = "https://www.linkedin.com/in/kyriacos-antoniades/" }, 
     { medium = "https://medium.com/@ai-systems.today" }, 
     { youtube = "https://www.youtube.com/channel/UCBwGhKFAzs_eNMw2mIxEY-Q" } 
     ]
