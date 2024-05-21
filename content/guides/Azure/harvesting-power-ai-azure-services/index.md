@@ -1,6 +1,6 @@
 ---
 title: Harvesting the Power of AI - A Guide to Azure AI Services
-description:  Harness the power of Azure AI Services to revolutionize your business. Learn about the various AI tools, applications, certifications, and integrations.
+description: Harness the power of Azure AI Services to revolutionize your business. Learn about the various AI tools, applications, certifications, and integrations.
 date: 2024-05-21T13:21:34.279Z
 draft: false
 categories:
@@ -18,7 +18,7 @@ tags:
     - Predictive analytics with AI
 series: null
 series_order: null
-slug: harvesting-power-ai-azure-services
+slug: harvesting-power-ai-guide-azure-ai-services
 type: default
 keywords:
     - Azure
