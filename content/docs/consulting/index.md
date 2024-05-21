@@ -4,12 +4,12 @@ description: Consultin
 date: 2024-05-06T11:13:34.279Z
 draft: false
 categories:
-   - Consulting
+   - Consultancy
 tags: null
 series:
    - Services
 series_order: 3
-slug: consulting
+slug: ai-consultancy
 type: default
 keywords: null
 ---

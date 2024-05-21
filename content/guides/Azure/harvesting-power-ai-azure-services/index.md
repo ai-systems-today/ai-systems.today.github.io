@@ -5,6 +5,7 @@ date: 2024-05-21T10:48:27.247Z
 draft: false
 categories:
     - Generative AI
+    - Consultancy
 tags:
     - Azure AI Services
     - Azure Machine Learning
