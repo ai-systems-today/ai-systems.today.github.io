@@ -1,7 +1,7 @@
 ---
 title: Harvesting the Power of AI - A Guide to Azure AI Services
 description: Harness the power of Azure AI Services to revolutionize your business. Learn about the various AI tools, applications, certifications, and integrations.
-date: 2024-05-21T13:21:34.279Z
+date: 2024-05-21T10:48:27.247Z
 draft: false
 categories:
     - Generative AI
@@ -11,11 +11,6 @@ tags:
     - Azure Cognitive Services
     - Azure Bot Service
     - AI-driven copilots
-    - Microsoft Azure AI
-    - AI project integration
-    - Azure training certifications
-    - Customer support automation
-    - Predictive analytics with AI
 series: null
 series_order: null
 slug: harvesting-power-ai-guide-azure-ai-services
