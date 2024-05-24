@@ -3,7 +3,8 @@ title: AI Vision Solution
 description: AI-3004
 draft: false
 categories: Workshops
-tags: null
+tags:
+  - AI-3004
 slug: ai-3004
 series:
     - Workshops

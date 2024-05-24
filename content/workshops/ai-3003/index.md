@@ -3,7 +3,8 @@ title: NLP Solution
 description: AI-3003
 draft: false
 categories: Workshops
-tags: null
+tags:
+  - AI-3003
 slug: ai-3003
 series:
     - Workshops

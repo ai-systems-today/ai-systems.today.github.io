@@ -3,7 +3,8 @@ title: Generative AI Solution
 description: AI-50
 draft: false
 categories: Workshops
-tags: null
+tags: 
+  - AI-50
 slug: ai-50
 series:
     - Workshops

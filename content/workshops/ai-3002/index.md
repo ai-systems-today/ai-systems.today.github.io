@@ -3,7 +3,8 @@ title: Document Intelligence Solution
 description: AI-3002
 draft: false
 categories: Workshops
-tags: null
+tags:
+  - AI-3002
 slug: ai-3002
 series:
     - Workshops

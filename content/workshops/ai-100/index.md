@@ -3,7 +3,8 @@ title: Azure AI Engineer Associate
 description: AI-102
 draft: false
 categories: Workshops
-tags: null
+tags:
+  - AI-102
 slug: ai-102
 series:
     - Workshops
