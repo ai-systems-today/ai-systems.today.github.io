@@ -1,11 +1,11 @@
 ---
-title: Generative AI Solution
+title: Generative AI Solutions
 description: AI-50
 draft: false
 categories: Workshops
 tags: 
-  - AI-50
-slug: ai-50
+  - AI-050
+slug: ai-050
 series:
     - Workshops
 series_order: 1

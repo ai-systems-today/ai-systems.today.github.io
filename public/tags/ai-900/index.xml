@@ -7,7 +7,18 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Sat, 11 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/ai-900/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 May 2024 09:13:06 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/ai-900/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure AI Fundamentals</title>
+      <link>https://localhost:1313/workshops/ai-900/</link>
+      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-900/</guid>
+      <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
+At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-900/featured.png" />
+    </item>
+    
     <item>
       <title>A Guide to Microsoft Azure AI Fundamentals</title>
       <link>https://localhost:1313/guides/azure/ai-900/</link>
