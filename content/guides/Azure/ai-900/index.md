@@ -1,6 +1,6 @@
 ---
 title: A Guide to Microsoft Azure AI Fundamentals
-description: EAI-900
+description: AI-900
 date: 2024-05-11T11:13:34.279Z
 draft: false
 categories:
@@ -14,9 +14,6 @@ type: default
 keywords:
   - Azure
 ---
-
-# 
-
 <!-- ![Article Image](https://wsstgprdphotosonic01.blob.core.windows.net/photosonic/5244a6bf-c5d7-4075-bb4f-5569513d4465.png?st=2024-05-11T12%3A51%3A28Z&se=2024-05-18T12%3A51%3A28Z&sp=r&sv=2023-11-03&sr=b&sig=iOHZsvGuou2r/8tJlkaQAay0z2oXWue4skqcRU3KUgQ%3D) -->
 
 In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [[1]](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services). This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [[1]](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services). As the demand for AI, machine learning, data science, and natural language processing continues to surge, understanding the intricacies of Microsoft Azure AI becomes imperative for those seeking to make significant contributions in the realms of computer vision, sentiment analysis, and beyond [[1]](https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services).
@@ -198,8 +195,8 @@ These features collectively enable Azure AI to support a wide array of business 
 
 ### Skills Measured in the AI-900 Exam
 
-| Skill Area                                              | Percentage of Exam                                                                                      |
-| ------------------------------------------------------- | ------------------------------------------------------------------------------------------------------- |
+| Skill Area                                              | Percentage of Exam                                                                                    |
+| ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
 | Describe AI workloads and considerations                | 15-20%[[17]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900) |
 | Fundamental principles of machine learning on Azure     | 20-25%[[17]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900) |
 | Features of computer vision workloads on Azure          | 15-20%[[17]](https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900) |
