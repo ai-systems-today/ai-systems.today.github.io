@@ -7,11 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Thu, 09 May 2024 17:12:24 +0000</lastBuildDate><atom:link href="https://localhost:1313/series/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://localhost:1313/series/workshops/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure AI Engineer Associate</title>
+      <link>https://localhost:1313/workshops/ai-102/</link>
+      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-102/</guid>
+      <description></description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-102/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>AI Vision Solution</title>
+      <link>https://localhost:1313/workshops/ai-3004/</link>
+      <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-3004/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>NLP Solution</title>
+      <link>https://localhost:1313/workshops/ai-3003/</link>
+      <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-3003/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Document Intelligence Solution</title>
+      <link>https://localhost:1313/workshops/ai-3002/</link>
+      <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
+      
+      <guid>https://localhost:1313/workshops/ai-3002/</guid>
+      <description></description>
+      
+    </item>
+    
     <item>
       <title>Azure AI Fundamentals</title>
       <link>https://localhost:1313/workshops/ai-900/</link>
-      <pubDate>Thu, 09 May 2024 17:12:24 +0000</pubDate>
+      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-900/</guid>
       <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
@@ -20,73 +60,13 @@ At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access
     </item>
     
     <item>
-      <title>Azure AI Engineer Associate</title>
-      <link>https://localhost:1313/workshops/ai-102/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <title>Generative AI Solution</title>
+      <link>https://localhost:1313/workshops/ai-50/</link>
+      <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
       
-      <guid>https://localhost:1313/workshops/ai-102/</guid>
+      <guid>https://localhost:1313/workshops/ai-50/</guid>
       <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-102/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure Data Analyst Associate</title>
-      <link>https://localhost:1313/workshops/pl-300/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/workshops/pl-300/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/pl-300/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure Data Engineer Associate</title>
-      <link>https://localhost:1313/workshops/dp-203/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/dp-203/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/dp-203/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure Data Scientist Associate</title>
-      <link>https://localhost:1313/workshops/dp-100/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/dp-100/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/dp-100/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure Database Administrator Associate</title>
-      <link>https://localhost:1313/workshops/dp-300/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/dp-300/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/dp-300/featured.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure Developer Associate</title>
-      <link>https://localhost:1313/workshops/az-204/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/az-204/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/az-204/featureed.jpg" />
-    </item>
-    
-    <item>
-      <title>Azure DevOps Engineer Expert</title>
-      <link>https://localhost:1313/workshops/az-400/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/az-400/</guid>
-      <description></description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/az-400/featured.jpg" />
     </item>
     
   </channel>

@@ -15,7 +15,7 @@
       
       <guid>https://localhost:1313/guides/azure/ai-900/</guid>
       <description>#In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
-      
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-900/featured.png" />
     </item>
     
   </channel>

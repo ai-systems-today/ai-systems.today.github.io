@@ -3,6 +3,204 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>https://localhost:1313/workshops/ai-102/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/series/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/series/workshops/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/workshops/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/</loc>
+    <lastmod>2024-05-24T09:13:36+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-3004/</loc>
+    <lastmod>2024-05-24T09:13:30+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-3003/</loc>
+    <lastmod>2024-05-24T09:13:23+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-3002/</loc>
+    <lastmod>2024-05-24T09:13:15+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-900/</loc>
+    <lastmod>2024-05-24T09:13:06+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/workshops/ai-50/</loc>
+    <lastmod>2024-05-24T09:12:32+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/ai-integration/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/ai-driven-copilots/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/keywords/azure/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-ai-services/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-application-innovation/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-bot-service/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-cognitive-services/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-devops/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-kubernetes-service/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-machine-learning/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-monitor/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/azure-platform-engineering/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/guides/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/keywords/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/consultancy/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/categories/generative-ai/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/infrastructure-as-code/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/tags/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</loc>
+    <lastmod>2024-05-21T10:48:27+00:00</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://localhost:1313/guides/azure/ai-900/</loc>
     <lastmod>2024-05-11T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
@@ -15,73 +213,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/keywords/azure/</loc>
-    <lastmod>2024-05-11T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/guides/</loc>
-    <lastmod>2024-05-11T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/keywords/</loc>
-    <lastmod>2024-05-11T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/tags/</loc>
-    <lastmod>2024-05-11T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/</loc>
-    <lastmod>2024-05-11T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/ai-900/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/series/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/categories/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/series/workshops/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/categories/workshops/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/</loc>
-    <lastmod>2024-05-09T17:12:24+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/docs/consulting/</loc>
+    <loc>https://localhost:1313/docs/ai-consultancy/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -94,12 +226,6 @@
   </url>
   <url>
     <loc>https://localhost:1313/docs/integrations/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/tags/azure-machine-learning/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -118,12 +244,6 @@
   </url>
   <url>
     <loc>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/categories/consulting/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -148,12 +268,6 @@
   </url>
   <url>
     <loc>https://localhost:1313/guides/azure/deep-learning-insights-applications/</loc>
-    <lastmod>2024-05-06T11:13:34+00:00</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/categories/generative-ai/</loc>
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
@@ -266,42 +380,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://localhost:1313/tags/az-400/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/ai-102/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/pl-300/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/dp-203/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/dp-100/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/dp-300/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/az-204/</loc>
-    <changefreq>always</changefreq>
-    <priority>0.5</priority>
-  </url>
-  <url>
-    <loc>https://localhost:1313/workshops/az-400/</loc>
+    <loc>https://localhost:1313/tags/ci/cd/</loc>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
