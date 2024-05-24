@@ -1,5 +1,5 @@
 ---
-title: How Effective AI Consultancy Can Transform Your Business
+title: AI Consultancy
 description: Consultin
 date: 2024-05-06T11:13:34.279Z
 draft: false
@@ -93,11 +93,11 @@ The adoption of AI in emerging markets presents unique challenges and opportunit
 
 The future of AI consultancy lies in driving comprehensive business transformation through AI. We are developing advanced consultancy frameworks that help businesses reimagine their operations and value propositions in the context of AI. This involves leveraging AI to create new business models, enhance customer experiences, and unlock new revenue streams.
 
-### How to Get Started:
+### **How to Get Started**
 
-Ready to transform your business with AI consultancy? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
+Ready to empower your team with Azure training programs? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
-      `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
-      `</button>`
-`</a>`
+<a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank" style="text-decoration:none;">
+      <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
+      </button>
+</a>

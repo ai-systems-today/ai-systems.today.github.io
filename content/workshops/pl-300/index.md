@@ -1,12 +1,12 @@
 ---
 title: Azure Data Analyst Associate
 description: PL-300
-draft: false
+draft: true
 categories: Workshops
 tags: 
 slug: pl-300
 series: 
     - Workshops
-series_order: 6
+series_order: 9
 type: default
 ---

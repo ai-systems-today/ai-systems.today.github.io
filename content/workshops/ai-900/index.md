@@ -1,14 +1,14 @@
 ---
 title: Azure AI Fundamentals
-date: 2024-05-09T17:12:24.789Z
+date: 2024-05-24T09:13:06.529Z
 description: AI-900
 draft: false
 categories: Workshops
 tags: null
 slug: ai-900
 series:
-    - Workshops
-series_order: 1
+   - Workshops
+series_order: 2
 type: default
 ---
 <!-- # Microsoft Azure AI Fundamentals Certification Overview and Workshops -->

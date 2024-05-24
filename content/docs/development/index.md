@@ -92,11 +92,11 @@ With the rise of IoT and edge computing, there is a growing demand for AI soluti
 
 AI has the potential to drive sustainable development by optimizing resource use and reducing environmental impact. We are committed to developing AI solutions that support sustainability initiatives. This includes developing AI models that can optimize energy use, reduce waste, and enhance resource management.
 
-### How to Get Started:
+### **How to Get Started**
 
-Ready to transform your business with custom AI development? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
+Ready to empower your team with Azure training programs? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
-      `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
-      `</button>`
-`</a>`
+<a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank" style="text-decoration:none;">
+      <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
+      </button>
+</a>

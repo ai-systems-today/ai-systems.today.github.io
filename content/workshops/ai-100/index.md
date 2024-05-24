@@ -5,8 +5,9 @@ draft: false
 categories: Workshops
 tags: null
 slug: ai-102
-series: 
+series:
     - Workshops
-series_order: 2
+series_order: 6
 type: default
+date: 2024-05-24T09:13:36.658Z
 ---

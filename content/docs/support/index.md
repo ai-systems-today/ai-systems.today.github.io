@@ -88,11 +88,11 @@ As AI solutions become more integrated into critical business operations, the im
 
 The demand for personalized support experiences is growing. We are expanding our support services to include personalized support plans that cater to the specific needs and preferences of our clients. This includes developing customized support packages, offering dedicated support teams, and providing tailored training and documentation.
 
-### How to Get Started:
+### **How to Get Started**
 
-Ready to ensure the reliability and optimal performance of your AI systems? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific support needs.
+Ready to empower your team with Azure training programs? Schedule a meeting with Kyriakos Antoniadis today to discuss your specific needs and goals.
 
-`<a href="https://calendly.com/contact-ai-systems-today/30min"      target="_blank"      style="text-decoration:none;">`
-      `<button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">`Schedule a Meeting
-      `</button>`
-    `</a>`
+<a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank" style="text-decoration:none;">
+      <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
+      </button>
+</a>
