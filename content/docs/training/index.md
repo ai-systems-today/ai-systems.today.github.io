@@ -29,7 +29,7 @@ AI Systems Today offers a range of training workshops designed to equip your tea
 
 We offer a variety of workshops tailored to different skill levels and areas of interest. These include:
 
-* **AI-050 (Free):** An introductory workshop that provides a basic understanding of AI concepts and applications.
+* **AI-050:** An introductory workshop that provides a basic understanding of AI concepts and applications.
 * **AI-900:** A comprehensive workshop covering foundational AI principles, tools, and technologies.
 * **AI-3002, AI-3003, AI-3004:** Advanced workshops focusing on specific AI techniques and applications, such as machine learning, deep learning, and natural language processing.
 * **AI-102:** A hands-on workshop that provides practical experience in developing and deploying AI models.

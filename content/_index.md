@@ -3,7 +3,7 @@ title: "Welcome to AI SYSTEMS TODAY"
 description: "AI SYSTEMS TODAY Homepage"
 ---
 
-{{< youtubeLite id="N2A6DqjzOhI" label="Blowfish-tools demo">}}
+{{< youtubeLite id="N2A6DqjzOhI" label="AI SYSTEMS TODAY">}}
 
 <!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe> -->
 
@@ -27,7 +27,7 @@ description: "AI SYSTEMS TODAY Homepage"
   startdelay=0
 >}}
 
-<a href="/workshops/"><b>EXCITING NEW WORKSHOPS COMING SOON!</b></a>
+<a href="/workshops/"><b>NEW AI WORKSHOPS COMING SOON!</b></a>
 {{< /typeit >}}
 
 <a href="/workshops/">Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
