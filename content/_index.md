@@ -7,9 +7,18 @@ description: "AI SYSTEMS TODAY Homepage"
 <!-- 
 <iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe> -->
 
-<iframe id="ytplayer" type="text/html" width="570" height="315"
+<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+  <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
+          src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1&rel=0&iv_load_policy=3" 
+          frameborder="0" 
+          allowfullscreen>
+  </iframe>
+</div>
+
+
+<!-- <iframe id="ytplayer" type="text/html" width="570" height="315"
 src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1&rel=0&iv_load_policy=3"
-frameborder="0" allowfullscreen></iframe>
+frameborder="0" allowfullscreen></iframe> -->
 
 
 
