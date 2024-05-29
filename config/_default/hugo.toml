@@ -3,7 +3,8 @@
 # https://blowfish.page/docs/getting-started/
 
 theme = "blowfish"
-baseURL = "https://localhost:1313"
+# baseURL = "https://localhost:1313"
+baseURL = "https://polite-forest-05fdf2d03.5.azurestaticapps.net/"
 defaultContentLanguage = "en"
 # disableLanguages = [] #to allow translation work requiring shipping to production
 
