@@ -3,9 +3,9 @@ title: "Welcome to AI SYSTEMS TODAY"
 description: "AI SYSTEMS TODAY Homepage"
 ---
 
-{{< youtubeLite id="N2A6DqjzOhI" label="AI SYSTEMS TODAY">}}
+<!-- {{< youtubeLite id="N2A6DqjzOhI" label="AI SYSTEMS TODAY">}} -->
 
-<!-- <iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe> -->
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe>
 
 
 <br>

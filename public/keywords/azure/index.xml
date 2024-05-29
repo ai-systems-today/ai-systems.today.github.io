@@ -39,7 +39,17 @@ In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) 
       <guid>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</guid>
       <description>Learn how to leverage Azure AI for your business needs.
 Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Engineer Associate Certification</title>
+      <link>https://localhost:1313/guides/azure/ai-102/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-102/featured.png" />
     </item>
     
     <item>
@@ -48,7 +58,7 @@ Artificial intelligence (AI) has become a driving force in modern application de
       <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/azure/ai-900/</guid>
-      <description>#In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
+      <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-900/featured.png" />
     </item>
     

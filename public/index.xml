@@ -14,7 +14,8 @@
       <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-102/</guid>
-      <description></description>
+      <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
+At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-102/featured.png" />
     </item>
     
@@ -24,7 +25,8 @@
       <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-3004/</guid>
-      <description></description>
+      <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3004/featured.png" />
     </item>
     
@@ -34,7 +36,8 @@
       <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-3003/</guid>
-      <description></description>
+      <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3003/featured.png" />
     </item>
     
@@ -44,7 +47,8 @@
       <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-3002/</guid>
-      <description></description>
+      <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3002/featured.png" />
     </item>
     
@@ -65,7 +69,8 @@ At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access
       <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
       
       <guid>https://localhost:1313/workshops/ai-050/</guid>
-      <description></description>
+      <description>Introduction #Generative AI leverages powerful models to create content, from text and code to images. The Microsoft AI-050 learning path focuses on developing AI solutions using Azure OpenAI Service, which includes models like ChatGPT, GPT, Codex, and DALL-E. This certification is ideal for AI engineers and developers aiming to demonstrate expertise in implementing generative AI solutions with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-050 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-050/featured.jpg" />
     </item>
     
@@ -100,7 +105,17 @@ In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) 
       <guid>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</guid>
       <description>Learn how to leverage Azure AI for your business needs.
 Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpeg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Engineer Associate Certification</title>
+      <link>https://localhost:1313/guides/azure/ai-102/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-102/featured.png" />
     </item>
     
     <item>
@@ -109,7 +124,7 @@ Artificial intelligence (AI) has become a driving force in modern application de
       <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/guides/azure/ai-900/</guid>
-      <description>#In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
+      <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-900/featured.png" />
     </item>
     
