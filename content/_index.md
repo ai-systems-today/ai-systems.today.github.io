@@ -4,8 +4,47 @@ description: "AI SYSTEMS TODAY Homepage"
 ---
 
 <!-- {{< youtubeLite id="N2A6DqjzOhI" label="AI SYSTEMS TODAY">}} -->
+<!-- 
+<iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe> -->
 
-<iframe width="100%" height="315" src="https://www.youtube.com/embed/N2A6DqjzOhI" frameborder="0" allowfullscreen style="max-width: 570px; max-height: 315px;"></iframe>
+# Video Title
+<iframe id="ytplayer" type="text/html" width="570" height="315"
+src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1&rel=0&iv_load_policy=3"
+frameborder="0" allowfullscreen></iframe>
+
+
+
+<!-- <iframe id="ytplayer" type="text/html" width="570" height="315"
+src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1"
+frameborder="0" allowfullscreen></iframe> -->
+
+<script>
+  // Load the IFrame Player API code asynchronously.
+  var tag = document.createElement('script');
+  tag.src = "https://www.youtube.com/iframe_api";
+  var firstScriptTag = document.getElementsByTagName('script')[0];
+  firstScriptTag.parentNode.insertBefore(tag, firstScriptTag);
+
+  // Create a YouTube player
+  var player;
+  function onYouTubeIframeAPIReady() {
+    player = new YT.Player('ytplayer', {
+      events: {
+        'onStateChange': onPlayerStateChange
+      }
+    });
+  }
+
+  // When video state changes
+  function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.ENDED) {
+      // When video ends, seek to the start
+      player.seekTo(0);
+      player.pauseVideo(); // Make sure the video is paused at the start.
+    }
+  }
+</script>
+
 
 
 <br>
