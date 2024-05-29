@@ -13,13 +13,13 @@ At AI SYSTEMS TODAY, we offer a comprehensive suite of training and certificatio
 Our Workshop Series:
 {{< /lead >}}
 - [**AI-900: Azure AI Fundamentals**](ai-900)
-- [**AI-102: Azure AI Solution Developer**](ai-102)
-- [**DP-100: Azure Data Scientist Associate**](dp-100)
-- [**DP-203: Azure Data Engineer Associate**](dp-300)
-- [**DP-300: Azure Database Administrator Associate**](dp-203)
-- [**PL-300: Power BI Data Analyst Associate**](pl-300)
+- [**AI-3002: Azure AI Solution Developer**](ai-3002)
+- [**AI-3003: Azure Data Scientist Associate**](ai-3003)
+- [**AI-3004: Azure Data Engineer Associate**](ai-3004)
+- [**AI-102: Azure Database Administrator Associate**](ai-102)
+<!-- - [**PL-300: Power BI Data Analyst Associate**](pl-300)
 - [**AZ-204: Azure Developer Associate**](az-204)
-- [**AZ-400: Azure DevOps Engineer Expert**](az-400)
+- [**AZ-400: Azure DevOps Engineer Expert**](az-400) -->
 
 <!-- Our offerings include the foundational [**AI-900: Azure AI Fundamentals**](https://learn.microsoft.com/en-us/certifications/exams/ai-900/), providing a solid introduction to artificial intelligence concepts; the specialized [**AI-102: Azure AI Solution Developer**](https://learn.microsoft.com/en-us/certifications/exams/ai-102/), focusing on building innovative AI solutions; and the data-centric [**DP-100: Azure Data Scientist Associate**](https://learn.microsoft.com/en-us/certifications/exams/dp-100/), emphasizing practical data science skills.
 
