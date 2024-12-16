@@ -8,9 +8,6 @@ cascade:
 type: default
 ---
 
-{{< lead >}}
-Thoughts and ideas from AI SYSTEMS TODAY
-{{< /lead >}}
 
 <!-- **Blowfish user?** To add your guide to this list, [check the template](/guides/template/). -->
 
