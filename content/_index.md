@@ -13,9 +13,9 @@ description: "AI SYSTEMS TODAY Homepage"
   </iframe>
 </div> -->
 
-<!-- <iframe id="ytplayer" type="text/html" width="570" height="315"
+<iframe id="ytplayer" type="text/html" width="570" height="315"
 src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1&rel=0&iv_load_policy=3"
-frameborder="0" allowfullscreen></iframe> -->
+frameborder="0" allowfullscreen></iframe>
 
 <!-- <iframe id="ytplayer" type="text/html" width="570" height="315"
 src="https://www.youtube.com/embed/N2A6DqjzOhI?enablejsapi=1"
@@ -58,19 +58,6 @@ frameborder="0" allowfullscreen></iframe> -->
       <button style="padding:10px 20px; background-color:#1f78b4; color:white; border:none; border-radius:5px; cursor:pointer;">Schedule a Meeting
       </button>
     </a>
-
-{{< typeit
-  tag=h4
-  speed=50
-  breakLines=false
-  loop=true
-  startdelay=0
->}}
-
-<a href="/workshops/"><b>NEW AI WORKSHOPS COMING SOON!</b></a>
-{{< /typeit >}}
-
-<a href="/workshops/">Learn about AI, gain skills, connect with experts and boost your knowledge. <br>Stay tuned for new updates and registration details.</a>
 
 <!-- AI SYSTEMS TODAY is a leading IT consultant in  Athens, specializing in providing advanced AI solutions for businesses across various industries. Our team of experts is dedicated to empowering businesses with cutting-edge AI technologies, driving innovation, and delivering measurable results. We are committed to unlocking the full potential of AI to help businesses thrive in the digital era.
 
