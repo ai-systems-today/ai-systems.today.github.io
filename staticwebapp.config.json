@@ -7,10 +7,10 @@
   ],
   "responseOverrides": {
     "404": {
-      "statusCode": 200,
-      "headers": {
-        "Access-Control-Allow-Origin": "*"
-      }
+      "statusCode": 404
     }
+  },
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "*"
   }
 }
