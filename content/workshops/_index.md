@@ -6,17 +6,12 @@ cascade:
   invertPagination: true
 ---
 At AI SYSTEMS TODAY, we offer a comprehensive suite of training and certification pathways to empower professionals in the AI and data domains. 
-<!-- Our curated selection of Microsoft Azure certification programs ensures that individuals and teams can confidently validate their expertise across various specializations. -->
-<!-- ## Our Workshop Series: ## -->
+Our curated selection of Microsoft Azure certification programs ensures that individuals and teams can confidently validate their expertise across various specializations.
 
-<<<<<<< HEAD
-Our Workshop Series:
-
-=======
 {{< lead >}}
 Our Workshop Series:
 {{< /lead >}}
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
+
 - [**AI-900: Azure AI Fundamentals**](ai-900)
 - [**AI-3002: Azure AI Document Intelligence Solution**](ai-3002)
 - [**AI-3003: Azure AI NLP Solution**](ai-3003)
@@ -35,4 +30,3 @@ Developers can enhance their skills with the [**AZ-204: Azure Developer Associat
 Our training and certification programs are designed to provide individuals with the necessary skills and credentials to excel in their careers, ensuring that AI SYSTEMS TODAY remains at the forefront of industry expertise. -->
 
 ---
-
