@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-102 on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-102/</link>
+    <description>Recent content in AI-102 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-102/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azure AI Engineer Associate</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/</link>
+      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
+At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/featured.png" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Engineer Associate Certification</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

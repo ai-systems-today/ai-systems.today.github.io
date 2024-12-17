@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-3003 on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3003/</link>
+    <description>Recent content in AI-3003 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:23 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3003/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NLP Solution</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</link>
+      <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</guid>
+      <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

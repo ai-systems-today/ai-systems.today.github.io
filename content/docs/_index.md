@@ -8,10 +8,18 @@ cascade:
   invertPagination: true
 ---
 
+<<<<<<< HEAD
 Empowering Businesses with Cutting-Edge AI.
 
 Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes.
 
+=======
+{{< lead >}}
+Empowering Businesses with Cutting-Edge AI.
+{{< /lead >}}
+
+Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. <br>
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
 - [AI Integrations](integrations)
 - [AI Custom Bots](bots)
 - [AI Consultancy](consulting/)
@@ -19,6 +27,10 @@ Specializing in advanced AI solutions tailored for diverse industries, we pride 
 - [AI Training](training)
 - [AI Support](support)
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
 <!-- 
 ## AI Consulting
 

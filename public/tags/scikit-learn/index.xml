@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>scikit-learn on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/scikit-learn/</link>
+    <description>Recent content in scikit-learn on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/scikit-learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Building Data Science Workflows with Azure ML Studio</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/</guid>
+      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive. From optimizing business processes to unlocking new revenue streams, data science provides the foundation for impactful decision-making. However, building and managing end-to-end data science workflows is a complex task that requires the right tools and practices.
+Azure Machine Learning Studio, a comprehensive cloud-based platform provided by Microsoft, simplifies the journey of creating, training, and deploying machine learning models.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/featured.svg" />
+    </item>
+    
+  </channel>
+</rss>

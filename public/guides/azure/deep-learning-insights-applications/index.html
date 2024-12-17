@@ -1,0 +1,2482 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>Fine-tuning BERT Models for NLP Tasks in Azure &middot; </title>
+  <meta name="title" content="Fine-tuning BERT Models for NLP Tasks in Azure &middot; " />
+  
+  <meta name="description" content="Deep Learning Insights &amp; Application" />
+  <meta name="keywords" content="Azure Machine Learning, BERT, Transformers, Hugging Face, " />
+  
+  
+  <link rel="canonical" href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.e27868ab1485f7ed7b06b122b4980bd38b19526eb8f7de885181204d28f04a0c47e9c334eff19a06c0278eb2ff8415b983a5d0fb80fd6b5680c926457cc61c57.css"
+    integrity="sha512-4nhoqxSF9&#43;17BrEitJgL04sZUm64996IUYEgTSjwSgxH6cM07/GaBsAnjrL/hBW5g6XQ&#43;4D9a1aAySZFfMYcVw==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.440123767706999640b0c1136ce0ef1e016b0eb61e41e64717059b548a0ed4a3c5c9a865bd39a3c209574e9b58161e39a9dca443fda30c41e40f072c510dda3d.js"
+    integrity="sha512-RAEjdncGmZZAsMETbODvHgFrDrYeQeZHFwWbVIoO1KPFyahlvTmjwglXTptYFh45qdykQ/2jDEHkDwcsUQ3aPQ=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.de24ab693fda339b86467c79f0aeefe84e0c8ebbdfeb9ea223db4b62ab78752696c116b741b38c4972654584d52e1a2cd016ba0b562238ae6f7cc14cbc71140f.js"
+    integrity="sha512-3iSraT/aM5uGRnx58K7v6E4Mjrvf656iI9tLYqt4dSaWwRa3QbOMSXJlRYTVLhos0Ba6C1YiOK5vfMFMvHEUDw==" data-copy="" data-copied=""></script>
+  
+  
+  
+  <script src="/lib/zoom/zoom.min.fcbc7f7b3dcea96e3b5570cd322c5d7a12d5351c87f9889b1c31745a2cc711df58f6b70795a86d50e63813b236ade916668332c10a70a4ce26f7c0878f525fce.js" integrity="sha512-/Lx/ez3OqW47VXDNMixdehLVNRyH&#43;YibHDF0WizHEd9Y9rcHlahtUOY4E7I2rekWZoMywQpwpM4m98CHj1Jfzg=="></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="Fine-tuning BERT Models for NLP Tasks in Azure" />
+<meta property="og:description" content="Deep Learning Insights &amp; Application" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/" /><meta property="og:image" content="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/featured.jpg"/><meta property="article:section" content="guides" />
+<meta property="article:published_time" content="2024-05-06T11:13:34+00:00" />
+<meta property="article:modified_time" content="2024-05-06T11:13:34+00:00" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/featured.jpg"/>
+<meta name="twitter:title" content="Fine-tuning BERT Models for NLP Tasks in Azure"/>
+<meta name="twitter:description" content="Deep Learning Insights &amp; Application"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "Fine-tuning BERT Models for NLP Tasks in Azure",
+    "headline": "Fine-tuning BERT Models for NLP Tasks in Azure",
+    "description": "Deep Learning Insights \u0026 Application",
+    "abstract": "Deep Learning Insights \u0026amp; Application\rIntroduction #\rNatural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.\nAzure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.",
+    "inLanguage": "en",
+    "url" : "https:\/\/polite-forest-05fdf2d03.5.azurestaticapps.net\/guides\/azure\/deep-learning-insights-applications\/",
+    "author" : {
+      "@type": "Person",
+      "name": ""
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-05-06T11:13:34\u002b00:00",
+    "datePublished": "2024-05-06T11:13:34\u002b00:00",
+    
+    "dateModified": "2024-05-06T11:13:34\u002b00:00",
+    
+    "keywords": ["Azure"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "1068"
+  }]
+  </script>
+
+
+  
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.03cb160e3cfdb2667a2e2c80d283bebcf63ff8bbc4b629c9ab2babf6fae1d0c07ad470edae783efa4fabda2ac01c58d60e63b98b3c336be8208460f08f4354f5.js" integrity="sha512-A8sWDjz9smZ6LiyA0oO&#43;vPY/&#43;LvEtinJqyur9vrh0MB61HDtrng&#43;&#43;k&#43;r2irAHFjWDmO5izwza&#43;gghGDwj0NU9Q=="></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only"></span>
+
+            
+            <img src="/img/64w.png" width="32" height="32"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="" />
+            
+
+            
+            <span style="font-size: 1.2em; font-weight: bold; margin-left: 10px; color: #fff;">
+            AI SYSTEMS TODAY
+            </span>
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900"></a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Welcome to AI SYSTEMS TODAY">
+        Home
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="About">
+        About
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Services">
+        Services
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/workshops/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Workshops">
+        Workshops
+    </p>
+</a>
+
+
+
+            
+            
+  <a href="/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Blog">
+        Blog
+    </p>
+</a>
+
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      Tags
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/keywords/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Cloud Providers">
+            Cloud
+          </p>
+        </a>
+        
+        <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Service Categories">
+            Categories
+          </p>
+        </a>
+        
+        <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Technologies">
+            Technologies
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            
+            
+  <a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Contact
+    </p>
+</a>
+
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" class="block">
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li id="menu-close-button">
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Welcome to AI SYSTEMS TODAY">
+            Home
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="About">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Services">
+            Services
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/workshops/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Workshops">
+            Workshops
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Blog">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a href="" class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Tags
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/keywords/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Cloud Providers">
+            Cloud
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Service Categories">
+            Categories
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Technologies">
+            Technologies
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Contact
+        </p>
+    </a>
+</li>
+
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/guides/azure/deep-learning-insights-applications/featured_hu3dc01b828c24ce9874547aac851e59cb_165856_1200x0_resize_q75_box.jpg);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Welcome to AI SYSTEMS TODAY</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/guides/"
+      >Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/guides/azure/deep-learning-insights-applications/"
+      >Fine-tuning BERT Models for NLP Tasks in Azure</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      Fine-tuning BERT Models for NLP Tasks in Azure
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06T11:13:34&#43;00:00">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.63c8a202661f4a2063fdc2706685d668e8ea3da613da2224e9da527e5876e4f53dcac39ab60732626fb4151feae5d430d0cf44731e5d3c726522fcc1519c1547.js" integrity="sha512-Y8iiAmYfSiBj/cJwZoXWaOjqPaYT2iIk6dpSflh25PU9ysOatgcyYm&#43;0FR/q5dQw0M9Ecx5dPHJlIvzBUZwVRw=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/deep-learning/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Deep Learning
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure Machine Learning
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bert/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    BERT
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/transformers/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Transformers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugging-face/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugging Face
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+  <div class="place-self-center">
+    
+    
+    <div class="text-2xl sm:text-lg">
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open id="TOCView"
+  class="toc-right mt-0 overflow-y-scroll overscroll-contain scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600 rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#key-concepts">Key Concepts</a>
+      <ul>
+        <li><a href="#bert-bidirectional-encoder-representations-from-transformers">BERT (Bidirectional Encoder Representations from Transformers)</a></li>
+        <li><a href="#hugging-face-transformers">Hugging Face Transformers</a></li>
+      </ul>
+    </li>
+    <li><a href="#setting-up-the-environment">Setting Up the Environment</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#azure-machine-learning-setup">Azure Machine Learning Setup</a></li>
+        <li><a href="#setting-up-the-training-environment">Setting Up the Training Environment</a></li>
+      </ul>
+    </li>
+    <li><a href="#preparing-the-dataset">Preparing the Dataset</a></li>
+    <li><a href="#fine-tuning-bert-model">Fine-Tuning BERT Model</a></li>
+    <li><a href="#deploying-the-fine-tuned-model">Deploying the Fine-Tuned Model</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#introduction">Introduction</a></li>
+    <li><a href="#key-concepts">Key Concepts</a>
+      <ul>
+        <li><a href="#bert-bidirectional-encoder-representations-from-transformers">BERT (Bidirectional Encoder Representations from Transformers)</a></li>
+        <li><a href="#hugging-face-transformers">Hugging Face Transformers</a></li>
+      </ul>
+    </li>
+    <li><a href="#setting-up-the-environment">Setting Up the Environment</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#azure-machine-learning-setup">Azure Machine Learning Setup</a></li>
+        <li><a href="#setting-up-the-training-environment">Setting Up the Training Environment</a></li>
+      </ul>
+    </li>
+    <li><a href="#preparing-the-dataset">Preparing the Dataset</a></li>
+    <li><a href="#fine-tuning-bert-model">Fine-Tuning BERT Model</a></li>
+    <li><a href="#deploying-the-fine-tuned-model">Deploying the Fine-Tuned Model</a></li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#next-steps">Next Steps</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+<script>
+
+  var margin = 200;
+  var marginError = 50;
+
+  (function () {
+    var $window = $(window);
+    var $toc = $('#TOCView');
+    var tocHeight = $toc.height();
+
+    function onResize() {
+      var windowAndMarginHeight = $window.height() - margin;
+      if(tocHeight >= windowAndMarginHeight) {
+        $toc.css("overflow-y", "scroll")
+        $toc.css("max-height", (windowAndMarginHeight + marginError) + "px")
+      } else {
+        $toc.css("overflow-y", "hidden")
+        $toc.css("max-height", "9999999px")
+      }
+    }
+
+    $window.on('resize', onResize);
+    $(document).ready(onResize);
+  })();
+
+
+
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = decodeURIComponent(e.attr('id'));
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+
+
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <div class="lead text-neutral-500 dark:text-neutral-400 !mb-9 text-xl">
+  Deep Learning Insights &amp; Application
+</div>
+
+
+
+<h2 class="relative group">Introduction 
+    <div id="introduction" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#introduction" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like <strong>BERT (Bidirectional Encoder Representations from Transformers)</strong> have set new standards for performance.</p>
+<p><strong>Azure Machine Learning</strong> provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently. By combining the power of <strong>Azure Machine Learning</strong> with <strong>Hugging Face Transformers</strong>, organizations can leverage state-of-the-art models like BERT to solve various NLP tasks.</p>
+<p>This blog will guide you through fine-tuning BERT models for NLP tasks using the Azure Machine Learning platform and the Hugging Face Transformers library.</p>
+
+
+<h2 class="relative group">Key Concepts 
+    <div id="key-concepts" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#key-concepts" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">BERT (Bidirectional Encoder Representations from Transformers) 
+    <div id="bert-bidirectional-encoder-representations-from-transformers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#bert-bidirectional-encoder-representations-from-transformers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>BERT</strong> is a transformer-based model developed by Google. It uses a bidirectional approach to understand the context of words in a sentence.</li>
+<li><strong>Pre-training:</strong> BERT is pre-trained on a large corpus using tasks like Masked Language Modeling (MLM) and Next Sentence Prediction (NSP).</li>
+<li><strong>Fine-tuning:</strong> BERT can be fine-tuned for specific NLP tasks like text classification, question answering, and named entity recognition.</li>
+</ul>
+
+
+<h3 class="relative group">Hugging Face Transformers 
+    <div id="hugging-face-transformers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#hugging-face-transformers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong>Hugging Face Transformers</strong> is an open-source library that provides pre-trained models and utilities for NLP.</li>
+<li>It supports multiple transformer architectures (e.g., BERT, GPT-2, RoBERTa) and simplifies fine-tuning and inference.</li>
+</ul>
+
+
+<h2 class="relative group">Setting Up the Environment 
+    <div id="setting-up-the-environment" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#setting-up-the-environment" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Before we start fine-tuning the BERT model, ensure you have the following prerequisites:</p>
+
+
+<h3 class="relative group">Prerequisites 
+    <div id="prerequisites" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#prerequisites" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong>Azure Subscription:</strong> If you don&rsquo;t have one, create a free account at azure.com/free.</li>
+<li><strong>Azure Machine Learning Workspace:</strong> Create a workspace following the official guide <a href="https://docs.microsoft.com/en-us/azure/machine-learning/how-to-manage-workspace" target="_blank">here</a>.</li>
+<li><strong>Familiarity with Python Programming:</strong> Basic knowledge of Python and NLP concepts.</li>
+</ol>
+
+
+<h3 class="relative group">Azure Machine Learning Setup 
+    <div id="azure-machine-learning-setup" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#azure-machine-learning-setup" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong>Create and Configure a Workspace:</strong>
+<ul>
+<li>Log in to the <a href="https://portal.azure.com/" target="_blank">Azure Portal</a>.</li>
+<li>Create an Azure Machine Learning Workspace as described in the official guide.</li>
+</ul>
+</li>
+<li><strong>Launch Azure ML Studio:</strong>
+<ul>
+<li>Navigate to the workspace in the Azure Portal and click &ldquo;<strong>Launch studio</strong>.&rdquo;</li>
+</ul>
+</li>
+<li><strong>Create a Compute Cluster:</strong>
+<ul>
+<li>In Azure ML Studio, navigate to &ldquo;<strong>Compute</strong>&rdquo; and create a GPU-enabled compute cluster.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">Setting Up the Training Environment 
+    <div id="setting-up-the-training-environment" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#setting-up-the-training-environment" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li>Create a Conda Environment:
+<ul>
+<li>Create a conda environment file (<code>environment.yml</code>) with the necessary dependencies:</li>
+</ul>
+</li>
+</ol>
+<pre tabindex="0"><code>yamlCopy codename: huggingface_env
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pip
+  - pip:
+      - azureml-core
+      - azureml-sdk
+      - azureml-mlflow
+      - transformers
+      - torch
+      - datasets
+</code></pre><ol>
+<li>Register the Environment in Azure ML:
+<ul>
+<li>Register the environment in Azure Machine Learning:</li>
+</ul>
+</li>
+</ol>
+<pre tabindex="0"><code>pythonCopy codefrom azureml.core import Workspace, Environment
+
+# Load the workspace
+ws = Workspace.from_config()
+
+# Define and register the environment
+env = Environment.from_conda_specification(name=&#34;huggingface_env&#34;, file_path=&#34;environment.yml&#34;)
+env.register(workspace=ws)
+</code></pre>
+
+<h2 class="relative group">Preparing the Dataset 
+    <div id="preparing-the-dataset" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preparing-the-dataset" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>For demonstration purposes, let&rsquo;s fine-tune BERT for text classification using the IMDb movie reviews dataset.</p>
+<ol>
+<li><strong>Download the Dataset:</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy codefrom datasets import load_dataset
+
+# Load IMDb dataset
+dataset = load_dataset(&#39;imdb&#39;)
+</code></pre><ol>
+<li><strong>Preprocess the Data:</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy codefrom transformers import BertTokenizer
+
+# Initialize the tokenizer
+tokenizer = BertTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
+
+# Define a function for preprocessing
+def preprocess(example):
+    return tokenizer(example[&#39;text&#39;], padding=&#39;max_length&#39;, max_length=512, truncation=True)
+
+# Apply preprocessing to the dataset
+train_dataset = dataset[&#39;train&#39;].map(preprocess, batched=True)
+test_dataset = dataset[&#39;test&#39;].map(preprocess, batched=True)
+
+# Remove unnecessary columns
+train_dataset = train_dataset.remove_columns([&#39;text&#39;])
+test_dataset = test_dataset.remove_columns([&#39;text&#39;])
+
+# Set format for PyTorch
+train_dataset.set_format(type=&#39;torch&#39;, columns=[&#39;input_ids&#39;, &#39;attention_mask&#39;, &#39;label&#39;])
+test_dataset.set_format(type=&#39;torch&#39;, columns=[&#39;input_ids&#39;, &#39;attention_mask&#39;, &#39;label&#39;])
+</code></pre>
+
+<h2 class="relative group">Fine-Tuning BERT Model 
+    <div id="fine-tuning-bert-model" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#fine-tuning-bert-model" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ol>
+<li><strong>Create a Training Script (<code>train.py</code>):</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy code# train.py
+import argparse
+from transformers import BertForSequenceClassification, Trainer, TrainingArguments
+from datasets import load_from_disk
+
+# Parse arguments
+parser = argparse.ArgumentParser()
+parser.add_argument(&#34;--train_dataset&#34;, type=str, help=&#34;Path to the training dataset&#34;)
+parser.add_argument(&#34;--test_dataset&#34;, type=str, help=&#34;Path to the testing dataset&#34;)
+parser.add_argument(&#34;--output_dir&#34;, type=str, help=&#34;Path to save the trained model&#34;)
+args = parser.parse_args()
+
+# Load datasets
+train_dataset = load_from_disk(args.train_dataset)
+test_dataset = load_from_disk(args.test_dataset)
+
+# Load BERT model
+model = BertForSequenceClassification.from_pretrained(&#39;bert-base-uncased&#39;, num_labels=2)
+
+# Define training arguments
+training_args = TrainingArguments(
+    output_dir=args.output_dir,
+    num_train_epochs=3,
+    per_device_train_batch_size=8,
+    per_device_eval_batch_size=8,
+    evaluation_strategy=&#34;epoch&#34;,
+    save_strategy=&#34;epoch&#34;,
+    logging_dir=&#34;./logs&#34;
+)
+
+# Initialize Trainer
+trainer = Trainer(
+    model=model,
+    args=training_args,
+    train_dataset=train_dataset,
+    eval_dataset=test_dataset
+)
+
+# Train the model
+trainer.train()
+
+# Save the model
+trainer.save_model(args.output_dir)
+</code></pre><ol>
+<li><strong>Create a Pipeline Script (<code>pipeline.py</code>):</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy code# pipeline.py
+from azureml.core import Workspace, Dataset, Experiment, ScriptRunConfig
+from azureml.pipeline.core import Pipeline, PipelineData
+from azureml.pipeline.steps import PythonScriptStep
+from azureml.core.environment import Environment
+
+# Load the workspace
+ws = Workspace.from_config()
+
+# Load the registered environment
+env = Environment.get(workspace=ws, name=&#34;huggingface_env&#34;)
+
+# Define datasets
+train_dataset = Dataset.File.from_files(&#39;path/to/train_dataset&#39;)
+test_dataset = Dataset.File.from_files(&#39;path/to/test_dataset&#39;)
+
+# Create PipelineData
+output_dir = PipelineData(&#34;output_dir&#34;, datastore=ws.get_default_datastore())
+
+# Create a PythonScriptStep for training
+train_step = PythonScriptStep(
+    name=&#34;Fine-Tune BERT&#34;,
+    source_directory=&#34;.&#34;,
+    script_name=&#34;train.py&#34;,
+    arguments=[
+        &#34;--train_dataset&#34;, train_dataset.as_mount(),
+        &#34;--test_dataset&#34;, test_dataset.as_mount(),
+        &#34;--output_dir&#34;, output_dir
+    ],
+    outputs=[output_dir],
+    compute_target=&#34;your-compute-cluster&#34;,
+    environment=env
+)
+
+# Create a pipeline
+pipeline = Pipeline(workspace=ws, steps=[train_step])
+
+# Submit the experiment
+experiment = Experiment(ws, &#34;bert-fine-tuning&#34;)
+pipeline_run = experiment.submit(pipeline)
+</code></pre>
+
+<h2 class="relative group">Deploying the Fine-Tuned Model 
+    <div id="deploying-the-fine-tuned-model" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#deploying-the-fine-tuned-model" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>After fine-tuning the BERT model, it can be deployed as an API using Azure Machine Learning.</p>
+<ol>
+<li><strong>Create a Scoring Script (<code>score.py</code>):</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy code# score.py
+import json
+from transformers import BertForSequenceClassification, BertTokenizer
+import torch
+
+# Initialize the model and tokenizer
+def init():
+    global model, tokenizer
+    model_path = &#34;your_model_path&#34;
+    model = BertForSequenceClassification.from_pretrained(model_path)
+    tokenizer = BertTokenizer.from_pretrained(&#39;bert-base-uncased&#39;)
+
+# Run inference
+def run(raw_data):
+    data = json.loads(raw_data)
+    inputs = tokenizer(data[&#39;text&#39;], return_tensors=&#39;pt&#39;, padding=True, truncation=True, max_length=512)
+    outputs = model(**inputs)
+    predictions = torch.argmax(outputs.logits, dim=-1)
+    return json.dumps({&#34;predictions&#34;: predictions.tolist()})
+</code></pre><ol>
+<li><strong>Deploy the Model:</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy codefrom azureml.core import Model, InferenceConfig, Webservice, AciWebservice
+
+# Register the fine-tuned model
+model = Model.register(workspace=ws, model_name=&#34;bert-fine-tuned&#34;, model_path=&#34;outputs&#34;)
+
+# Create an inference environment
+inference_env = Environment.get(workspace=ws, name=&#34;huggingface_env&#34;)
+
+# Define an inference configuration
+inference_config = InferenceConfig(
+    entry_script=&#34;score.py&#34;,
+    environment=inference_env
+)
+
+# Define deployment configuration
+aci_config = AciWebservice.deploy_configuration(cpu_cores=2, memory_gb=4)
+
+# Deploy the model
+service = Model.deploy(
+    workspace=ws,
+    name=&#34;bert-fine-tuned-service&#34;,
+    models=[model],
+    inference_config=inference_config,
+    deployment_config=aci_config
+)
+
+# Wait for deployment completion
+service.wait_for_deployment(show_output=True)
+</code></pre><ol>
+<li><strong>Test the Deployed Model:</strong></li>
+</ol>
+<pre tabindex="0"><code>pythonCopy codeimport requests
+import json
+
+# Prepare test data
+test_data = json.dumps({&#34;text&#34;: [&#34;This movie is great!&#34;, &#34;The acting was terrible.&#34;]})
+headers = {&#34;Content-Type&#34;: &#34;application/json&#34;}
+
+# Send a POST request to the web service
+url = service.scoring_uri
+response = requests.post(url, data=test_data, headers=headers)
+
+# Display predictions
+print(response.json())
+</code></pre>
+
+<h2 class="relative group">Conclusion 
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Fine-tuning BERT models for specific NLP tasks allows businesses to create custom solutions tailored to their unique requirements. By leveraging <strong>Azure Machine Learning</strong> and <strong>Hugging Face Transformers</strong>, the process of training and deploying state-of-the-art NLP models becomes streamlined and efficient.</p>
+<p>With the provided code snippets and best practices, you can now fine-tune BERT models for your organization&rsquo;s NLP needs. Harness the power of Azure Machine Learning and deep learning to unlock valuable insights from your text data.</p>
+
+
+<h2 class="relative group">Next Steps 
+    <div id="next-steps" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#next-steps" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<ul>
+<li><strong>Learn More:</strong> Explore the official Hugging Face Transformers documentation for advanced NLP techniques.</li>
+<li><strong>Experiment:</strong> Try fine-tuning other transformer models (e.g., RoBERTa, GPT-3) for various NLP tasks using Azure ML.</li>
+<li><strong>Expand Your Skills:</strong> Enroll in advanced deep learning courses or participate in the NLP community for the latest developments.</li>
+</ul>
+<p>Happy fine-tuning!</p>
+
+          
+          
+          
+        </div>
+        
+        
+
+        
+        
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/guides/azure/generative-ai-business-impact/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/generative-ai-business-impact/featured_hue9d6d8f5ca8a1d10b11086931105f741_37351_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/generative-ai-business-impact/">Implementing ChatGPT-like Models with Azure OpenAI Service</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06T11:13:34&#43;00:00">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/generative-ai/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Generative AI
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-openai/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure OpenAI
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpt4/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    GPT4
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/transformers/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Transformers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugging-face/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugging Face
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/guides/azure/ds-workflow-ml-studio/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/ds-workflow-ml-studio/featured.svg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/ds-workflow-ml-studio/">Building Data Science Workflows with Azure ML Studio</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06T11:13:34&#43;00:00">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure Machine Learning
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pandas/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Pandas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/scikit-learn/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    scikit-learn
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/docs/ai-consultancy/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/docs/ai-consultancy/featured_hu4dd60d26de37d004ea6481b496d524fe_152046_600x0_resize_q75_box.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/ai-consultancy/">AI Consultancy</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/consultancy/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Consultancy
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/docs/bots/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/docs/bots/featured_hufa38b13b4412205f3973f3145b06b977_231005_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/bots/">AI Custom Bots</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/custom-bots/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Custom Bots
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+  
+
+  <a href="/docs/integrations/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/docs/integrations/featured_hu0df0bf098481f9c3b61adddecddd8273_344508_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/integrations/">AI Integrations</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/integrations/&#34;,'_self');return false;">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Integrations
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+      <script>
+        var oid = "views_guides\\Azure\\finetuning-bert\\index.md"
+        var oid_likes = "likes_guides\\Azure\\finetuning-bert\\index.md"
+      </script>
+      
+      
+      <script type="text/javascript" src="/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
+      
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/guides/azure/ds-workflow-ml-studio/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Building Data Science Workflows with Azure ML Studio</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-06T11:13:34&#43;00:00">6 May 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/guides/azure/generative-ai-business-impact/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Implementing ChatGPT-like Models with Azure OpenAI Service</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-06T11:13:34&#43;00:00">6 May 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/keywords/"
+            title="Cloud Providers">
+            
+            Cloud
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
+            title="Service Categories">
+            
+            Categories
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="Technologies">
+            
+            Technologies
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  
+  
+  <a rel="me" href="https://masto.ai/@blowfish"></a>
+  
+</footer>
+<div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

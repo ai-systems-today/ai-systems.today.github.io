@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Workshops on AI SYSTEMS TODAY</title>
     <link>https://localhost:1313/workshops/</link>
     <description>Recent content in Workshops on AI SYSTEMS TODAY</description>
@@ -17,10 +18,30 @@
       <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
 At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-102/featured.png" />
+=======
+    <title>Workshops on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/</link>
+    <description>Recent content in Workshops on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azure AI Engineer Associate</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/</link>
+      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
+At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/featured.png" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Vision Solution</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/workshops/ai-3004/</link>
       <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
       
@@ -28,10 +49,20 @@ At AI Systems Today, we provide comprehensive workshops tailored to help you mas
       <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3004/featured.png" />
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</link>
+      <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</guid>
+      <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/featured.png" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>NLP Solution</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/workshops/ai-3003/</link>
       <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
       
@@ -39,10 +70,20 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3003/featured.png" />
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</link>
+      <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</guid>
+      <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/featured.png" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Document Intelligence Solution</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/workshops/ai-3002/</link>
       <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
       
@@ -50,10 +91,20 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3002/featured.png" />
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</link>
+      <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</guid>
+      <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/featured.png" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Azure AI Fundamentals</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/workshops/ai-900/</link>
       <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
       
@@ -61,10 +112,20 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
 At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-900/featured.png" />
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</link>
+      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</guid>
+      <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
+At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/featured.png" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Generative AI Solutions</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/workshops/ai-050/</link>
       <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
       
@@ -72,6 +133,15 @@ At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access
       <description>Introduction #Generative AI leverages powerful models to create content, from text and code to images. The Microsoft AI-050 learning path focuses on developing AI solutions using Azure OpenAI Service, which includes models like ChatGPT, GPT, Codex, and DALL-E. This certification is ideal for AI engineers and developers aiming to demonstrate expertise in implementing generative AI solutions with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-050 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-050/featured.jpg" />
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/</link>
+      <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/</guid>
+      <description>Introduction #Generative AI leverages powerful models to create content, from text and code to images. The Microsoft AI-050 learning path focuses on developing AI solutions using Azure OpenAI Service, which includes models like ChatGPT, GPT, Codex, and DALL-E. This certification is ideal for AI engineers and developers aiming to demonstrate expertise in implementing generative AI solutions with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-050 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/featured.jpg" />
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
   </channel>

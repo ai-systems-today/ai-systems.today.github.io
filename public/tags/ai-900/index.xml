@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-900 on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-900/</link>
+    <description>Recent content in AI-900 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:06 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-900/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Azure AI Fundamentals</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</link>
+      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</guid>
+      <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
+At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/featured.png" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Fundamentals</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/</guid>
+      <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>AI-3004 on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3004/</link>
+    <description>Recent content in AI-3004 on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:30 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3004/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>AI Vision Solution</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</link>
+      <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</guid>
+      <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
+At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

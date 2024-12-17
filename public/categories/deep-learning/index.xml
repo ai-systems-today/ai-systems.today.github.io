@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Deep Learning on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/deep-learning/</link>
+    <description>Recent content in Deep Learning on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/</guid>
+      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.
+Azure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

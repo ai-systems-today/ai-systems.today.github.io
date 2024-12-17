@@ -8,8 +8,14 @@ cascade:
 type: default
 ---
 
+<<<<<<< HEAD
 Thoughts and ideas from AI SYSTEMS TODAY
 
+=======
+{{< lead >}}
+Thoughts and ideas from AI SYSTEMS TODAY
+{{< /lead >}}
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
 
 <!-- **Blowfish user?** To add your guide to this list, [check the template](/guides/template/). -->
 

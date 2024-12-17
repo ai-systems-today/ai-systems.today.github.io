@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
+<<<<<<< HEAD
     <title>Series on AI SYSTEMS TODAY</title>
     <link>https://localhost:1313/series/</link>
     <description>Recent content in Series on AI SYSTEMS TODAY</description>
@@ -14,16 +15,39 @@
       <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
       
       <guid>https://localhost:1313/series/workshops/</guid>
+=======
+    <title>Series on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/</link>
+    <description>Recent content in Series on </description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Workshops</title>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/workshops/</link>
+      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/workshops/</guid>
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
       <description></description>
       
     </item>
     
     <item>
       <title>Services</title>
+<<<<<<< HEAD
       <link>https://localhost:1313/series/services/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://localhost:1313/series/services/</guid>
+=======
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/services/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/services/</guid>
+>>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
       <description></description>
       
     </item>
