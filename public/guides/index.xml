@@ -2,9 +2,98 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Blog on AI SYSTEMS TODAY</title>
-    <link>/guides/</link>
+    <link>https://localhost:1313/guides/</link>
     <description>Recent content in Blog on AI SYSTEMS TODAY</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/guides/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Tue, 21 May 2024 10:48:27 +0000</lastBuildDate><atom:link href="https://localhost:1313/guides/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Technologies for Effective Platform Engineering</title>
+      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
+      <description>Learn about Azure&amp;rsquo;s tools and services essential for building robust platforms.
+In the dynamic world of software development, platform engineering has become a cornerstone for delivering high-quality software efficiently and reliably. Microsoft Azure, with its comprehensive suite of cloud services, stands out as a critical enabler of platform engineering. This blog delves into the role of Azure technologies in platform engineering, highlighting how they enhance productivity, support DevOps, and drive innovation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
+    </item>
+    
+    <item>
+      <title>Harvesting the Power of AI - A Guide to Azure AI Services</title>
+      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
+      <description>Introduction: Unlock the potential of artificial intelligence with Azure AI Services. From enhancing customer experiences to optimizing operations, discover how Microsoft&amp;rsquo;s Azure AI platform can drive innovation and efficiency in your business. Dive into the benefits, practical applications, and steps to integrate these powerful tools into your workflow.
+Harvesting the Power of AI: A Comprehensive Guide to Azure AI Services
+In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) has become a critical tool for businesses looking to gain a competitive edge.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
+    </item>
+    
+    <item>
+      <title>Unleashing the Power of Azure AI for Application Innovation</title>
+      <link>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</guid>
+      <description>Learn how to leverage Azure AI for your business needs.
+Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Engineer Associate Certification</title>
+      <link>https://localhost:1313/guides/azure/ai-102/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ai-102/</guid>
+      <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-102/featured.png" />
+    </item>
+    
+    <item>
+      <title>A Guide to Microsoft Azure AI Fundamentals</title>
+      <link>https://localhost:1313/guides/azure/ai-900/</link>
+      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ai-900/</guid>
+      <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-900/featured.png" />
+    </item>
+    
+    <item>
+      <title>Building Data Science Workflows with Azure ML Studio</title>
+      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
+      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive. From optimizing business processes to unlocking new revenue streams, data science provides the foundation for impactful decision-making. However, building and managing end-to-end data science workflows is a complex task that requires the right tools and practices.
+Azure Machine Learning Studio, a comprehensive cloud-based platform provided by Microsoft, simplifies the journey of creating, training, and deploying machine learning models.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
+      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
+      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.
+Azure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Implementing ChatGPT-like Models with Azure OpenAI Service</title>
+      <link>https://localhost:1313/guides/azure/generative-ai-business-impact/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
+      <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations. For businesses, the potential applications of such models are immense, ranging from customer support and marketing to research and development.
+The Azure OpenAI Service, a partnership between Microsoft and OpenAI, brings state-of-the-art generative models like GPT-4 to Azure.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
+    </item>
+    
   </channel>
 </rss>

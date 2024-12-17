@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>CI/CD on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/tags/ci/cd/</link>
+    <description>Recent content in CI/CD on AI SYSTEMS TODAY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <atom:link href="https://localhost:1313/tags/ci/cd/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Azure Technologies for Effective Platform Engineering</title>
+      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
+      <description>Learn about Azure&amp;rsquo;s tools and services essential for building robust platforms.
+In the dynamic world of software development, platform engineering has become a cornerstone for delivering high-quality software efficiently and reliably. Microsoft Azure, with its comprehensive suite of cloud services, stands out as a critical enabler of platform engineering. This blog delves into the role of Azure technologies in platform engineering, highlighting how they enhance productivity, support DevOps, and drive innovation.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

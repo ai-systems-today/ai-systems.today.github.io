@@ -1,0 +1,3105 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr" class="scroll-smooth" data-default-appearance="dark"
+  data-auto-appearance="true"><head>
+  <meta charset="utf-8" />
+  
+  <meta http-equiv="content-language" content="en" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  
+  <title>A Guide to Microsoft Azure AI Fundamentals &middot; AI SYSTEMS TODAY</title>
+  <meta name="title" content="A Guide to Microsoft Azure AI Fundamentals &middot; AI SYSTEMS TODAY" />
+  
+  <meta name="description" content="AI-900" />
+  <meta name="keywords" content="AI-900, " />
+  
+  
+  <link rel="canonical" href="https://localhost:1313/guides/azure/ai-900/" />
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <link type="text/css" rel="stylesheet" href="/css/main.bundle.min.ac59a1b8eaafef739c129d12787ac29f6a420bcb348c7aeec8949a8d0b7d6c2023766c169d14b9031b751504eb3c976efe786fec135b340a49868acd8caa4127.css"
+    integrity="sha512-rFmhuOqv73OcEp0SeHrCn2pCC8s0jHruyJSajQt9bCAjdmwWnRS5Axt1FQTrPJdu/nhv7BNbNApJhorNjKpBJw==" />
+  
+  
+  <script type="text/javascript" src="/js/appearance.min.440123767706999640b0c1136ce0ef1e016b0eb61e41e64717059b548a0ed4a3c5c9a865bd39a3c209574e9b58161e39a9dca443fda30c41e40f072c510dda3d.js"
+    integrity="sha512-RAEjdncGmZZAsMETbODvHgFrDrYeQeZHFwWbVIoO1KPFyahlvTmjwglXTptYFh45qdykQ/2jDEHkDwcsUQ3aPQ=="></script>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <script defer type="text/javascript" id="script-bundle" src="/js/main.bundle.min.b08c533d390e8a0f23aec728c42c75cd20d5647891674e96b16374298da81849d9cc269102ec8558979f8bdae7563d3c83bce1fe3f5796d64edfb400aac4576f.js"
+    integrity="sha512-sIxTPTkOig8jrscoxCx1zSDVZHiRZ06WsWN0KY2oGEnZzCaRAuyFWJefi9rnVj08g7zh/j9XltZO37QAqsRXbw==" data-copy="" data-copied=""></script>
+  
+  
+  <script src="/js/zoom.min.js"></script>
+  
+  
+  
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  
+  
+  
+  
+  
+  
+  
+  <meta property="og:title" content="A Guide to Microsoft Azure AI Fundamentals" />
+<meta property="og:description" content="AI-900" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://localhost:1313/guides/azure/ai-900/" /><meta property="og:image" content="https://localhost:1313/guides/azure/ai-900/featured.png"/><meta property="article:section" content="guides" />
+<meta property="article:published_time" content="2024-05-11T11:13:34+00:00" />
+<meta property="article:modified_time" content="2024-05-11T11:13:34+00:00" />
+
+
+  <meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://localhost:1313/guides/azure/ai-900/featured.png"/>
+<meta name="twitter:title" content="A Guide to Microsoft Azure AI Fundamentals"/>
+<meta name="twitter:description" content="AI-900"/>
+
+  
+  <script type="application/ld+json">
+  [{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "articleSection": "Blog",
+    "name": "A Guide to Microsoft Azure AI Fundamentals",
+    "headline": "A Guide to Microsoft Azure AI Fundamentals",
+    "description": "AI-900",
+    "abstract": "In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].",
+    "inLanguage": "en",
+    "url" : "https:\/\/localhost:1313\/guides\/azure\/ai-900\/",
+    "author" : {
+      "@type": "Person",
+      "name": "Kyriakos Antoniadis"
+    },
+    "copyrightYear": "2024",
+    "dateCreated": "2024-05-11T11:13:34\u002b00:00",
+    "datePublished": "2024-05-11T11:13:34\u002b00:00",
+    
+    "dateModified": "2024-05-11T11:13:34\u002b00:00",
+    
+    "keywords": ["Azure"],
+    
+    "mainEntityOfPage": "true",
+    "wordCount": "3061"
+  }]
+  </script>
+
+
+  
+  
+  <meta name="author" content="Kyriakos Antoniadis" />
+  
+  
+  
+  <link href="mailto:contact@ai-systems.today" rel="me" />
+  
+  
+  <link href="https://github.com/ai-systems-today" rel="me" />
+  
+  
+  <link href="https://www.linkedin.com/in/kyriacos-antoniades/" rel="me" />
+  
+  
+  <link href="https://medium.com/@ai-systems.today" rel="me" />
+  
+  
+  <link href="https://www.youtube.com/channel/UCBwGhKFAzs_eNMw2mIxEY-Q" rel="me" />
+  
+  
+  
+  
+
+<script src="/lib/jquery/jquery.slim.min.js" integrity=""></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+  
+  
+  <meta name="theme-color"/>
+  
+  
+</head>
+<body
+  class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32">
+  <div id="the-top" class="absolute flex self-center">
+    <a class="px-3 py-1 text-sm -translate-y-8 rounded-b-lg bg-primary-200 focus:translate-y-0 dark:bg-neutral-600"
+      href="#main-content"><span
+        class="font-bold text-primary-600 ltr:pr-2 rtl:pl-2 dark:text-primary-400">&darr;</span>Skip to main content</a>
+  </div>
+  
+  
+  <div class="min-h-[148px]"></div>
+<div class="fixed inset-x-0 pl-[24px] pr-[24px]" style="z-index:100">
+  <div id="menu-blur" class="absolute opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl shadow-2xl"></div>
+  <div class="relative max-w-[64rem] ml-auto mr-auto">
+    <div style="padding-left:0;padding-right:0;padding-top:2px;padding-bottom:3px"
+    class="main-menu flex items-center justify-between px-4 py-6 sm:px-6 md:justify-start space-x-3">
+    
+    
+    
+    <div>
+        <a href="/" class="flex">
+            <span class="sr-only">AI SYSTEMS TODAY</span>
+
+            <img src="/img/64w.png" width="32" height="32"
+                class="logo max-h-[5rem] max-w-[5rem] object-scale-down object-left nozoom" alt="AI SYSTEMS TODAY" />
+
+        </a>
+    </div>
+    
+    <div class="flex flex-1 items-center justify-between">
+        <nav class="flex space-x-3">
+
+            
+            <a href="/" class="text-base font-medium text-gray-500 hover:text-gray-900">AI SYSTEMS TODAY</a>
+            
+
+        </nav>
+        <nav class="hidden md:flex items-center space-x-5 md:ml-12 h-12">
+
+            
+            
+            
+  <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Welcome to AI SYSTEMS TODAY">
+        Home
+    </p>
+</a>
+
+
+            
+            
+  <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="About">
+        About
+    </p>
+</a>
+
+
+            
+            
+  <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Services">
+        Services
+    </p>
+</a>
+
+
+            
+            
+  <a href="/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="Blog">
+        Blog
+    </p>
+</a>
+
+
+            
+             
+  <div>
+  <div class="cursor-pointer flex items-center nested-menu">
+    
+    <a  class="text-base font-medium text-gray-500 hover:text-primary-600 dark:hover:text-primary-400" title="">
+      Tags
+    </a>
+    <span>
+      
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+    </span>
+  </div>
+  <div class="absolute menuhide">
+    <div class="pt-2 p-5 mt-2 rounded-xl backdrop-blur shadow-2xl">
+      <div class="flex flex-col space-y-3">
+        
+        <a href="/keywords/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Cloud Providers">
+            Cloud
+          </p>
+        </a>
+        
+        <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Service Categories">
+            Categories
+          </p>
+        </a>
+        
+        <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+          
+          <p class="text-sm font-sm" title="Technologies">
+            Technologies
+          </p>
+        </a>
+        
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+            
+            
+  <a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+    
+    <p class="text-base font-medium" title="">
+        Contact
+    </p>
+</a>
+
+
+            
+            
+
+            
+
+
+            
+            <button id="search-button" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+
+            
+            
+            <div
+                class="ltr:mr-14 rtl:ml-14 flex items-center">
+                <button id="appearance-switcher" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400">
+                    <div class="flex items-center justify-center dark:hidden">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                    </div>
+                    <div class="items-center justify-center hidden dark:flex">
+                        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                    </div>
+                </button>
+            </div>
+            
+
+        </nav>
+        <div class="flex md:hidden items-center space-x-5 md:ml-12 h-12">
+
+            <span></span>
+
+            
+
+
+            
+            <button id="search-button-mobile" aria-label="Search" class="text-base hover:text-primary-600 dark:hover:text-primary-400"
+                title="">
+                
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+            </button>
+            
+
+            
+            
+            <button id="appearance-switcher-mobile" aria-label="Dark mode switcher" type="button" class="text-base hover:text-primary-600 dark:hover:text-primary-400" style="margin-right:5px">
+                <div class="flex items-center justify-center dark:hidden">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M32 256c0-123.8 100.3-224 223.8-224c11.36 0 29.7 1.668 40.9 3.746c9.616 1.777 11.75 14.63 3.279 19.44C245 86.5 211.2 144.6 211.2 207.8c0 109.7 99.71 193 208.3 172.3c9.561-1.805 16.28 9.324 10.11 16.95C387.9 448.6 324.8 480 255.8 480C132.1 480 32 379.6 32 256z"/></svg>
+
+  </span>
+
+
+                </div>
+                <div class="items-center justify-center hidden dark:flex">
+                    
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M256 159.1c-53.02 0-95.1 42.98-95.1 95.1S202.1 351.1 256 351.1s95.1-42.98 95.1-95.1S309 159.1 256 159.1zM509.3 347L446.1 255.1l63.15-91.01c6.332-9.125 1.104-21.74-9.826-23.72l-109-19.7l-19.7-109c-1.975-10.93-14.59-16.16-23.72-9.824L256 65.89L164.1 2.736c-9.125-6.332-21.74-1.107-23.72 9.824L121.6 121.6L12.56 141.3C1.633 143.2-3.596 155.9 2.736 164.1L65.89 256l-63.15 91.01c-6.332 9.125-1.105 21.74 9.824 23.72l109 19.7l19.7 109c1.975 10.93 14.59 16.16 23.72 9.824L256 446.1l91.01 63.15c9.127 6.334 21.75 1.107 23.72-9.822l19.7-109l109-19.7C510.4 368.8 515.6 356.1 509.3 347zM256 383.1c-70.69 0-127.1-57.31-127.1-127.1c0-70.69 57.31-127.1 127.1-127.1s127.1 57.3 127.1 127.1C383.1 326.7 326.7 383.1 256 383.1z"/></svg>
+
+  </span>
+
+
+                </div>
+            </button>
+            
+
+        </div>
+    </div>
+    <div class="-my-2 -mr-2 md:hidden">
+
+        <label id="menu-button" for="menu-controller" class="block">
+            <input type="checkbox" id="menu-controller" class="hidden" />
+            
+            <div class="cursor-pointer hover:text-primary-600 dark:hover:text-primary-400">
+                
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.33 14.33 64 32 64H416C433.7 64 448 78.33 448 96C448 113.7 433.7 128 416 128H32C14.33 128 0 113.7 0 96zM0 256C0 238.3 14.33 224 32 224H416C433.7 224 448 238.3 448 256C448 273.7 433.7 288 416 288H32C14.33 288 0 273.7 0 256zM416 448H32C14.33 448 0 433.7 0 416C0 398.3 14.33 384 32 384H416C433.7 384 448 398.3 448 416C448 433.7 433.7 448 416 448z"/></svg>
+
+  </span>
+
+
+            </div>
+            <div id="menu-wrapper" style="padding-top:5px;"
+                class="fixed inset-0 z-30 invisible w-screen h-screen m-0 overflow-auto transition-opacity opacity-0 cursor-default bg-neutral-100/50 backdrop-blur-sm dark:bg-neutral-900/50">
+                <ul
+                    class="flex space-y-2 mt-3 flex-col items-end w-full px-6 py-6 mx-auto overflow-visible list-none ltr:text-right rtl:text-left max-w-7xl">
+
+                    <li>
+                        <span
+                            class="cursor-pointer inline-block align-text-bottom hover:text-primary-600 dark:hover:text-primary-400">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+</span>
+                    </li>
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Welcome to AI SYSTEMS TODAY">
+            Home
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/about/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="About">
+            About
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/docs/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Services">
+            Services
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="/guides/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="Blog">
+            Blog
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                     
+  <li class="mt-1">
+    <a class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Tags
+        </p>
+        <span>
+            
+
+  <span class="relative block icon">
+    <svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 20 20"
+  fill="currentColor"
+  aria-hidden="true"
+>
+  <path
+    fill-rule="evenodd"
+    d="M5.23 7.21a.75.75 0 011.06.02L10 11.168l3.71-3.938a.75.75 0 111.08 1.04l-4.25 4.5a.75.75 0 01-1.08 0l-4.25-4.5a.75.75 0 01.02-1.06z"
+    clip-rule="evenodd"
+  />
+</svg>
+
+  </span>
+
+
+        </span>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/keywords/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Cloud Providers">
+            Cloud
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/categories/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Service Categories">
+            Categories
+        </p>
+    </a>
+</li>
+
+<li class="mt-1">
+    <a href="/tags/"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-sm font-small" title="Technologies">
+            Technologies
+        </p>
+    </a>
+</li>
+
+<li class="mb-2"></li>
+
+
+
+                    
+
+                    
+  <li class="mt-1">
+    <a href="https://calendly.com/contact-ai-systems-today/30min"  target="_blank"  class="flex items-center text-gray-500 hover:text-primary-600 dark:hover:text-primary-400">
+        
+        <p class="text-bg font-bg" title="">
+            Contact
+        </p>
+    </a>
+</li>
+
+
+
+                    
+
+                </ul>
+                
+                
+
+            </div>
+        </label>
+    </div>
+</div>
+
+
+
+
+<script>
+    (function () {
+        var $mainmenu = $('.main-menu');
+        var path = window.location.pathname;
+        $mainmenu.find('a[href="' + path + '"]').each(function (i, e) {
+            $(e).children('p').addClass('active');
+        });
+    })();
+</script>
+
+
+  </div>
+</div>
+<script>
+  window.addEventListener('scroll', function (e) {
+    var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+    var background_blur = document.getElementById('menu-blur');
+    background_blur.style.opacity = (scroll / 300);
+  });
+</script>
+
+  
+  <div class="relative flex flex-col grow">
+    <main id="main-content" class="grow">
+      
+
+
+<article>
+  
+  
+  
+  
+  
+  
+
+
+<div id="hero" class="h-[150px] md:h-[200px]"></div>
+
+
+
+    
+    <div class="fixed inset-x-0 top-0 h-[800px] single_hero_background nozoom"
+    style="background-image:url(/guides/azure/ai-900/featured_hu8f5507129076873170594e1c282ce0aa_80428_1200x0_resize_box_3.png);">
+    
+
+
+    <div class="absolute inset-0 bg-gradient-to-t from-neutral dark:from-neutral-800 to-transparent mix-blend-normal">
+    </div>
+    <div
+        class="absolute inset-0 opacity-60 bg-gradient-to-t from-neutral dark:from-neutral-800 to-neutral-100 dark:to-neutral-800 mix-blend-normal">
+    </div>
+</div>
+
+<div id="background-blur" class="fixed opacity-0 inset-x-0 top-0 h-full single_hero_background nozoom backdrop-blur-2xl"></div>
+<script>
+    window.addEventListener('scroll', function (e) {
+        var scroll = window.pageYOffset || document.documentElement.scrollTop || document.body.scrollTop || 0;
+        var background_blur = document.getElementById('background-blur');
+        background_blur.style.opacity = (scroll / 300)
+    });
+</script>
+
+  
+  
+
+  <header id="single_header" class="mt-5 max-w-prose">
+    
+    <ol class="text-sm text-neutral-500 dark:text-neutral-400 print:hidden">
+  
+  
+    
+  
+    
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/"
+      >Welcome to AI SYSTEMS TODAY</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline ">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/guides/"
+      >Blog</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+  
+  <li class="inline hidden">
+    <a
+      class="hover:underline decoration-neutral-300 dark:underline-neutral-600"
+      href="/guides/azure/ai-900/"
+      >A Guide to Microsoft Azure AI Fundamentals</a
+    ><span class="px-1 text-primary-500">/</span>
+  </li>
+
+</ol>
+
+
+    
+    <h1 class="mt-0 text-4xl font-extrabold text-neutral-900 dark:text-neutral">
+      A Guide to Microsoft Azure AI Fundamentals
+    </h1>
+    <div class="mt-1 mb-6 text-base text-neutral-500 dark:text-neutral-400 print:hidden">
+      
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-11 11:13:34.279 &#43;0000 UTC">11 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">15 mins</span><span class="px-2 text-primary-500">&middot;</span>
+
+
+<script type="text/javascript" src="/js/zen-mode.min.ccc8b2a0c4505216444ca25530c7328aa0bef94f43dabaf3e598e1b4271de9eec76c1cb35917471a4f7ccb8d84051b3acef42baa30724ac3a667fcf1fec4432a.js" integrity="sha512-zMiyoMRQUhZETKJVMMcyiqC&#43;&#43;U9D2rrz5ZjhtCcd6e7HbByzWRdHGk98y42EBRs6zvQrqjBySsOmZ/zx/sRDKg=="></script>
+
+<span class="mb-[2px]">
+    <span id="zen-mode-button"
+          class="text-lg hover:text-primary-500"
+          title="Enable zen mode"
+          data-title-i18n-disable="Enable zen mode"
+          data-title-i18n-enable="Disable zen mode">
+        <span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width="50px" height="50px">
+    <path fill="currentColor" d="M 12.980469 4 C 9.1204688 4 5.9804688 7.14 5.9804688 11 L 6 26 L 9.9804688 26 L 9.9804688 11 C 9.9804688 9.35 11.320469 8 12.980469 8 L 40.019531 8 C 41.679531 8 43.019531 9.35 43.019531 11 L 43.019531 39 C 43.019531 40.65 41.679531 42 40.019531 42 L 29 42 C 29 43.54 28.420938 44.94 27.460938 46 L 40.019531 46 C 43.879531 46 47.019531 42.86 47.019531 39 L 47.019531 11 C 47.019531 7.14 43.879531 4 40.019531 4 L 12.980469 4 z M 7 28 C 4.794 28 3 29.794 3 32 L 3 42 C 3 44.206 4.794 46 7 46 L 23 46 C 25.206 46 27 44.206 27 42 L 27 32 C 27 29.794 25.206 28 23 28 L 7 28 z M 7 32 L 23 32 L 23.001953 42 L 7 42 L 7 32 z"/>
+</svg>
+  </span>
+
+</span>
+    </span>
+</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ai-900/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    AI-900
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+    </div>
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+    
+      
+      
+        
+        
+<div class="flex author">
+  
+    
+    
+      
+    
+    
+      
+        
+      
+      <img class="!mt-0 !mb-0 h-24 w-24 rounded-full ltr:mr-4 rtl:ml-4" width="96" height="96"
+      alt="Kyriakos Antoniadis" src="/img/662e95281b303_g_hu7ab1891073a11faf21ee5720afa061a4_169079_192x192_fill_box_center_3.png" />
+    
+  
+  <div class="place-self-center">
+    
+    <div class="text-[0.6rem] uppercase leading-3 text-neutral-500 dark:text-neutral-400">
+      Author
+    </div>
+    <div class="font-semibold leading-6 text-neutral-800 dark:text-neutral-300">
+      Kyriakos Antoniadis
+    </div>
+    
+    
+    <div class="text-sm text-neutral-700 dark:text-neutral-400">AI SYSTEMS TODAY</div>
+    
+    <div class="text-2xl sm:text-lg">
+  <div class="flex flex-wrap text-neutral-400 dark:text-neutral-500">
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="mailto:contact@ai-systems.today"
+          target="_blank"
+          aria-label="Email"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M207.8 20.73c-93.45 18.32-168.7 93.66-187 187.1c-27.64 140.9 68.65 266.2 199.1 285.1c19.01 2.888 36.17-12.26 36.17-31.49l.0001-.6631c0-15.74-11.44-28.88-26.84-31.24c-84.35-12.98-149.2-86.13-149.2-174.2c0-102.9 88.61-185.5 193.4-175.4c91.54 8.869 158.6 91.25 158.6 183.2l0 16.16c0 22.09-17.94 40.05-40 40.05s-40.01-17.96-40.01-40.05v-120.1c0-8.847-7.161-16.02-16.01-16.02l-31.98 .0036c-7.299 0-13.2 4.992-15.12 11.68c-24.85-12.15-54.24-16.38-86.06-5.106c-38.75 13.73-68.12 48.91-73.72 89.64c-9.483 69.01 43.81 128 110.9 128c26.44 0 50.43-9.544 69.59-24.88c24 31.3 65.23 48.69 109.4 37.49C465.2 369.3 496 324.1 495.1 277.2V256.3C495.1 107.1 361.2-9.332 207.8 20.73zM239.1 304.3c-26.47 0-48-21.56-48-48.05s21.53-48.05 48-48.05s48 21.56 48 48.05S266.5 304.3 239.1 304.3z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://github.com/ai-systems-today"
+          target="_blank"
+          aria-label="Github"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512"><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.linkedin.com/in/kyriacos-antoniades/"
+          target="_blank"
+          aria-label="Linkedin"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://medium.com/@ai-systems.today"
+          target="_blank"
+          aria-label="Medium"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><path fill="currentColor" d="M180.5,74.262C80.813,74.262,0,155.633,0,256S80.819,437.738,180.5,437.738,361,356.373,361,256,280.191,74.262,180.5,74.262Zm288.25,10.646c-49.845,0-90.245,76.619-90.245,171.095s40.406,171.1,90.251,171.1,90.251-76.619,90.251-171.1H559C559,161.5,518.6,84.908,468.752,84.908Zm139.506,17.821c-17.526,0-31.735,68.628-31.735,153.274s14.2,153.274,31.735,153.274S640,340.631,640,256C640,171.351,625.785,102.729,608.258,102.729Z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+      
+        <a
+          class="px-1 hover:text-primary-700 dark:hover:text-primary-400"
+          href="https://www.youtube.com/channel/UCBwGhKFAzs_eNMw2mIxEY-Q"
+          target="_blank"
+          aria-label="Youtube"
+          rel="me noopener noreferrer"
+          ><span class="inline-block align-text-bottom">
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><path fill="currentColor" d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+
+  </span>
+
+</span></a
+        >
+      
+    
+  </div>
+
+</div>
+  </div>
+</div>
+
+      
+
+      
+
+      
+      <div class="mb-5"></div>
+      
+
+    
+
+  </header>
+  
+  <section class="flex flex-col max-w-full mt-0 prose dark:prose-invert lg:flex-row">
+    
+     <div
+      class="order-first lg:ml-auto px-0 lg:order-last ltr:lg:pl-8 rtl:lg:pr-8">
+      <div class="toc ltr:pl-5 rtl:pr-5 print:hidden lg:sticky lg:top-[140px]">
+
+         <details open class="toc-right mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 hidden lg:block">
+  <summary
+    class="block py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="min-w-[220px] py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#understanding-azure-ai-fundamentals">Understanding Azure AI Fundamentals</a>
+      <ul>
+        <li><a href="#skills-and-services-in-azure-ai">Skills and Services in Azure AI</a></li>
+        <li><a href="#measured-skills-and-examination-focus">Measured Skills and Examination Focus</a></li>
+      </ul>
+    </li>
+    <li><a href="#exploring-ai-solutions-with-azure">Exploring AI Solutions with Azure</a>
+      <ul>
+        <li><a href="#azure-ai-studio-and-openai-service">Azure AI Studio and OpenAI Service</a></li>
+        <li><a href="#comprehensive-language-and-vision-services">Comprehensive Language and Vision Services</a></li>
+        <li><a href="#real-world-applications-and-integration">Real-World Applications and Integration</a></li>
+        <li><a href="#advanced-features-for-developers">Advanced Features for Developers</a></li>
+      </ul>
+    </li>
+    <li><a href="#certification-benefits-and-opportunities">Certification Benefits and Opportunities</a>
+      <ul>
+        <li><a href="#advancing-careers-with-azure-ai-certification">Advancing Careers with Azure AI Certification</a></li>
+        <li><a href="#educational-and-training-support">Educational and Training Support</a></li>
+        <li><a href="#certification-path-and-renewal">Certification Path and Renewal</a></li>
+        <li><a href="#impact-on-organizational-security-and-efficiency">Impact on Organizational Security and Efficiency</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-role-of-azure-ai-in-professional-growth">The Role of Azure AI in Professional Growth</a></li>
+    <li><a href="#building-foundations-in-machine-learning-on-azure">Building Foundations in Machine Learning on Azure</a>
+      <ul>
+        <li><a href="#azure-machine-learning-core-features-and-integration">Azure Machine Learning: Core Features and Integration</a></li>
+        <li><a href="#practical-applications-and-advanced-tools">Practical Applications and Advanced Tools</a></li>
+        <li><a href="#collaborative-and-educational-enhancements">Collaborative and Educational Enhancements</a></li>
+      </ul>
+    </li>
+    <li><a href="#azure-ai-services">Azure AI Services</a>
+      <ul>
+        <li><a href="#comprehensive-overview-of-azure-ai-services">Comprehensive Overview of Azure AI Services</a></li>
+        <li><a href="#key-features-and-integration">Key Features and Integration</a></li>
+        <li><a href="#specialized-services-for-developers">Specialized Services for Developers</a></li>
+      </ul>
+    </li>
+    <li><a href="#preparing-for-the-ai-900-exam">Preparing for the AI-900 Exam</a>
+      <ul>
+        <li><a href="#exam-overview-and-eligibility">Exam Overview and Eligibility</a></li>
+        <li><a href="#preparation-resources">Preparation Resources</a></li>
+        <li><a href="#skills-measured-in-the-ai-900-exam">Skills Measured in the AI-900 Exam</a></li>
+        <li><a href="#key-exam-features-and-ethical-considerations">Key Exam Features and Ethical Considerations</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#faqs">FAQs</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+<details class="toc-inside mt-0 overflow-hidden rounded-lg ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 lg:hidden">
+  <summary
+    class="py-1 text-lg font-semibold cursor-pointer bg-neutral-100 text-neutral-800 ltr:-ml-5 ltr:pl-5 rtl:-mr-5 rtl:pr-5 dark:bg-neutral-700 dark:text-neutral-100 lg:hidden">
+    Table of Contents
+  </summary>
+  <div
+    class="py-2 border-dotted border-neutral-300 ltr:-ml-5 ltr:border-l ltr:pl-5 rtl:-mr-5 rtl:border-r rtl:pr-5 dark:border-neutral-600">
+    <nav id="TableOfContents">
+  <ul>
+    <li><a href="#understanding-azure-ai-fundamentals">Understanding Azure AI Fundamentals</a>
+      <ul>
+        <li><a href="#skills-and-services-in-azure-ai">Skills and Services in Azure AI</a></li>
+        <li><a href="#measured-skills-and-examination-focus">Measured Skills and Examination Focus</a></li>
+      </ul>
+    </li>
+    <li><a href="#exploring-ai-solutions-with-azure">Exploring AI Solutions with Azure</a>
+      <ul>
+        <li><a href="#azure-ai-studio-and-openai-service">Azure AI Studio and OpenAI Service</a></li>
+        <li><a href="#comprehensive-language-and-vision-services">Comprehensive Language and Vision Services</a></li>
+        <li><a href="#real-world-applications-and-integration">Real-World Applications and Integration</a></li>
+        <li><a href="#advanced-features-for-developers">Advanced Features for Developers</a></li>
+      </ul>
+    </li>
+    <li><a href="#certification-benefits-and-opportunities">Certification Benefits and Opportunities</a>
+      <ul>
+        <li><a href="#advancing-careers-with-azure-ai-certification">Advancing Careers with Azure AI Certification</a></li>
+        <li><a href="#educational-and-training-support">Educational and Training Support</a></li>
+        <li><a href="#certification-path-and-renewal">Certification Path and Renewal</a></li>
+        <li><a href="#impact-on-organizational-security-and-efficiency">Impact on Organizational Security and Efficiency</a></li>
+      </ul>
+    </li>
+    <li><a href="#the-role-of-azure-ai-in-professional-growth">The Role of Azure AI in Professional Growth</a></li>
+    <li><a href="#building-foundations-in-machine-learning-on-azure">Building Foundations in Machine Learning on Azure</a>
+      <ul>
+        <li><a href="#azure-machine-learning-core-features-and-integration">Azure Machine Learning: Core Features and Integration</a></li>
+        <li><a href="#practical-applications-and-advanced-tools">Practical Applications and Advanced Tools</a></li>
+        <li><a href="#collaborative-and-educational-enhancements">Collaborative and Educational Enhancements</a></li>
+      </ul>
+    </li>
+    <li><a href="#azure-ai-services">Azure AI Services</a>
+      <ul>
+        <li><a href="#comprehensive-overview-of-azure-ai-services">Comprehensive Overview of Azure AI Services</a></li>
+        <li><a href="#key-features-and-integration">Key Features and Integration</a></li>
+        <li><a href="#specialized-services-for-developers">Specialized Services for Developers</a></li>
+      </ul>
+    </li>
+    <li><a href="#preparing-for-the-ai-900-exam">Preparing for the AI-900 Exam</a>
+      <ul>
+        <li><a href="#exam-overview-and-eligibility">Exam Overview and Eligibility</a></li>
+        <li><a href="#preparation-resources">Preparation Resources</a></li>
+        <li><a href="#skills-measured-in-the-ai-900-exam">Skills Measured in the AI-900 Exam</a></li>
+        <li><a href="#key-exam-features-and-ethical-considerations">Key Exam Features and Ethical Considerations</a></li>
+      </ul>
+    </li>
+    <li><a href="#conclusion">Conclusion</a></li>
+    <li><a href="#faqs">FAQs</a></li>
+    <li><a href="#references">References</a></li>
+  </ul>
+</nav>
+  </div>
+</details>
+
+ 
+<script>
+  (function () {
+    var $toc = $('#TableOfContents');
+    if ($toc.length > 0) {
+      var $window = $(window);
+
+      function onScroll() {
+        var currentScroll = $window.scrollTop();
+        var h = $('.anchor');
+        var id = "";
+        h.each(function (i, e) {
+          e = $(e);
+          if (e.offset().top - $(window).height()/3 <= currentScroll) {
+            id = e.attr('id');
+          }
+        });
+        var active = $toc.find('a.active');      
+        if (active.length == 1 && active.eq(0).attr('href') == '#' + id) return true;
+
+        active.each(function (i, e) {
+          
+            $(e).removeClass('active');
+          
+        });
+        $toc.find('a[href="#' + id + '"]').addClass('active')
+        $toc.find('a[href="#' + id + '"]').parentsUntil('#TableOfContents').each(function (i, e) {
+          $(e).children('a').parents('ul').show();          
+        });
+      }
+
+      $window.on('scroll', onScroll);
+      $(document).ready(function () {
+        
+        onScroll();
+      });
+    }
+  })();
+</script>
+   </div>
+      </div>
+      
+
+      <div class="min-w-0 min-h-0 max-w-fit">
+        
+        
+
+
+        <div class="article-content max-w-prose mb-20">
+          <!-- ![Article Image](https://wsstgprdphotosonic01.blob.core.windows.net/photosonic/5244a6bf-c5d7-4075-bb4f-5569513d4465.png?st=2024-05-11T12%3A51%3A28Z&se=2024-05-18T12%3A51%3A28Z&sp=r&sv=2023-11-03&sr=b&sig=iOHZsvGuou2r/8tJlkaQAay0z2oXWue4skqcRU3KUgQ%3D) -->
+<p>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>. As the demand for AI, machine learning, data science, and natural language processing continues to surge, understanding the intricacies of Microsoft Azure AI becomes imperative for those seeking to make significant contributions in the realms of computer vision, sentiment analysis, and beyond <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</p>
+<p>This article explores the breadth and depth of artificial intelligence through the lens of Microsoft Azure AI Fundamentals, paving the way for aspiring AI engineers and data scientists <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>. It navigates through the essential AI solutions Azure provides, highlights the importance of certification for professional growth, and underscores the pivotal role of Azure AI in shaping the future of industries powered by machine learning, generative AI, and conversational AI <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>. Whether you&rsquo;re embarking on the Microsoft AI learning path, aspiring to attain an artificial intelligence certification, or simply looking to deepen your understanding of AI&rsquo;s potential, this guide serves as a critical resource in your journey towards becoming an AI proficient <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</p>
+
+
+<h2 class="relative group">Understanding Azure AI Fundamentals 
+    <div id="understanding-azure-ai-fundamentals" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#understanding-azure-ai-fundamentals" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Skills and Services in Azure AI 
+    <div id="skills-and-services-in-azure-ai" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#skills-and-services-in-azure-ai" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Core AI Concepts and Services</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI services provide a robust framework for developing AI solutions, integrating machine learning, knowledge mining, and cognitive services to support intelligent application development <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    [3]</a>.</li>
+<li>The AI-900 certification exam tests foundational knowledge in AI and machine learning principles, including AI concepts, responsible AI practices, and the evaluation of machine learning models <a href="https://www.readynez.com/en/blog/is-microsoft-azure-ai-fundamentals-worth-it-for-you/"   target="_blank">
+    [7]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Learning Paths and Modules</strong></strong> :</li>
+<li>
+<ul>
+<li>The Microsoft Azure AI Fundamentals course includes three primary modules: Fundamental AI Concepts, Fundamentals of Machine Learning, and Fundamentals of Azure AI Services <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/"   target="_blank">
+    [4]</a>.</li>
+<li>Each module is designed to cater to beginners and covers a range of topics from basic introductions to AI and machine learning to practical exercises on using Azure AI services <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/"   target="_blank">
+    [4]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Practical Application and Real-World Integration</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI Fundamentals are applicable in various real-world scenarios such as developing chatbots, implementing image recognition, and conducting predictive analytics <a href="https://www.readynez.com/en/blog/understanding-how-microsoft-azure-ai-fundamentals-an-overview/"   target="_blank">
+    [5]</a>.</li>
+<li>Specific learning paths like the Natural Language Processing module focus on utilizing Azure AI Language for NLP applications <a href="https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing/"   target="_blank">
+    [6]</a>.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">Measured Skills and Examination Focus 
+    <div id="measured-skills-and-examination-focus" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#measured-skills-and-examination-focus" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Exam Coverage</strong></strong> :</li>
+<li>
+<ul>
+<li>The AI-900 exam comprehensively covers the general workflow of AI solutions on Azure, ensuring a deep understanding of how to leverage Azure&rsquo;s AI capabilities effectively <a href="https://www.readynez.com/en/blog/is-microsoft-azure-ai-fundamentals-worth-it-for-you/"   target="_blank">
+    [7]</a>.</li>
+<li>It measures skills across several domains including AI workload considerations, machine learning principles, computer vision, NLP, and generative AI workloads on Azure <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Preparation and Certification Benefits</strong></strong> :</li>
+<li>
+<ul>
+<li>Gaining this certification demonstrates a solid foundation in AI and machine learning concepts, which is crucial for professionals aiming to advance in tech-driven industries <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a>.</li>
+<li>The certification pathway also prepares individuals for more advanced roles and projects involving Azure AI <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a>.</li>
+</ul>
+</li>
+</ul>
+<p>This structured approach not only clarifies the fundamentals of Azure AI but also aligns with the professional growth of individuals in the field of artificial intelligence and machine learning.</p>
+
+
+<h2 class="relative group">Exploring AI Solutions with Azure 
+    <div id="exploring-ai-solutions-with-azure" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#exploring-ai-solutions-with-azure" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Azure AI offers a comprehensive suite of services that allow developers and organizations to create advanced, responsible AI applications. These services are designed to be accessible through REST APIs and client library SDKs in popular development languages, ensuring ease of integration and application development <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</p>
+
+
+<h3 class="relative group">Azure AI Studio and OpenAI Service 
+    <div id="azure-ai-studio-and-openai-service" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#azure-ai-studio-and-openai-service" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Azure AI Studio</strong></strong> : This web-based platform simplifies the process of building, training, and deploying machine learning models with a user-friendly drag-and-drop interface <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    [3]</a>.</li>
+<li><strong><strong>Azure OpenAI Service</strong></strong> : Leverages advanced coding and language models to address a variety of use cases, enhancing the capabilities of applications across different sectors <a href="https://azure.microsoft.com/en-us/blog/the-economic-benefits-of-innovating-with-azure-ai/"   target="_blank">
+    [12]</a>.</li>
+</ol>
+
+
+<h3 class="relative group">Comprehensive Language and Vision Services 
+    <div id="comprehensive-language-and-vision-services" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#comprehensive-language-and-vision-services" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Language Services</strong></strong> : Develop applications with advanced natural language understanding capabilities. This includes the Translator which supports over 100 languages, aiding global communication <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    [3]</a>.</li>
+<li><strong><strong>Vision Services</strong></strong> : These services analyze visual content to provide insights and automation across industries. Custom Vision and Face API allow for tailored image recognition solutions that meet specific business needs <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    [3]</a>.</li>
+</ul>
+
+
+<h3 class="relative group">Real-World Applications and Integration 
+    <div id="real-world-applications-and-integration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#real-world-applications-and-integration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Document Intelligence and Bot Service</strong></strong> : Transform traditional documents into smart, data-driven solutions and create responsive bots to improve customer interactions <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    [3]</a>.</li>
+<li><strong><strong>Practical Examples</strong></strong> : Companies like H&amp;R Block utilize Azure Form Recognizer for efficient data extraction from tax documents, significantly reducing errors and saving time <a href="https://azure.microsoft.com/en-us/blog/ai-for-business-leaders-discover-ai-advantages-in-this-microsoft-ai-learn-series/"   target="_blank">
+    [13]</a>.</li>
+</ul>
+
+
+<h3 class="relative group">Advanced Features for Developers 
+    <div id="advanced-features-for-developers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#advanced-features-for-developers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Prompt Flow in Azure AI Studio</strong></strong> : A feature that streamlines the development of generative AI solutions, facilitating collaboration and maintaining high standards in prompt engineering projects <a href="https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/"   target="_blank">
+    [11]</a>.</li>
+<li><strong><strong>Comprehensive Model Catalog</strong></strong> : Azure AI Studio&rsquo;s model catalogue includes leading models from renowned AI developers, providing a robust foundation for building diverse AI functionalities <a href="https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/"   target="_blank">
+    [11]</a>.</li>
+</ul>
+<p>These tools and services not only simplify the development of AI solutions but also ensure that they are robust and aligned with current industry standards.</p>
+
+
+<h2 class="relative group">Certification Benefits and Opportunities 
+    <div id="certification-benefits-and-opportunities" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#certification-benefits-and-opportunities" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Advancing Careers with Azure AI Certification 
+    <div id="advancing-careers-with-azure-ai-certification" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#advancing-careers-with-azure-ai-certification" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Broad Career Opportunities</strong></strong> : Azure certification opens doors to a variety of career paths across different industries, including healthcare, finance, and retail, with roles such as AI Engineer, Machine Learning Engineer, and Data Scientist <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/"   target="_blank">
+    [14]</a><a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Enhanced Skill Set</strong></strong> : Certification sharpens skills in AI and machine learning, preparing professionals for advanced roles and projects that utilize Azure AI <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Higher Salary Potential</strong></strong> : Professionals with Azure certifications often see increased salaries, with potential earnings ranging from £40,000 to £75,000 annually in the UK for Azure AI Engineers <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/"   target="_blank">
+    [14]</a><a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Recognition and Career Advancement</strong></strong> : Achieving certification can lead to significant recognition within the field, aiding in career advancement and opening up further professional opportunities <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/"   target="_blank">
+    [14]</a><a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+</ol>
+
+
+<h3 class="relative group">Educational and Training Support 
+    <div id="educational-and-training-support" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#educational-and-training-support" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Microsoft Learning Resources</strong></strong> : Microsoft offers a variety of training resources, including self-paced content and free events like Microsoft Azure Virtual Training Days, to help candidates prepare for exams <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Readynez Training Program</strong></strong> : Offers a 1-day AI-900 Azure AI Fundamentals Course and Certification Program, along with unlimited Microsoft training for a monthly fee, providing comprehensive preparation for the certification <a href="https://www.readynez.com/en/blog/understanding-how-microsoft-azure-ai-fundamentals-an-overview/"   target="_blank">
+    [5]</a>.</li>
+</ul>
+
+
+<h3 class="relative group">Certification Path and Renewal 
+    <div id="certification-path-and-renewal" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#certification-path-and-renewal" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Structured Certification Path</strong></strong> : Start with the AI-900 Fundamentals exam and progress through Associate and Specialty certifications, demonstrating expertise to potential employers <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Maintaining Certification</strong></strong> : It is essential to renew the certification annually to keep skills up-to-date and maintain professional status <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+</ul>
+
+
+<h3 class="relative group">Impact on Organizational Security and Efficiency 
+    <div id="impact-on-organizational-security-and-efficiency" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#impact-on-organizational-security-and-efficiency" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Improved Cloud Security</strong></strong> : Azure certification enhances an individual&rsquo;s ability to secure cloud environments, significantly benefiting organizational security protocols <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+<li><strong><strong>Efficiency in Operations</strong></strong> : Certified professionals contribute to more efficient project executions and innovations, particularly in cloud computing and AI implementations <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    [15]</a>.</li>
+</ul>
+<p>Azure certifications not only equip individuals with the necessary skills but also enhance their professional stature and capabilities within the rapidly growing field of cloud computing and artificial intelligence.</p>
+
+
+<h2 class="relative group">The Role of Azure AI in Professional Growth 
+    <div id="the-role-of-azure-ai-in-professional-growth" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#the-role-of-azure-ai-in-professional-growth" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Azure AI, a platform designed to democratize AI development, equips professionals with the necessary tools and services to expedite the creation of AI applications, thus enhancing their career trajectories significantly <a href="https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/"   target="_blank">
+    [11]</a>. By streamlining the development process, Azure AI not only accelerates the time to market for AI solutions but also empowers IT professionals to view AI as a transformative catalyst rather than a threat <a href="https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/"   target="_blank">
+    [11]</a><a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    [19]</a>. This perspective shift is crucial for leveraging AI&rsquo;s full potential in various industries.</p>
+<p>Reskilling plays a pivotal role in adapting to AI-driven environments. Organizations increasingly support their workforce through targeted online courses, workshops, and certifications, focusing on AI and its applications <a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    [19]</a>. Such educational initiatives are essential for professionals aiming to expand their roles into domains like data science, machine learning, and AI development <a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    [19]</a>.</p>
+<p>Networking within the AI community through platforms like LinkedIn facilitates valuable connections, leading to potential collaborations and job opportunities. Engaging with AI groups and influencers also enhances understanding and keeps professionals updated on industry trends <a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    [19]</a>.</p>
+<p>Ethical considerations are integral to AI adoption. Professionals who understand and advocate for responsible AI practices can distinguish themselves as thought leaders, contributing positively to the field&rsquo;s evolution <a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    [19]</a>.</p>
+<p>Generative AI, particularly among younger professionals like Gen Z, is seen as a tool for gaining a competitive edge in their careers. This demographic is typically more comfortable with using AI technologies in both educational and professional settings <a href="https://www.linkedin.com/pulse/transforming-human-resources-impact-ai-insights-from-boaz-ashkenazy-wfuxf"   target="_blank">
+    [20]</a>.</p>
+
+
+<h2 class="relative group">Building Foundations in Machine Learning on Azure 
+    <div id="building-foundations-in-machine-learning-on-azure" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#building-foundations-in-machine-learning-on-azure" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Azure Machine Learning: Core Features and Integration 
+    <div id="azure-machine-learning-core-features-and-integration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#azure-machine-learning-core-features-and-integration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Platform Overview</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure Machine Learning provides a comprehensive cloud-based service for the entire machine learning project lifecycle, accommodating the needs of data scientists, machine learning professionals, and engineers <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+<li>The service includes features for data preparation, model training, deployment, and monitoring, all within a secure and scalable environment <a href="https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-train-model?view=azureml-api-2"   target="_blank">
+    [26]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Model Building and Deployment</strong></strong> :</li>
+<li>
+<ul>
+<li>Utilize Azure Machine Learning Studio, a user-friendly drag-and-drop tool, to build machine learning models. This platform offers a scalable and accessible solution for users without extensive coding knowledge <a href="https://www.youtube.com/watch?v=3Te6LnacEQ8"   target="_blank">
+    [25]</a>.</li>
+<li>For more controlled and custom pipeline constructions, use features like Automated ML (AutoML) and the ML Designer available in the studio <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Integration and Security</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure Machine Learning integrates seamlessly with the Azure ecosystem, enhancing collaboration and efficiency in deploying machine learning models <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+<li>The platform ensures enterprise-grade security through integration with Azure Virtual Networks, Azure Key Vault, and Azure Container Registry, safeguarding all machine learning operations <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">Practical Applications and Advanced Tools 
+    <div id="practical-applications-and-advanced-tools" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#practical-applications-and-advanced-tools" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Machine Learning Operations (MLOps)</strong></strong> :</li>
+<li>
+<ul>
+<li>Implement MLOps to accelerate automation and collaboration, enhancing the reproducibility of machine learning workflows. This approach is crucial for deploying machine learning models in secure, auditable production settings <a href="https://azure.microsoft.com/en-us/solutions/ai"   target="_blank">
+    [21]</a><a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Cognitive and Bot Services</strong></strong> :</li>
+<li>
+<ul>
+<li>Leverage Azure Cognitive Services for access to prebuilt machine learning models tailored for various applications, simplifying the integration into existing systems <a href="https://medium.com/@gargsourabh/azure-ai-services-25f827f85415"   target="_blank">
+    [22]</a>.</li>
+<li>Develop intelligent virtual agents using Azure Bot Service, which can understand and respond to queries in a human-like manner, enhancing customer interaction capabilities <a href="https://medium.com/@gargsourabh/azure-ai-services-25f827f85415"   target="_blank">
+    [22]</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">Collaborative and Educational Enhancements 
+    <div id="collaborative-and-educational-enhancements" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#collaborative-and-educational-enhancements" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Collaboration Features</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure Machine Learning supports extensive collaboration, allowing users to share and find assets, resources, and metrics for projects through the Machine Learning Studio UI. This feature fosters a community-driven approach to machine learning projects <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Learning and Development</strong></strong> :</li>
+<li>
+<ul>
+<li>Engage with Azure Machine Learning&rsquo;s SDK, primarily using Python, to programmatically construct and manage machine learning workflows. This tool is essential for data scientists and developers looking to deepen their technical skills in machine learning <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    [24]</a>.</li>
+<li>The platform also provides pre-built models and a no-code or low-code experience through Azure Machine Learning Studio, making it accessible for a broader audience of users <a href="https://www.youtube.com/watch?v=3Te6LnacEQ8"   target="_blank">
+    [25]</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 class="relative group">Azure AI Services 
+    <div id="azure-ai-services" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#azure-ai-services" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Comprehensive Overview of Azure AI Services 
+    <div id="comprehensive-overview-of-azure-ai-services" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#comprehensive-overview-of-azure-ai-services" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Diverse Range of Services</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI Services offer a broad spectrum of tools and APIs, including Azure OpenAI Service, Azure AI Search, and Azure AI Content Safety, among others, designed to cater to various AI needs <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a><a href="https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b"   target="_blank">
+    [27]</a>.</li>
+<li>These services support a variety of applications such as Anomaly Detection, Computer Vision, and Language Understanding, providing tailored solutions for different industry requirements <a href="https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b"   target="_blank">
+    [27]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Security and Compliance</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI Services ensure a high level of security with a layered model that includes authentication via Microsoft Entra credentials and integration with Azure Virtual Networks <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</li>
+<li>Compliance with international standards is guaranteed as these services meet the requirements of Cloud Security Alliance STAR Certification, FedRAMP Moderate, and HIPAA BAA <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Accessibility and Support</strong></strong> :</li>
+<li>
+<ul>
+<li>The services are accessible through REST APIs and client library SDKs in popular development languages, making them easily integrable into existing systems <a href="https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b"   target="_blank">
+    [27]</a>.</li>
+<li>Azure AI also provides various pricing tiers, including a free tier to help new users explore the services without initial investment <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</li>
+<li>A strong community support system and multiple support options further enhance the user experience <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    [1]</a>.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">Key Features and Integration 
+    <div id="key-features-and-integration" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#key-features-and-integration" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Innovative AI Capabilities</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI Services like Azure AI Vision and Azure AI Language empower developers to build advanced applications that can see, hear, speak, understand, and interpret user needs through natural methods of communication <a href="https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b"   target="_blank">
+    [27]</a>.</li>
+<li>The integration capabilities with Azure infrastructure allow for seamless deployment and management of AI solutions <a href="https://azure.microsoft.com/en-us/solutions/ai"   target="_blank">
+    [21]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Responsible AI Practices</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI is committed to responsible AI development, evidenced by tools like the Responsible AI dashboard which aids in assessing and debugging machine learning models efficiently <a href="https://azure.microsoft.com/en-us/solutions/ai"   target="_blank">
+    [21]</a>.</li>
+<li>Features like Azure AI Content Safety are crucial for detecting harmful content, ensuring that applications remain safe and user-friendly <a href="https://azure.microsoft.com/en-us/solutions/ai"   target="_blank">
+    [21]</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">Specialized Services for Developers 
+    <div id="specialized-services-for-developers" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#specialized-services-for-developers" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Azure OpenAI Service</strong></strong> :</li>
+<li>
+<ul>
+<li>This service allows developers to integrate OpenAI models easily, providing APIs for tasks such as text generation, language translation, and more, which are essential for building generative AI applications <a href="https://azure.microsoft.com/en-us/blog/explore-the-benefits-of-azure-openai-service-with-microsoft-learn/"   target="_blank">
+    [31]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Azure AI Applied and Cognitive Services</strong></strong> :</li>
+<li>
+<ul>
+<li>Applied Services solve specific business problems with pre-built AI, requiring no deep machine learning expertise, while Cognitive Services bring human-like intelligence to applications <a href="https://medium.com/@camille-sauer/complete-guide-to-ai-services-on-azure-from-applied-ai-to-ml-platforms-3916c5a5a592"   target="_blank">
+    [28]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Support for Big Data and Automation</strong></strong> :</li>
+<li>
+<ul>
+<li>Azure AI Services facilitate the embedding of intelligent models in big data platforms and provide automation tools like Azure Logic Apps and AI Builder, enhancing operational efficiency without extensive coding <a href="https://learn.microsoft.com/en-us/azure/ai-services/ai-services-and-ecosystem"   target="_blank">
+    [23]</a>.</li>
+</ul>
+</li>
+</ul>
+<p>These features collectively enable Azure AI to support a wide array of business processes and applications, accelerating the adoption of AI across different sectors and promoting innovation at scale.</p>
+
+
+<h2 class="relative group">Preparing for the AI-900 Exam 
+    <div id="preparing-for-the-ai-900-exam" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preparing-for-the-ai-900-exam" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+
+
+<h3 class="relative group">Exam Overview and Eligibility 
+    <div id="exam-overview-and-eligibility" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#exam-overview-and-eligibility" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ol>
+<li><strong><strong>Background Requirements</strong></strong> :</li>
+<li>
+<ul>
+<li>The AI-900 exam is designed for individuals from both technical and non-technical backgrounds. It does not require prior experience in data science or software engineering <a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a><a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wGpB"   target="_blank">
+    [18]</a>.</li>
+<li>Candidates will benefit from understanding basic cloud concepts and client-server applications, although these are not strict prerequisites <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a><a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Exam Content and Structure</strong></strong> :</li>
+<li>
+<ul>
+<li>The AI-900 exam focuses on a broad range of topics including Artificial Intelligence workloads, machine learning principles on Azure, and specific features related to computer vision, NLP, and generative AI workloads on Azure <a href="https://medium.com/@JeffyJeff/how-i-passed-the-ai-900-microsoft-azure-ai-fundamentals-certification-83c272eb5446"   target="_blank">
+    [16]</a><a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a>.</li>
+<li>This is a 45-minute proctored exam, available in multiple languages, and it includes interactive components to assess the candidate&rsquo;s understanding effectively <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a><a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a>.</li>
+</ul>
+</li>
+</ol>
+
+
+<h3 class="relative group">Preparation Resources 
+    <div id="preparation-resources" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#preparation-resources" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Microsoft Learning Tools</strong></strong> :</li>
+<li>
+<ul>
+<li>Microsoft offers a comprehensive self-paced curriculum on Microsoft Learn and additional study materials on GitHub, specifically tailored for the AI-900 exam <a href="https://techcommunity.microsoft.com/t5/analytics-on-azure/ai-900-microsoft-azure-ai-fundamentals-study-guide/td-p/4081446"   target="_blank">
+    [32]</a>.</li>
+<li>Candidates can also utilize the AI-900 study guide and certification poster to aid their preparation <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Exam Details</strong></strong> :</li>
+<li>
+<ul>
+<li>The exam costs $99 USD and requires a passing score of 700 or greater. It is offered in several languages, accommodating a global audience <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a><a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wGpB"   target="_blank">
+    [18]</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+<h3 class="relative group">Skills Measured in the AI-900 Exam 
+    <div id="skills-measured-in-the-ai-900-exam" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#skills-measured-in-the-ai-900-exam" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<table>
+<thead>
+<tr>
+<th>Skill Area</th>
+<th>Percentage of Exam</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Describe AI workloads and considerations</td>
+<td>15-20%<a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a></td>
+</tr>
+<tr>
+<td>Fundamental principles of machine learning on Azure</td>
+<td>20-25%<a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a></td>
+</tr>
+<tr>
+<td>Features of computer vision workloads on Azure</td>
+<td>15-20%<a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a></td>
+</tr>
+<tr>
+<td>Features of Natural Language Processing (NLP) workloads</td>
+<td>15-20%<a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a></td>
+</tr>
+<tr>
+<td>Features of generative AI workloads on Azure</td>
+<td>15-20%<a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    [17]</a></td>
+</tr>
+</tbody>
+</table>
+
+
+<h3 class="relative group">Key Exam Features and Ethical Considerations 
+    <div id="key-exam-features-and-ethical-considerations" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#key-exam-features-and-ethical-considerations" aria-label="Anchor">#</a>
+    </span>        
+    
+</h3>
+<ul>
+<li><strong><strong>Exam Format and Language Options</strong></strong> :</li>
+<li>
+<ul>
+<li>The AI-900 is not open book and consists of multiple-choice questions without case studies or hands-on tasks. It is proctored to maintain integrity and fairness <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a><a href="https://www.youtube.com/watch?v=E9aarWMLJw0"   target="_blank">
+    [29]</a>.</li>
+<li>Available in several languages including English, Japanese, Chinese (Simplified and Traditional), Korean, German, French, Spanish, Portuguese (Brazil), Russian, Indonesian (Indonesia), and Arabic (Saudi Arabia) <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    [2]</a>.</li>
+</ul>
+</li>
+<li><strong><strong>Ethical AI</strong></strong> :</li>
+<li>
+<ul>
+<li>Ethical considerations such as fairness, reliability, safety, privacy, inclusivity, transparency, and accountability are emphasized, reflecting the importance of responsible AI practices in the exam <a href="https://www.youtube.com/watch?v=E9aarWMLJw0"   target="_blank">
+    [29]</a>.</li>
+</ul>
+</li>
+</ul>
+
+
+<h2 class="relative group">Conclusion 
+    <div id="conclusion" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#conclusion" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>Through the exploration of Microsoft Azure AI Fundamentals, we&rsquo;ve uncovered the platform&rsquo;s vast capabilities and its pivotal role in shaping a future powered by intelligent technology. From providing a solid foundation in AI and machine learning concepts to offering a suite of services that empower developers to create innovative applications, Azure AI stands as a beacon for those seeking to make their mark in this dynamic field. The journey through Azure AI&rsquo;s services, practical applications, and the significant benefits of obtaining Azure certification highlight the platform’s integral part in professional growth and technological advancement.</p>
+<p>As we&rsquo;ve seen, Azure AI not only democratizes AI development but also ensures that these advancements are accessible, secure, and aligned with ethical practices. For professionals aspiring to leverage AI in their careers, the path is clear, with Azure AI offering the tools, knowledge, and support necessary to succeed in today&rsquo;s tech-driven landscape. To take the first step towards unlocking your AI potential, <a href="#"  >
+    register for the AI-900 Workshop</a>. Seizing this opportunity can open doors to new possibilities, preparing you for a future where AI is at the forefront of innovation and enterprise.</p>
+
+
+<h2 class="relative group">FAQs 
+    <div id="faqs" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#faqs" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p><strong><strong>1. How challenging is the Azure AI Fundamentals exam?</strong></strong>
+The Azure AI Fundamentals exam, known as Exam AI-900, is somewhat challenging. It includes some particularly tricky questions that require a deep understanding of the terms and concepts to select the most appropriate solutions in practical scenarios. There is no simple formula to guarantee success on the exam.</p>
+<p><strong><strong>2. What are the benefits of obtaining the Microsoft Azure AI Fundamentals certification?</strong></strong>
+The Azure AI Fundamentals certification is highly beneficial for System Administrators. It equips them with a basic understanding of AI concepts and practices, thereby enhancing their skills in managing AI technologies within the Azure cloud environment.</p>
+<p><strong><strong>3. Is the AI 102 certification valuable?</strong></strong>
+Yes, the AI 102 certification is valuable as it demonstrates a robust foundation in AI technologies, specifically in cloud-based environments. This certification is in high demand in the modern job market and can lead to well-paying jobs and provide a significant competitive advantage.</p>
+<p><strong><strong>4. What is the best way to prepare for the Azure AI Fundamentals exam?</strong></strong>
+To prepare effectively for the Azure AI Fundamentals exam, it is crucial to understand the features of various AI workloads. These include common AI workloads, content moderation, personalization, computer vision, natural language processing, knowledge mining, document intelligence, and generative AI workloads.</p>
+
+
+<h2 class="relative group">References 
+    <div id="references" class="anchor"></div>
+    
+    <span
+        class="absolute top-0 w-6 transition-opacity opacity-0 ltr:-left-6 rtl:-right-6 not-prose group-hover:opacity-100">
+        <a class="group-hover:text-primary-300 dark:group-hover:text-neutral-700"
+            style="text-decoration-line: none !important;" href="#references" aria-label="Anchor">#</a>
+    </span>        
+    
+</h2>
+<p>[1] - <a href="https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services"   target="_blank">
+    https://learn.microsoft.com/en-us/azure/ai-services/what-are-ai-services</a></p>
+<p>[2] - <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/"   target="_blank">
+    https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-fundamentals/</a></p>
+<p>[3] - <a href="https://learn.microsoft.com/en-us/azure/ai-services/"   target="_blank">
+    https://learn.microsoft.com/en-us/azure/ai-services/</a></p>
+<p>[4] - <a href="https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/"   target="_blank">
+    https://learn.microsoft.com/en-us/training/paths/get-started-with-artificial-intelligence-on-azure/</a></p>
+<p>[5] - <a href="https://www.readynez.com/en/blog/understanding-how-microsoft-azure-ai-fundamentals-an-overview/"   target="_blank">
+    https://www.readynez.com/en/blog/understanding-how-microsoft-azure-ai-fundamentals-an-overview/</a></p>
+<p>[6] - <a href="https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing/"   target="_blank">
+    https://learn.microsoft.com/en-us/training/paths/explore-natural-language-processing/</a></p>
+<p>[7] - <a href="https://www.readynez.com/en/blog/is-microsoft-azure-ai-fundamentals-worth-it-for-you/"   target="_blank">
+    https://www.readynez.com/en/blog/is-microsoft-azure-ai-fundamentals-worth-it-for-you/</a>
+[8] - <a href="https://azure.microsoft.com/en-us/products/ai-services"   target="_blank">
+    https://azure.microsoft.com/en-us/products/ai-services</a>
+[9] - <a href="https://azure.microsoft.com/en-us/products/category/ai"   target="_blank">
+    https://azure.microsoft.com/en-us/products/category/ai</a>
+[10] - <a href="https://azurecharts.com/overview"   target="_blank">
+    https://azurecharts.com/overview</a>
+[11] - <a href="https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/"   target="_blank">
+    https://azure.microsoft.com/en-us/blog/3-ways-microsoft-azure-ai-studio-helps-accelerate-the-ai-development-journey/</a>
+[12] - <a href="https://azure.microsoft.com/en-us/blog/the-economic-benefits-of-innovating-with-azure-ai/"   target="_blank">
+    https://azure.microsoft.com/en-us/blog/the-economic-benefits-of-innovating-with-azure-ai/</a>
+[13] - <a href="https://azure.microsoft.com/en-us/blog/ai-for-business-leaders-discover-ai-advantages-in-this-microsoft-ai-learn-series/"   target="_blank">
+    https://azure.microsoft.com/en-us/blog/ai-for-business-leaders-discover-ai-advantages-in-this-microsoft-ai-learn-series/</a>
+[14] - <a href="https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/"   target="_blank">
+    https://learn.microsoft.com/en-us/credentials/certifications/azure-ai-engineer/</a>
+[15] - <a href="https://www.coursera.org/articles/azure-certification"   target="_blank">
+    https://www.coursera.org/articles/azure-certification</a>
+[16] - <a href="https://medium.com/@JeffyJeff/how-i-passed-the-ai-900-microsoft-azure-ai-fundamentals-certification-83c272eb5446"   target="_blank">
+    https://medium.com/@JeffyJeff/how-i-passed-the-ai-900-microsoft-azure-ai-fundamentals-certification-83c272eb5446</a>
+[17] - <a href="https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900"   target="_blank">
+    https://learn.microsoft.com/en-us/credentials/certifications/resources/study-guides/ai-900</a>
+[18] - <a href="https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wGpB"   target="_blank">
+    https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE4wGpB</a>
+[19] - <a href="https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move"   target="_blank">
+    https://www.linkedin.com/pulse/ai-powered-tech-career-development-your-next-big-move</a>
+[20] - <a href="https://www.linkedin.com/pulse/transforming-human-resources-impact-ai-insights-from-boaz-ashkenazy-wfuxf"   target="_blank">
+    https://www.linkedin.com/pulse/transforming-human-resources-impact-ai-insights-from-boaz-ashkenazy-wfuxf</a>
+[21] - <a href="https://azure.microsoft.com/en-us/solutions/ai"   target="_blank">
+    https://azure.microsoft.com/en-us/solutions/ai</a>
+[22] - <a href="https://medium.com/@gargsourabh/azure-ai-services-25f827f85415"   target="_blank">
+    https://medium.com/@gargsourabh/azure-ai-services-25f827f85415</a>
+[23] - <a href="https://learn.microsoft.com/en-us/azure/ai-services/ai-services-and-ecosystem"   target="_blank">
+    https://learn.microsoft.com/en-us/azure/ai-services/ai-services-and-ecosystem</a>
+[24] - <a href="https://www.datacamp.com/tutorial/azure-machine-learning-guide"   target="_blank">
+    https://www.datacamp.com/tutorial/azure-machine-learning-guide</a>
+[25] - <a href="https://www.youtube.com/watch?v=3Te6LnacEQ8"   target="_blank">
+    https://www.youtube.com/watch?v=3Te6LnacEQ8</a>
+[26] - <a href="https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-train-model?view=azureml-api-2"   target="_blank">
+    https://learn.microsoft.com/en-us/azure/machine-learning/tutorial-train-model?view=azureml-api-2</a>
+[27] - <a href="https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b"   target="_blank">
+    https://medium.com/@techlatest.net/what-are-azure-ai-services-73d3c32e661b</a>
+[28] - <a href="https://medium.com/@camille-sauer/complete-guide-to-ai-services-on-azure-from-applied-ai-to-ml-platforms-3916c5a5a592"   target="_blank">
+    https://medium.com/@camille-sauer/complete-guide-to-ai-services-on-azure-from-applied-ai-to-ml-platforms-3916c5a5a592</a>
+[29] - <a href="https://www.youtube.com/watch?v=E9aarWMLJw0"   target="_blank">
+    https://www.youtube.com/watch?v=E9aarWMLJw0</a>
+[30] - <a href="https://www.ituonline.com/blogs/impact-of-ai-on-jobs/"   target="_blank">
+    https://www.ituonline.com/blogs/impact-of-ai-on-jobs/</a>
+[31] - <a href="https://azure.microsoft.com/en-us/blog/explore-the-benefits-of-azure-openai-service-with-microsoft-learn/"   target="_blank">
+    https://azure.microsoft.com/en-us/blog/explore-the-benefits-of-azure-openai-service-with-microsoft-learn/</a>
+[32] - <a href="https://techcommunity.microsoft.com/t5/analytics-on-azure/ai-900-microsoft-azure-ai-fundamentals-study-guide/td-p/4081446"   target="_blank">
+    https://techcommunity.microsoft.com/t5/analytics-on-azure/ai-900-microsoft-azure-ai-fundamentals-study-guide/td-p/4081446</a></p>
+
+        </div>
+        
+        
+
+        
+        
+
+        
+
+
+<h2 class="mt-8 text-2xl font-extrabold mb-10">Related</h2>
+<section class="w-full grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+  
+  
+
+  <a href="/guides/azure/ai-102/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/ai-102/featured_huc108e4bb09915787bab6fd7b66c49a3e_91565_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/ai-102/">A Guide to Microsoft Azure AI Engineer Associate Certification</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-11 11:13:34.279 &#43;0000 UTC">11 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/ai-102/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    AI-102
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/guides/azure/ds-workflow-ml-studio/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/ds-workflow-ml-studio/featured.svg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/ds-workflow-ml-studio/">Building Data Science Workflows with Azure ML Studio</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">7 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure Machine Learning
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/python/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Python
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/pandas/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Pandas
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/scikit-learn/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    scikit-learn
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/guides/azure/deep-learning-insights-applications/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/deep-learning-insights-applications/featured_hu3dc01b828c24ce9874547aac851e59cb_165856_600x0_resize_q75_box.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/deep-learning-insights-applications/">Fine-tuning BERT Models for NLP Tasks in Azure</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">6 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/deep-learning/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Deep Learning
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-machine-learning/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure Machine Learning
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/bert/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    BERT
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/transformers/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Transformers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugging-face/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugging Face
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/guides/azure/generative-ai-business-impact/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/guides/azure/generative-ai-business-impact/featured_hue9d6d8f5ca8a1d10b11086931105f741_37351_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/guides/azure/generative-ai-business-impact/">Implementing ChatGPT-like Models with Azure OpenAI Service</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time><span class="px-2 text-primary-500">&middot;</span><span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/data-science/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Data Science
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/generative-ai/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Generative AI
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/keywords/azure/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/azure-openai/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Azure OpenAI
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/gpt4/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    GPT4
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/transformers/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Transformers
+  </span>
+</span>
+  </span>
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/tags/hugging-face/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Hugging Face
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/ai-consultancy/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/docs/ai-consultancy/featured_hu4dd60d26de37d004ea6481b496d524fe_152046_600x0_resize_q75_box.jpg);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/ai-consultancy/">AI Consultancy</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">5 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/consultancy/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Consultancy
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+  
+
+  <a href="/docs/bots/" class="min-w-full">
+    
+    <div class="min-h-full border border-neutral-200 dark:border-neutral-700 border-2 rounded overflow-hidden shadow-2xl relative">
+        
+        <div class="w-full thumbnail_card_related nozoom" style="background-image:url(/docs/bots/featured_hufa38b13b4412205f3973f3145b06b977_231005_600x0_resize_box_3.png);"></div>
+        
+      
+
+      <div class="px-6 py-4">
+
+        
+        <div class="font-bold text-xl text-neutral-800 decoration-primary-500 hover:underline hover:underline-offset-2 dark:text-neutral"
+          href="/docs/bots/">AI Custom Bots</div>
+        
+
+        <div class="text-sm text-neutral-500 dark:text-neutral-400">
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  <span title="Reading time">4 mins</span>
+  
+
+  
+  
+</div>
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+
+<div class="flex flex-row flex-wrap items-center">
+  
+  
+  
+  
+  
+  
+  <span style="margin-top:0.5rem" class="mr-2" onclick="window.open(&#34;/categories/custom-bots/&#34;,'_self');">
+    <span class="flex" style="cursor: pointer;">
+  <span class="rounded-md border border-primary-400 px-1 py-[1px] text-xs font-normal text-primary-700 dark:border-primary-600 dark:text-primary-400">
+    Custom Bots
+  </span>
+</span>
+  </span>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+
+
+
+        </div>
+
+        
+      </div>
+      <div class="px-6 pt-4 pb-2">
+
+      </div>
+    </div>
+  </a>
+  
+</section>
+
+  
+      </div>
+     
+      
+      
+        
+        
+      <script>
+        var oid = "views_guides\\Azure\\ai-900\\index.md"
+        var oid_likes = "likes_guides\\Azure\\ai-900\\index.md"
+      </script>
+      
+      
+      
+      <script type="text/javascript" src="/js/page.min.b06a29d42a4ed16787978e2eee1e8c797b7698db2bc14ccee78f5c80ac566fc996190a73ad80a5e987558474b20b96fa38f7d85b405f165ff72b7b163c5ad11b.js" integrity="sha512-sGop1CpO0WeHl44u7h6MeXt2mNsrwUzO549cgKxWb8mWGQpzrYCl6YdVhHSyC5b6OPfYW0BfFl/3K3sWPFrRGw=="></script>
+  
+    </section>
+  <footer class="pt-8 max-w-prose print:hidden">
+
+    
+  
+    
+    
+    
+      
+      
+    
+    <div class="pt-8">
+      <hr class="border-dotted border-neutral-300 dark:border-neutral-600" />
+      <div class="flex justify-between pt-3">
+        <span>
+          
+            <a class="flex group mr-3" href="/guides/azure/ai-102/">
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >A Guide to Microsoft Azure AI Engineer Associate Certification</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-11 11:13:34.279 &#43;0000 UTC">11 May 2024</time>
+                  
+                </span>
+              </span>
+            </a>
+          
+        </span>
+        <span>
+          
+            <a class="flex text-right group ml-3" href="/guides/azure/ds-workflow-ml-studio/">
+              <span class="flex flex-col">
+                <span
+                  class="mt-[0.1rem] leading-6 group-hover:underline group-hover:decoration-primary-500"
+                  >Building Data Science Workflows with Azure ML Studio</span
+                >
+                <span class="mt-[0.1rem] text-xs text-neutral-500 dark:text-neutral-400">
+                  
+                    <time datetime="2024-05-06 11:13:34.279 &#43;0000 UTC">6 May 2024</time>
+                  
+                </span>
+              </span>
+              <span
+                class="ml-3 text-neutral-700 group-hover:text-primary-600 ltr:inline rtl:hidden dark:text-neutral dark:group-hover:text-primary-400"
+                >&rarr;</span
+              >
+              <span
+                class="mr-3 text-neutral-700 group-hover:text-primary-600 ltr:hidden rtl:inline dark:text-neutral dark:group-hover:text-primary-400"
+                >&larr;</span
+              >
+            </a>
+          
+        </span>
+      </div>
+    </div>
+  
+
+
+    
+  </footer>
+</article>
+
+      <div id="top-scroller" class="pointer-events-none absolute top-[110vh] bottom-0 w-12 ltr:right-0 rtl:left-0">
+  <a href="#the-top"
+    class="pointer-events-auto sticky top-[calc(100vh-5.5rem)] flex h-12 w-12 mb-16 items-center justify-center rounded-full bg-neutral/50 text-xl text-neutral-700 hover:text-primary-600 dark:bg-neutral-800/50 dark:text-neutral dark:hover:text-primary-400"
+    aria-label="Scroll to top" title="Scroll to top">
+    &uarr;
+  </a>
+</div>
+    </main><footer id="site-footer" class="py-10 print:hidden">
+  
+  
+    
+    <nav class="flex flex-row pb-4 text-base font-medium text-neutral-500 dark:text-neutral-400">
+      <ul class="flex flex-col list-none sm:flex-row">
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/keywords/"
+            title="Cloud Providers">
+            
+            Cloud
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/categories/"
+            title="Service Categories">
+            
+            Categories
+          </a>
+        </li>
+        
+        <li class="flex mb-1 ltr:text-right rtl:text-left sm:mb-0 ltr:sm:mr-7 ltr:sm:last:mr-0 rtl:sm:ml-7 rtl:sm:last:ml-0">
+          <a class="decoration-primary-500 hover:underline hover:decoration-2 hover:underline-offset-2 flex items-center" href="/tags/"
+            title="Technologies">
+            
+            Technologies
+          </a>
+        </li>
+        
+      </ul>
+    </nav>
+    
+  
+  <div class="flex items-center justify-between">
+
+    
+    
+    <p class="text-sm text-neutral-500 dark:text-neutral-400">
+      &copy;
+      2024
+      Kyriakos Antoniadis
+    </p>
+    
+
+    
+    
+
+  </div>
+  <script>
+    
+    mediumZoom(document.querySelectorAll("img:not(.nozoom)"), {
+      margin: 24,
+      background: 'rgba(0,0,0,0.5)',
+      scrollOffset: 0,
+    })
+    
+  </script>
+  
+  
+  <script type="text/javascript" src="/js/process.min.62060bb247f4de2b6dde45903668fefb68d792f365587605177b1227c0cf43588701edaca0cb40e2c8e2789bd5ce67c1d2a215b9fb258c3496a7cd25e7cb5fdf.js" integrity="sha512-YgYLskf03itt3kWQNmj&#43;&#43;2jXkvNlWHYFF3sSJ8DPQ1iHAe2soMtA4sjieJvVzmfB0qIVufsljDSWp80l58tf3w=="></script>
+  
+  
+  <a rel="me" href="https://masto.ai/@blowfish"></a>
+  
+</footer><div
+  id="search-wrapper"
+  class="invisible fixed inset-0 flex h-screen w-screen cursor-default flex-col bg-neutral-500/50 p-4 backdrop-blur-sm dark:bg-neutral-900/50 sm:p-6 md:p-[10vh] lg:p-[12vh]"
+  data-url="https://localhost:1313"
+  style="z-index:500"
+>
+  <div
+    id="search-modal"
+    class="flex flex-col w-full max-w-3xl min-h-0 mx-auto border rounded-md shadow-lg top-20 border-neutral-200 bg-neutral dark:border-neutral-700 dark:bg-neutral-800"
+  >
+    <header class="relative z-10 flex items-center justify-between flex-none px-2">
+      <form class="flex items-center flex-auto min-w-0">
+        <div class="flex items-center justify-center w-8 h-8 text-neutral-400">
+          
+
+  <span class="relative block icon">
+    <svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="search" class="svg-inline--fa fa-search fa-w-16" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor" d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z"/></svg>
+
+  </span>
+
+
+        </div>
+        <input
+          type="search"
+          id="search-query"
+          class="flex flex-auto h-12 mx-1 bg-transparent appearance-none focus:outline-dotted focus:outline-2 focus:outline-transparent"
+          placeholder="Search"
+          tabindex="0"
+        />
+      </form>
+      <button
+        id="close-search-button"
+        class="flex items-center justify-center w-8 h-8 text-neutral-700 hover:text-primary-600 dark:text-neutral dark:hover:text-primary-400"
+        title="Close (Esc)"
+      >
+        
+
+  <span class="relative block icon">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"><path fill="currentColor" d="M310.6 361.4c12.5 12.5 12.5 32.75 0 45.25C304.4 412.9 296.2 416 288 416s-16.38-3.125-22.62-9.375L160 301.3L54.63 406.6C48.38 412.9 40.19 416 32 416S15.63 412.9 9.375 406.6c-12.5-12.5-12.5-32.75 0-45.25l105.4-105.4L9.375 150.6c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L160 210.8l105.4-105.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-105.4 105.4L310.6 361.4z"/></svg>
+
+  </span>
+
+
+      </button>
+    </header>
+    <section class="flex-auto px-2 overflow-auto">
+      <ul id="search-results">
+        
+      </ul>
+    </section>
+  </div>
+</div>
+
+  </div>
+</body>
+
+</html>

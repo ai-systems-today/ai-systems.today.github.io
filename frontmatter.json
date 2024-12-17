@@ -76,6 +76,11 @@
   "frontMatter.preview.host": "http://localhost:1313",
   "frontMatter.content.pageFolders": [
     {
+      "title": "docs",
+      "path": "[[workspace]]/content/docs/consulting",
+      "previewPath": "'/docs/consulting'"
+    },
+    {
       "title": "guides",
       "path": "[[workspace]]/content/guides",
       "previewPath": "'guides'"

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure Machine Learning on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/tags/azure-machine-learning/</link>
+    <description>Recent content in Azure Machine Learning on AI SYSTEMS TODAY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Tue, 21 May 2024 10:48:27 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/azure-machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Harvesting the Power of AI - A Guide to Azure AI Services</title>
+      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
+      <description>Introduction: Unlock the potential of artificial intelligence with Azure AI Services. From enhancing customer experiences to optimizing operations, discover how Microsoft&amp;rsquo;s Azure AI platform can drive innovation and efficiency in your business. Dive into the benefits, practical applications, and steps to integrate these powerful tools into your workflow.
+Harvesting the Power of AI: A Comprehensive Guide to Azure AI Services
+In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) has become a critical tool for businesses looking to gain a competitive edge.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
+    </item>
+    
+    <item>
+      <title>Unleashing the Power of Azure AI for Application Innovation</title>
+      <link>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</guid>
+      <description>Learn how to leverage Azure AI for your business needs.
+Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
+    </item>
+    
+    <item>
+      <title>Building Data Science Workflows with Azure ML Studio</title>
+      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
+      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive. From optimizing business processes to unlocking new revenue streams, data science provides the foundation for impactful decision-making. However, building and managing end-to-end data science workflows is a complex task that requires the right tools and practices.
+Azure Machine Learning Studio, a comprehensive cloud-based platform provided by Microsoft, simplifies the journey of creating, training, and deploying machine learning models.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
+    </item>
+    
+    <item>
+      <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
+      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
+      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.
+Azure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
+    </item>
+    
+  </channel>
+</rss>

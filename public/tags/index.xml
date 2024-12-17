@@ -2,9 +2,281 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Technologies on AI SYSTEMS TODAY</title>
-    <link>/tags/</link>
+    <link>https://localhost:1313/tags/</link>
     <description>Recent content in Technologies on AI SYSTEMS TODAY</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AI-102</title>
+      <link>https://localhost:1313/tags/ai-102/</link>
+      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-102/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-3004</title>
+      <link>https://localhost:1313/tags/ai-3004/</link>
+      <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-3004/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-3003</title>
+      <link>https://localhost:1313/tags/ai-3003/</link>
+      <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-3003/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-3002</title>
+      <link>https://localhost:1313/tags/ai-3002/</link>
+      <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-3002/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-900</title>
+      <link>https://localhost:1313/tags/ai-900/</link>
+      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-900/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-050</title>
+      <link>https://localhost:1313/tags/ai-050/</link>
+      <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-050/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI Integration</title>
+      <link>https://localhost:1313/tags/ai-integration/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-integration/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>AI-driven copilots</title>
+      <link>https://localhost:1313/tags/ai-driven-copilots/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ai-driven-copilots/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure AI Services</title>
+      <link>https://localhost:1313/tags/azure-ai-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-ai-services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Application Innovation</title>
+      <link>https://localhost:1313/tags/azure-application-innovation/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-application-innovation/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Bot Service</title>
+      <link>https://localhost:1313/tags/azure-bot-service/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-bot-service/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Cognitive Services</title>
+      <link>https://localhost:1313/tags/azure-cognitive-services/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-cognitive-services/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure DevOps</title>
+      <link>https://localhost:1313/tags/azure-devops/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-devops/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Kubernetes Service</title>
+      <link>https://localhost:1313/tags/azure-kubernetes-service/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-kubernetes-service/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Machine Learning</title>
+      <link>https://localhost:1313/tags/azure-machine-learning/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-machine-learning/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Monitor</title>
+      <link>https://localhost:1313/tags/azure-monitor/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-monitor/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure Platform Engineering</title>
+      <link>https://localhost:1313/tags/azure-platform-engineering/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-platform-engineering/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Infrastructure as Code</title>
+      <link>https://localhost:1313/tags/infrastructure-as-code/</link>
+      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/infrastructure-as-code/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Azure OpenAI</title>
+      <link>https://localhost:1313/tags/azure-openai/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/azure-openai/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>BERT</title>
+      <link>https://localhost:1313/tags/bert/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/bert/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>GPT4</title>
+      <link>https://localhost:1313/tags/gpt4/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/gpt4/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Hugging Face</title>
+      <link>https://localhost:1313/tags/hugging-face/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/hugging-face/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Pandas</title>
+      <link>https://localhost:1313/tags/pandas/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/pandas/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Python</title>
+      <link>https://localhost:1313/tags/python/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/python/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>scikit-learn</title>
+      <link>https://localhost:1313/tags/scikit-learn/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/scikit-learn/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>Transformers</title>
+      <link>https://localhost:1313/tags/transformers/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/transformers/</guid>
+      <description></description>
+      
+    </item>
+    
+    <item>
+      <title>CI/CD</title>
+      <link>https://localhost:1313/tags/ci/cd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://localhost:1313/tags/ci/cd/</guid>
+      <description></description>
+      
+    </item>
+    
   </channel>
 </rss>

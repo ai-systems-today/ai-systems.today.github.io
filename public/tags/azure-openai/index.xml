@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Azure OpenAI on AI SYSTEMS TODAY</title>
+    <link>https://localhost:1313/tags/azure-openai/</link>
+    <description>Recent content in Azure OpenAI on AI SYSTEMS TODAY</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <copyright>© 2024 Kyriakos Antoniadis</copyright>
+    <lastBuildDate>Mon, 06 May 2024 11:13:34 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/azure-openai/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Implementing ChatGPT-like Models with Azure OpenAI Service</title>
+      <link>https://localhost:1313/guides/azure/generative-ai-business-impact/</link>
+      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
+      
+      <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
+      <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations. For businesses, the potential applications of such models are immense, ranging from customer support and marketing to research and development.
+The Azure OpenAI Service, a partnership between Microsoft and OpenAI, brings state-of-the-art generative models like GPT-4 to Azure.</description>
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
+    </item>
+    
+  </channel>
+</rss>

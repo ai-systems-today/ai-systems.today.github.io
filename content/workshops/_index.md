@@ -9,6 +9,9 @@ At AI SYSTEMS TODAY, we offer a comprehensive suite of training and certificatio
 <!-- Our curated selection of Microsoft Azure certification programs ensures that individuals and teams can confidently validate their expertise across various specializations. -->
 <!-- ## Our Workshop Series: ## -->
 
+{{< lead >}}
+Our Workshop Series:
+{{< /lead >}}
 - [**AI-900: Azure AI Fundamentals**](ai-900)
 - [**AI-3002: Azure AI Document Intelligence Solution**](ai-3002)
 - [**AI-3003: Azure AI NLP Solution**](ai-3003)
