@@ -12,12 +12,12 @@ dateFormat = "2 January 2006"
 description = "A powerful, lightweight theme for Hugo."
 logo = "img/64w.png"
 secondaryLogo = "img/64b.png"
-logoText = "AI SYSTEMS TODAY" # Add this line
+# logoText = "AI SYSTEMS TODAY" # Add this line
 
 [author]
 #name = "Kyriakos Antoniadis"
 #image = "img/662e95281b303_g.png"
-headline = "Empowering your business with cutting-edge AI solutions"
+# headline = "Empowering your business with cutting-edge AI solutions"
 #bio = "AI SYSTEMS TODAY"
 #links = [ 
 #    { email = "mailto:contact@ai-systems.today" }, 
