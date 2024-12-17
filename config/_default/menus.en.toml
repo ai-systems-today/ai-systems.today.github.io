@@ -15,10 +15,17 @@
   pageRef = "/"
   weight = 10
 
+<<<<<<< HEAD
 #[[main]]
 #  name = "About"
 #  pageRef = "about"
 #  weight = 20
+=======
+[[main]]
+  name = "About"
+  pageRef = "about"
+  weight = 20
+>>>>>>> origin/main
 
 [[main]]
   name = "Services"
@@ -26,11 +33,14 @@
   weight = 25
 
 [[main]]
+<<<<<<< HEAD
   name = "Workshops"
   pageRef = "workshops"
   weight = 30
 
 [[main]]
+=======
+>>>>>>> origin/main
   name = "Blog"
   pageRef = "guides"
   weight = 40
