@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "route": "/index.json",
+        "allowedRoles": ["anonymous"],
+        "headers": {
+          "Access-Control-Allow-Origin": "*"
+        }
+      }
+    ]
+  }
+  
