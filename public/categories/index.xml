@@ -1,109 +1,110 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Service Categories on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/categories/</link>
-    <description>Recent content in Service Categories on AI SYSTEMS TODAY</description>
+    <title>Service Categories on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/</link>
+    <description>Recent content in Service Categories on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Workshops</title>
-      <link>https://localhost:1313/categories/workshops/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/workshops/</link>
       <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/workshops/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/workshops/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Consultancy</title>
-      <link>https://localhost:1313/categories/consultancy/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/consultancy/</link>
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/consultancy/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/consultancy/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Generative AI</title>
-      <link>https://localhost:1313/categories/generative-ai/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/generative-ai/</link>
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/generative-ai/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/generative-ai/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Custom Bots</title>
-      <link>https://localhost:1313/categories/custom-bots/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/custom-bots/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/custom-bots/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/custom-bots/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Data Science</title>
-      <link>https://localhost:1313/categories/data-science/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/data-science/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/data-science/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/data-science/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Deep Learning</title>
-      <link>https://localhost:1313/categories/deep-learning/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/deep-learning/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/deep-learning/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/deep-learning/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Integrations</title>
-      <link>https://localhost:1313/categories/integrations/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/integrations/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/integrations/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/integrations/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Development</title>
-      <link>https://localhost:1313/categories/development/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/development/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/development/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/development/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Support</title>
-      <link>https://localhost:1313/categories/support/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/support/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/support/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/support/</guid>
       <description></description>
       
     </item>
     
     <item>
       <title>Training</title>
-      <link>https://localhost:1313/categories/training/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/training/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/categories/training/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/training/</guid>
       <description></description>
       
     </item>

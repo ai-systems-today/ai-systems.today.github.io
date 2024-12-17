@@ -1,21 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Training on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/categories/training/</link>
-    <description>Recent content in Training on AI SYSTEMS TODAY</description>
+    <title>Training on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/training/</link>
+    <description>Recent content in Training on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://localhost:1313/categories/training/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Sat, 15 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/training/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>AI Training</title>
-      <link>https://localhost:1313/docs/training/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://localhost:1313/docs/training/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/</guid>
       <description>Master the Art of Artificial Intelligence for Business SuccessOverview #AI Systems Today offers a range of training workshops designed to equip your team with the knowledge and skills needed to effectively utilize AI technologies. Our workshops are synchronous, providing real-time, interactive learning experiences that cover various aspects of AI and machine learning. We aim to empower your team with the expertise required to leverage AI for business success.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/training/featured.jpg" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/featured.jpg" />
     </item>
     
   </channel>

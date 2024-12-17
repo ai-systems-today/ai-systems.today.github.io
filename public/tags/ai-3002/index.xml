@@ -1,22 +1,23 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>AI-3002 on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/tags/ai-3002/</link>
-    <description>Recent content in AI-3002 on AI SYSTEMS TODAY</description>
+    <title>AI-3002 on </title>
+    <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3002/</link>
+    <description>Recent content in AI-3002 on </description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Fri, 24 May 2024 09:13:15 +0000</lastBuildDate><atom:link href="https://localhost:1313/tags/ai-3002/index.xml" rel="self" type="application/rss+xml" />
+    <copyright>© 2024 </copyright>
+    <lastBuildDate>Fri, 24 May 2024 09:13:15 +0000</lastBuildDate><atom:link href="https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3002/index.xml" rel="self" type="application/rss+xml" />
+    
     <item>
       <title>Document Intelligence Solution</title>
-      <link>https://localhost:1313/workshops/ai-3002/</link>
+      <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</link>
       <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
       
-      <guid>https://localhost:1313/workshops/ai-3002/</guid>
+      <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</guid>
       <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3002/featured.png" />
+      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/featured.png" />
     </item>
     
   </channel>
