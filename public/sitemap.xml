@@ -3,718 +3,430 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-102/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-102/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-102/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/series/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/series/workshops/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/workshops/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/workshops/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/workshops/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:36+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-3004/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:30+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-3004/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3004/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:30+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-3003/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3003/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:23+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-3003/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:23+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-3002/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-3002/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:15+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-3002/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:15+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-900/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-900/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:06+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-900/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:13:06+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-050/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-050/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:12:32+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/workshops/ai-050/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-24T09:12:32+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-integration/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-integration/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ai-driven-copilots/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ai-driven-copilots/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/keywords/azure/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/keywords/azure/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-ai-services/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-ai-services/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-application-innovation/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-application-innovation/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-bot-service/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-bot-service/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-cognitive-services/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-cognitive-services/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-devops/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-devops/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-kubernetes-service/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-kubernetes-service/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-machine-learning/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-machine-learning/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-monitor/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-monitor/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-platform-engineering/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-platform-engineering/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/keywords/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/keywords/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/consultancy/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/consultancy/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/generative-ai/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/generative-ai/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/infrastructure-as-code/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/infrastructure-as-code/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-21T10:48:27+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/ai-102/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-11T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/ai-900/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-11T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/ai-consultancy/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/ai-consultancy/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/bots/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/bots/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/integrations/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/integrations/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/azure-openai/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/azure-openai/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/bert/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/bert/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/custom-bots/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/custom-bots/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/data-science/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/data-science/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/deep-learning/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/deep-learning/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/deep-learning-insights-applications/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/gpt4/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/gpt4/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/hugging-face/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/hugging-face/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/guides/azure/generative-ai-business-impact/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/generative-ai-business-impact/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/integrations/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/integrations/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/pandas/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/pandas/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/python/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/python/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/scikit-learn/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/scikit-learn/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/series/services/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/series/services/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/transformers/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/transformers/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T11:13:34+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/about/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/about/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2024-05-06T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/development/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/development/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/development/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/development/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-16T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/support/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/support/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/docs/training/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/support/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/support/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/categories/training/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/categories/training/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <lastmod>2020-08-15T00:00:00+00:00</lastmod>
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/authors/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/authors/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/tags/ci/cd/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/tags/ci/cd/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/authors/secondauthor/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/authors/secondauthor/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-<<<<<<< HEAD
-    <loc>https://localhost:1313/authors/nunocoracao/</loc>
-=======
     <loc>https://polite-forest-05fdf2d03.5.azurestaticapps.net/authors/nunocoracao/</loc>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     <changefreq>always</changefreq>
     <priority>0.5</priority>
   </url>

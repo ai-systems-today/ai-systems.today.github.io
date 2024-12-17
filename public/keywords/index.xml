@@ -1,24 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Cloud Providers on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/keywords/</link>
-    <description>Recent content in Cloud Providers on AI SYSTEMS TODAY</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Tue, 21 May 2024 10:48:27 +0000</lastBuildDate><atom:link href="https://localhost:1313/keywords/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure</title>
-      <link>https://localhost:1313/keywords/azure/</link>
-      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
-      
-      <guid>https://localhost:1313/keywords/azure/</guid>
-=======
-    <title>Cloud Providers on </title>
     <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/keywords/</link>
-    <description>Recent content in Cloud Providers on </description>
+    <description>Recent content in Cloud Providers on AI SYSTEMS TODAY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
@@ -30,7 +15,6 @@
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/keywords/azure/</guid>
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
       <description></description>
       
     </item>

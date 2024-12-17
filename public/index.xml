@@ -1,27 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-<<<<<<< HEAD
     <title>Welcome to AI SYSTEMS TODAY on AI SYSTEMS TODAY</title>
-    <link>https://localhost:1313/</link>
-    <description>Recent content in Welcome to AI SYSTEMS TODAY on AI SYSTEMS TODAY</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>© 2024 Kyriakos Antoniadis</copyright>
-    <lastBuildDate>Fri, 24 May 2024 09:13:36 +0000</lastBuildDate><atom:link href="https://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Azure AI Engineer Associate</title>
-      <link>https://localhost:1313/workshops/ai-102/</link>
-      <pubDate>Fri, 24 May 2024 09:13:36 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-102/</guid>
-      <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
-At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-102/featured.png" />
-=======
-    <title>Welcome to AI SYSTEMS TODAY on </title>
     <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/</link>
-    <description>Recent content in Welcome to AI SYSTEMS TODAY on </description>
+    <description>Recent content in Welcome to AI SYSTEMS TODAY on AI SYSTEMS TODAY</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <copyright>© 2024 </copyright>
@@ -36,20 +18,10 @@ At AI Systems Today, we provide comprehensive workshops tailored to help you mas
       <description>Introduction #Artificial Intelligence (AI) is rapidly transforming industries by enhancing capabilities and driving innovation. Understanding and implementing AI solutions is essential for IT professionals, developers, and engineers. The Microsoft Azure AI Engineer Associate certification (AI-102) is designed to validate the skills necessary to build, manage, and deploy AI solutions using Azure services.
 At AI Systems Today, we provide comprehensive workshops tailored to help you master the AI-102 certification exam.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-102/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Vision Solution</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/workshops/ai-3004/</link>
-      <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-3004/</guid>
-      <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
-At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3004/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/</link>
       <pubDate>Fri, 24 May 2024 09:13:30 +0000</pubDate>
       
@@ -57,20 +29,10 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Computer Vision is an essential technology that allows machines to interpret and understand visual data. The Microsoft AI-3004 certification focuses on building and implementing computer vision solutions using Azure AI Vision services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying computer vision models with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3004 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3004/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>NLP Solution</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/workshops/ai-3003/</link>
-      <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-3003/</guid>
-      <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
-At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3003/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/</link>
       <pubDate>Fri, 24 May 2024 09:13:23 +0000</pubDate>
       
@@ -78,20 +40,10 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Natural Language Processing (NLP) is an essential technology that enables machines to understand, interpret, and respond to human language. The Microsoft AI-3003 certification focuses on building and implementing NLP solutions using Azure AI services. This certification is ideal for AI engineers, developers, and solution architects who want to demonstrate their expertise in deploying NLP models with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3003 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3003/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Document Intelligence Solution</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/workshops/ai-3002/</link>
-      <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-3002/</guid>
-      <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
-At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-3002/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/</link>
       <pubDate>Fri, 24 May 2024 09:13:15 +0000</pubDate>
       
@@ -99,20 +51,10 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Artificial Intelligence (AI) is transforming how businesses handle data, with significant advancements in document processing and data extraction technologies. The Microsoft AI-3002 credential focuses on leveraging Azure’s AI services to automate and enhance document processing capabilities. This certification is ideal for professionals aiming to demonstrate their expertise in implementing solutions that analyze, interpret, and manipulate documents using Azure AI services.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-3002 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-3002/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Azure AI Fundamentals</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/workshops/ai-900/</link>
-      <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-900/</guid>
-      <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
-At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-900/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/</link>
       <pubDate>Fri, 24 May 2024 09:13:06 +0000</pubDate>
       
@@ -120,20 +62,10 @@ At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access
       <description>Introduction #Artificial Intelligence (AI) has transformed the technological landscape, becoming a pivotal component in various domains. It is imperative for tech professionals and enthusiasts to comprehend the basics of AI to thrive in this evolving field. Microsoft Azure AI Fundamentals certification (AI-900) offers a comprehensive understanding of AI concepts and Microsoft Azure&amp;rsquo;s AI services, equipping individuals with the skills required to leverage these technologies effectively.
 At AI SYSTEMS TODAY, we are dedicated to ensuring that professionals have access to the resources and training they need to succeed.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-900/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Generative AI Solutions</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/workshops/ai-050/</link>
-      <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
-      
-      <guid>https://localhost:1313/workshops/ai-050/</guid>
-      <description>Introduction #Generative AI leverages powerful models to create content, from text and code to images. The Microsoft AI-050 learning path focuses on developing AI solutions using Azure OpenAI Service, which includes models like ChatGPT, GPT, Codex, and DALL-E. This certification is ideal for AI engineers and developers aiming to demonstrate expertise in implementing generative AI solutions with Azure.
-At AI Systems Today, we offer specialized workshops designed to help you master the AI-050 certification.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/workshops/ai-050/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/</link>
       <pubDate>Fri, 24 May 2024 09:12:32 +0000</pubDate>
       
@@ -141,20 +73,10 @@ At AI Systems Today, we offer specialized workshops designed to help you master 
       <description>Introduction #Generative AI leverages powerful models to create content, from text and code to images. The Microsoft AI-050 learning path focuses on developing AI solutions using Azure OpenAI Service, which includes models like ChatGPT, GPT, Codex, and DALL-E. This certification is ideal for AI engineers and developers aiming to demonstrate expertise in implementing generative AI solutions with Azure.
 At AI Systems Today, we offer specialized workshops designed to help you master the AI-050 certification.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/workshops/ai-050/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Azure Technologies for Effective Platform Engineering</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
-      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
-      <description>Learn about Azure&amp;rsquo;s tools and services essential for building robust platforms.
-In the dynamic world of software development, platform engineering has become a cornerstone for delivering high-quality software efficiently and reliably. Microsoft Azure, with its comprehensive suite of cloud services, stands out as a critical enabler of platform engineering. This blog delves into the role of Azure technologies in platform engineering, highlighting how they enhance productivity, support DevOps, and drive innovation.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
@@ -162,21 +84,10 @@ In the dynamic world of software development, platform engineering has become a 
       <description>Learn about Azure&amp;rsquo;s tools and services essential for building robust platforms.
 In the dynamic world of software development, platform engineering has become a cornerstone for delivering high-quality software efficiently and reliably. Microsoft Azure, with its comprehensive suite of cloud services, stands out as a critical enabler of platform engineering. This blog delves into the role of Azure technologies in platform engineering, highlighting how they enhance productivity, support DevOps, and drive innovation.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Harvesting the Power of AI - A Guide to Azure AI Services</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
-      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/</guid>
-      <description>Introduction: Unlock the potential of artificial intelligence with Azure AI Services. From enhancing customer experiences to optimizing operations, discover how Microsoft&amp;rsquo;s Azure AI platform can drive innovation and efficiency in your business. Dive into the benefits, practical applications, and steps to integrate these powerful tools into your workflow.
-Harvesting the Power of AI: A Comprehensive Guide to Azure AI Services
-In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) has become a critical tool for businesses looking to gain a competitive edge.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/</link>
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
@@ -185,20 +96,10 @@ In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) 
 Harvesting the Power of AI: A Comprehensive Guide to Azure AI Services
 In today&amp;rsquo;s fast-paced digital landscape, artificial intelligence (AI) has become a critical tool for businesses looking to gain a competitive edge.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/harvesting-power-ai-guide-azure-ai-services/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Unleashing the Power of Azure AI for Application Innovation</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</link>
-      <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</guid>
-      <description>Learn how to leverage Azure AI for your business needs.
-Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/</link>
       <pubDate>Tue, 21 May 2024 10:48:27 +0000</pubDate>
       
@@ -206,115 +107,60 @@ Artificial intelligence (AI) has become a driving force in modern application de
       <description>Learn how to leverage Azure AI for your business needs.
 Artificial intelligence (AI) has become a driving force in modern application development, transforming how businesses operate and compete. Microsoft Azure AI, a comprehensive suite of AI services, empowers organizations to innovate and create intelligent applications that can learn, reason, and respond. This blog explores the costs, benefits, and challenges of using Azure AI for application innovation, providing insights on how to leverage this powerful platform to achieve your business goals.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/azure-ai-application-innovation-costs-benefits-challenges/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>A Guide to Microsoft Azure AI Engineer Associate Certification</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/ai-102/</link>
-      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/ai-102/</guid>
-      <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-102/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/</link>
       <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/</guid>
       <description>Introduction #Artificial Intelligence (AI) continues to revolutionize industries, and the demand for skilled AI professionals is at an all-time high. The Microsoft Azure AI Engineer Associate certification, known as AI-102, equips professionals with the knowledge and skills necessary to design, implement, and manage AI solutions using Azure AI services. This comprehensive guide delves into the AI-102 certification, highlighting its importance, the skills it covers, and the benefits it offers for career advancement.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-102/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>A Guide to Microsoft Azure AI Fundamentals</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/ai-900/</link>
-      <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/ai-900/</guid>
-      <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ai-900/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/</link>
       <pubDate>Sat, 11 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/</guid>
       <description>In the rapidly evolving field of technology, Microsoft Azure AI Fundamentals stands as a cornerstone for developers and organizations aiming to harness the power of artificial intelligence (AI) [1]. This comprehensive guide delves into the multifaceted world of Azure AI Services, offering a suite of intelligent APIs and models designed to facilitate the development of advanced applications that are not only market-ready but also adhere to the principles of responsible AI [1].</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ai-900/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Consultancy</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/ai-consultancy/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/ai-consultancy/</guid>
-      <description>Unlock the Power of Artificial Intelligence for Strategic GrowthOverview #AI Systems Today offers expert consultancy services designed to help businesses navigate the complex landscape of AI and machine learning. Our consultancy services provide strategic guidance, technical expertise, and actionable insights to drive your AI initiatives forward. We leverage our deep knowledge of Microsoft’s Azure AI Platform to deliver solutions that are both innovative and practical, ensuring your business stays ahead of the curve.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/ai-consultancy/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/ai-consultancy/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/ai-consultancy/</guid>
       <description>Unlock the Power of Artificial Intelligence for Strategic GrowthOverview #AI Systems Today offers expert consultancy services designed to help businesses navigate the complex landscape of AI and machine learning. Our consultancy services provide strategic guidance, technical expertise, and actionable insights to drive your AI initiatives forward. We leverage our deep knowledge of Microsoft’s Azure AI Platform to deliver solutions that are both innovative and practical, ensuring your business stays ahead of the curve.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/ai-consultancy/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Custom Bots</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/bots/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/bots/</guid>
-      <description>Unlock the Power of Artificial Intelligence for Strategic GrowthOverview #At AI Systems Today, we excel in developing custom AI co-pilots designed to enhance productivity, support decision-making, and streamline operations. Leveraging Microsoft’s Copilot Studio, our custom co-pilots are tailored to your specific business needs, providing intelligent assistance across various domains. These AI-driven assistants are designed to seamlessly integrate into your workflows, offering real-time insights and automation capabilities that drive efficiency and innovation.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/bots/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/bots/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/bots/</guid>
       <description>Unlock the Power of Artificial Intelligence for Strategic GrowthOverview #At AI Systems Today, we excel in developing custom AI co-pilots designed to enhance productivity, support decision-making, and streamline operations. Leveraging Microsoft’s Copilot Studio, our custom co-pilots are tailored to your specific business needs, providing intelligent assistance across various domains. These AI-driven assistants are designed to seamlessly integrate into your workflows, offering real-time insights and automation capabilities that drive efficiency and innovation.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/bots/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Integrations</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/integrations/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/integrations/</guid>
-      <description>Empower Your Team with Specialized Azure Training ProgramsOverview #AI Systems Today specializes in creating seamless integrations that connect your existing systems with advanced AI technologies. By leveraging Microsoft&amp;rsquo;s Azure AI Platform, including AI Studio and Copilot Studio, we ensure that your operations are enhanced through intelligent automation, real-time analytics, and improved decision-making. Our integration services are designed to bring the full power of AI into your business environment, making your systems smarter and more efficient.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/integrations/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/integrations/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/integrations/</guid>
       <description>Empower Your Team with Specialized Azure Training ProgramsOverview #AI Systems Today specializes in creating seamless integrations that connect your existing systems with advanced AI technologies. By leveraging Microsoft&amp;rsquo;s Azure AI Platform, including AI Studio and Copilot Studio, we ensure that your operations are enhanced through intelligent automation, real-time analytics, and improved decision-making. Our integration services are designed to bring the full power of AI into your business environment, making your systems smarter and more efficient.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/integrations/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Building Data Science Workflows with Azure ML Studio</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/ds-workflow-ml-studio/</guid>
-      <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive. From optimizing business processes to unlocking new revenue streams, data science provides the foundation for impactful decision-making. However, building and managing end-to-end data science workflows is a complex task that requires the right tools and practices.
-Azure Machine Learning Studio, a comprehensive cloud-based platform provided by Microsoft, simplifies the journey of creating, training, and deploying machine learning models.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/ds-workflow-ml-studio/featured.svg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
@@ -322,20 +168,10 @@ Azure Machine Learning Studio, a comprehensive cloud-based platform provided by 
       <description>Empowering Data Science with AIIntroduction #In today&amp;rsquo;s rapidly evolving data landscape, harnessing the power of data science and artificial intelligence (AI) is essential for organizations seeking to remain competitive. From optimizing business processes to unlocking new revenue streams, data science provides the foundation for impactful decision-making. However, building and managing end-to-end data science workflows is a complex task that requires the right tools and practices.
 Azure Machine Learning Studio, a comprehensive cloud-based platform provided by Microsoft, simplifies the journey of creating, training, and deploying machine learning models.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/ds-workflow-ml-studio/featured.svg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Fine-tuning BERT Models for NLP Tasks in Azure</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/deep-learning-insights-applications/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/deep-learning-insights-applications/</guid>
-      <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.
-Azure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/deep-learning-insights-applications/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
@@ -343,20 +179,10 @@ Azure Machine Learning provides a comprehensive environment for training, fine-t
       <description>Deep Learning Insights &amp;amp; ApplicationIntroduction #Natural Language Processing (NLP) has revolutionized the way businesses interact with and understand their customers. From sentiment analysis to named entity recognition and chatbots, NLP applications are increasingly important for extracting insights and automating communication. In this domain, transformer models like BERT (Bidirectional Encoder Representations from Transformers) have set new standards for performance.
 Azure Machine Learning provides a comprehensive environment for training, fine-tuning, and deploying NLP models efficiently.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/deep-learning-insights-applications/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>Implementing ChatGPT-like Models with Azure OpenAI Service</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/guides/azure/generative-ai-business-impact/</link>
-      <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
-      
-      <guid>https://localhost:1313/guides/azure/generative-ai-business-impact/</guid>
-      <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations. For businesses, the potential applications of such models are immense, ranging from customer support and marketing to research and development.
-The Azure OpenAI Service, a partnership between Microsoft and OpenAI, brings state-of-the-art generative models like GPT-4 to Azure.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/guides/azure/generative-ai-business-impact/featured.png" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/generative-ai-business-impact/</link>
       <pubDate>Mon, 06 May 2024 11:13:34 +0000</pubDate>
       
@@ -364,39 +190,20 @@ The Azure OpenAI Service, a partnership between Microsoft and OpenAI, brings sta
       <description>Generative AI &amp;amp; Its Business ImpactIntroduction #In recent years, generative AI models like ChatGPT have transformed the AI landscape. These models can generate human-like text, write essays, code, and even conduct conversations. For businesses, the potential applications of such models are immense, ranging from customer support and marketing to research and development.
 The Azure OpenAI Service, a partnership between Microsoft and OpenAI, brings state-of-the-art generative models like GPT-4 to Azure.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/guides/azure/generative-ai-business-impact/featured.png" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Development</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/development/</link>
-      <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/development/</guid>
-      <description>Innovate and Scale with Purpose-Built AI ApplicationsOverview #At AI Systems Today, we provide end-to-end AI development services that encompass everything from conceptualization to deployment. Our team of experts leverages the latest tools and technologies, including Microsoft’s Azure AI Platform, to develop innovative AI solutions that drive business growth and efficiency. We are committed to delivering high-quality AI applications that are tailored to meet your unique needs and challenges.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/development/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/development/</link>
       <pubDate>Sun, 16 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/development/</guid>
       <description>Innovate and Scale with Purpose-Built AI ApplicationsOverview #At AI Systems Today, we provide end-to-end AI development services that encompass everything from conceptualization to deployment. Our team of experts leverages the latest tools and technologies, including Microsoft’s Azure AI Platform, to develop innovative AI solutions that drive business growth and efficiency. We are committed to delivering high-quality AI applications that are tailored to meet your unique needs and challenges.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/development/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Support</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/support/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/support/</guid>
-      <description>Maintain the Integrity and Efficiency of Your AI SystemsOverview #AI Systems Today offers comprehensive support services to ensure the smooth operation and maintenance of your AI solutions. Our support services are designed to provide timely assistance, troubleshoot issues, and ensure your AI technologies remain effective and up-to-date. We are committed to providing high-quality support that helps you maximize the value of your AI investments.
-Service Details #24/7 Support #We provide round-the-clock support to address any issues that may arise with your AI solutions.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/support/featured.jpeg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/support/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
@@ -404,26 +211,16 @@ Service Details #24/7 Support #We provide round-the-clock support to address a
       <description>Maintain the Integrity and Efficiency of Your AI SystemsOverview #AI Systems Today offers comprehensive support services to ensure the smooth operation and maintenance of your AI solutions. Our support services are designed to provide timely assistance, troubleshoot issues, and ensure your AI technologies remain effective and up-to-date. We are committed to providing high-quality support that helps you maximize the value of your AI investments.
 Service Details #24/7 Support #We provide round-the-clock support to address any issues that may arise with your AI solutions.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/support/featured.jpeg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
     <item>
       <title>AI Training</title>
-<<<<<<< HEAD
-      <link>https://localhost:1313/docs/training/</link>
-      <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://localhost:1313/docs/training/</guid>
-      <description>Master the Art of Artificial Intelligence for Business SuccessOverview #AI Systems Today offers a range of training workshops designed to equip your team with the knowledge and skills needed to effectively utilize AI technologies. Our workshops are synchronous, providing real-time, interactive learning experiences that cover various aspects of AI and machine learning. We aim to empower your team with the expertise required to leverage AI for business success.</description>
-      <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://localhost:1313/docs/training/featured.jpg" />
-=======
       <link>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/</link>
       <pubDate>Sat, 15 Aug 2020 00:00:00 +0000</pubDate>
       
       <guid>https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/</guid>
       <description>Master the Art of Artificial Intelligence for Business SuccessOverview #AI Systems Today offers a range of training workshops designed to equip your team with the knowledge and skills needed to effectively utilize AI technologies. Our workshops are synchronous, providing real-time, interactive learning experiences that cover various aspects of AI and machine learning. We aim to empower your team with the expertise required to leverage AI for business success.</description>
       <media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://polite-forest-05fdf2d03.5.azurestaticapps.net/docs/training/featured.jpg" />
->>>>>>> 1ccd6448070474344c5ef1167ca7ef1332919edd
     </item>
     
   </channel>
