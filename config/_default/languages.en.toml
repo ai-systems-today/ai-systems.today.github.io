@@ -2,7 +2,7 @@ languageCode = "en"
 languageName = "English"
 weight = 1
 
-# title = "AI SYSTEMS TODAY"
+title = "AI SYSTEMS TODAY"
 
 [params]
 displayName = "English"
