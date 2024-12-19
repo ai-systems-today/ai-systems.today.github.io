@@ -5,173 +5,128 @@ draft: false
 author: "Kyriakos Antoniadis"
 description: "Kyriakos Antoniadis"
 ---
-## Professional Summary
 
+## Advanced AI solutions tailored to enhance business operations
 
-A seasoned expert in Artificial Intelligence with a specialization in Machine Learning, Deep Learning, and Data Engineering. With over a decade in the data world, I seamlessly bridge the gap between complex data-driven algorithms and their real-world applications. My proficiency extends to data analysis, data science, and data engineering, crafting models tailored to address unique challenges. As a senior figure in the industry, I have consistently demonstrated visionary leadership, driving innovation while mentoring teams to excellence.
+Our services encompass:
 
----
+- **Custom AI Development**: Designing and implementing AI models to address business challenges.
+- **Machine Learning Integration**: Embedding machine learning algorithms into existing systems to improve decision-making processes.
+- **Data Engineering**: Structuring and optimising data pipelines to ensure efficient data flow and accessibility.
+- **AI Workshops**: Providing training sessions to equip teams with the knowledge and skills necessary to leverage AI technologies effectively.
 
-## Professional Experience
+We utilise various technologies, including cloud-based platforms, to deliver scalable and efficient AI solutions.
 
-### Owner, Founder, and CEO / AI Consultant
+At **AI Systems Today**, we offer a range of chatbot solutions tailored to meet diverse needs, categorised by capabilities and cost considerations:
 
-**AI SYSTEMS TODAY**
-*Athens, Greece*
-*April 2024 – Present*
+### **1. Personal Chatbots**
 
-* Leading the strategic vision and operations of AI SYSTEMS TODAY.
-* Providing expert AI consulting services to businesses, helping them integrate AI solutions into their operations.
-* Designing and implementing custom AI solutions to solve complex business challenges.
-* Mentoring and guiding teams on best practices in AI and machine learning.
+- **Overview**: Ideal for individual use or small-scale applications, these chatbots handle fundamental interactions and automate simple tasks.
+- **Technical Stack**:
+  - **Compute**: Azure Functions (serverless architecture)
+  - **Database**: Azure Cosmos DB
+  - **Framework**: LangChain.js for Retrieval-Augmented Generation (RAG)
+- **Features**:
+  - Cost-effective with pay-per-use pricing
+  - Scalable to accommodate varying workloads
+  - Quick deployment with minimal maintenance
+- **Use Case Example**: A personal assistant chatbot retrieves information from a user's documents.
 
-**Technologies Used:** Azure AI, Azure Machine Learning, Python, TensorFlow, PyTorch, Docker, Kubernetes, Azure Cognitive Services, Power BI, Git.
+### **2. Standard Chatbots**
 
-### Senior Cloud Architect
+- **Overview**: Designed for small to medium-sized businesses, these chatbots manage more complex interactions and provide enhanced user experiences.
+- **Technical Stack**:
+  - **Compute**: Azure App Service
+  - **Search**: Azure Cognitive Search with Semantic Search capabilities
+  - **AI Integration**: Azure OpenAI Service
+- **Features**:
+  - Improved natural language understanding
+  - Semantic search for accurate information retrieval
+  - Moderate cost with scalable options
+- **Use Case Example**: A customer support chatbot that understands user queries and provides relevant answers from a knowledge base.
 
-**Blazeclan Technologies**
-*Athens, Attiki, Greece*
-*December 2023 - April 2024*
+### **3. Advanced Chatbots for Enterprises**
 
-* Spearheaded the strategic implementation and management of innovative cloud solutions.
-* Played a crucial role in selecting appropriate cloud technologies and platforms.
-* Conducted cloud readiness assessments, architected cloud solutions across AWS, Azure, and Google Cloud.
-* Mentored junior architects and engineers in cloud security, cost management, and performance optimization.
+- **Overview**: Suited for large organisations, these chatbots offer sophisticated capabilities, including evaluation, analysis, and fine-tuning, to handle complex interactions and integrate seamlessly with enterprise systems.
+- **Technical Stack**:
+  - **Compute**: Azure Kubernetes Service (AKS) for containerised deployments.
+  - **Database**: Azure Cosmos DB
+  - Search and Analytics:
+    - Azure Cognitive Search with Semantic Search
+    - Azure Data Explorer (Kusto Query Language - KQL)
+  - **AI Integration**: Azure OpenAI Service
+- **Features**:
+  - Advanced natural language processing with fine-tuning capabilities
+  - Integration with enterprise data sources for comprehensive responses
+  - Robust analytics and evaluation tools
+  - Higher cost, reflecting advanced features and enterprise-grade performance
+- **Use Case Example**: An internal organisational chatbot that assists employees by providing detailed analytics reports and insights based on company data.
 
-**Technologies Used:** AWS (EC2, S3, RDS, Lambda), Azure (Virtual Machines, Blob Storage, SQL Database), Google Cloud Platform, Kubernetes, Docker, Terraform, Ansible, Python, Jenkins, Grafana, Azure DevOps, Git.
+### **4. Enterprise-Grade Chatbots with Enhanced Data Integration**
 
-### Senior DevOps Engineer
+- **Overview**: Tailored for large-scale enterprises requiring high-performance chatbots with extensive data integration, these solutions combine advanced AI capabilities with robust data management and querying tools.
+- **Technical Stack**:
+  - **Compute**: Azure Virtual Machines or Azure Kubernetes Service for dedicated resources.
+  - **Database**: Azure Cosmos DB
+  - Search and Query:
+    - Azure Cognitive Search
+    - Azure Data Explorer utilising Kusto Query Language (KQL)
+  - **AI Integration**: Azure OpenAI Service
+- **Features**:
+  - Seamless integration with multiple data sources
+  - Real-time data analysis and response generation
+  - Customisable AI models tailored to specific enterprise needs
+  - Premium pricing commensurate with advanced capabilities and infrastructure requirements
+- **Use Case Example**: A financial services chatbot that provides clients with real-time investment insights, portfolio analysis, and market predictions by querying vast datasets and performing complex analyses.
 
-**Sword Group**
-*Athens, Attiki, Greece*
-*September 2023 – December 2023*
+By categorising our chatbot offerings in this manner, AI Systems Today ensures that clients can select a solution that aligns with their specific requirements and budget while leveraging the robust capabilities of Azure's ecosystem.
 
-* Managed a pivotal migration project, transitioning significant data assets from legacy systems to modern, scalable cloud infrastructures.
-* Developed and implemented a comprehensive DevOps strategy with CI/CD pipelines.
-* Enhanced operational efficiency and reduced time to market for new features.
-* Coached teams on best practices in DevOps.
+For detailed pricing information, please refer to Azure's official pricing pages:
 
-**Technologies Used:** Azure DevOps, Kubernetes, Docker, Jenkins, Terraform, Ansible, Azure Data Factory, Azure Blob Storage, CI/CD pipelines, Git.
+- Azure AI Bot Service: [Azure](https://azure.microsoft.com/en-us/pricing/details/bot-services/?utm_source=chatgpt.com)
+- Azure OpenAI Service: [Azure](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/?utm_source=chatgpt.com)
 
-### Senior Artificial Intelligence Engineer
+### **Details**
 
-**Moments Hospice**
-*Minneapolis, Minnesota, USA*
-*June 2023 – August 2023*
+These resources provide up-to-date information on the costs associated with each service, helping you make informed decisions based on your specific needs and budget.
 
-* Led the development of an AI system to revolutionize palliative care management using machine learning and NLP algorithms.
-* Conceptualized and integrated the solution with existing healthcare systems, ensuring compliance with standards.
-* Collaborated with clinical staff to refine AI models for greater accuracy.
+Here’s a comprehensive table outlining the categorised chatbot offerings with estimated costs and timelines for development:
 
-**Technologies Used:** Azure Cognitive Services, Azure Machine Learning, Python, SQL Server, Azure Data Factory, Power BI, Microsoft Dataverse, Docker, Kubernetes, Git, TensorFlow, PyTorch.
+| **Type**               | **Category**          | **Training Costs**                                                                                     | **Infrastructure Costs/Month**                                              | **Traffic Costs (Tokens)**                       | **Development Costs (One-Time)** | **Time to Complete** |
+| ---------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------- | -------------------------- |
+| **Personal Chatbot**   | Serverless AI Chat with RAG | $135 $/GB                                                                                                  | $50 - $300 (Azure Functions + CosmosDB)                                           | $0.005/token (low volume)           | $3,000–$5,000   | 2–4 weeks                             |                            |
+| **Standard Chatbot**   | Semantic Search Chatbot     | $$135 $/GB         | $300 -$1,500 (Azure App Service + Cognitive Search)   | $0.01/token (moderate volume) | $5,000–$15,000                                                                   | 4–6 weeks                                             |                                        |                            |
+| **Business Chatbot**   | Enterprise NLP Chatbot      | $135 $/GB                                                                                                  | $1,500 -$5,000 (AKS + Cognitive Search + Key Vault)                               | $0.015/token (moderate-high volume) | $15,000–$30,000 | 8–10 weeks                            |                            |
+| **Enterprise Chatbot** | AI-Powered RAG with KQL     | $135 $/GB                                                                                                  | $5,000+ (VMs or AKS + CosmosDB + Azure Data Explorer) | $0.02/token (high volume) | $30,000–$50,000+                                      | 12–16 weeks                           |                            |
 
-### Artificial Intelligence Engineer
+#### **Personal Chatbot**
 
-**ING**
-*Amsterdam, The Netherlands*
-*March 2023 – June 2023*
+- **Use Case**: Personal assistant or hobby projects.
+- **Stack**: Azure Functions (serverless), CosmosDB, LangChain.js.
+- **Cost Efficiency**: Minimal infrastructure costs with basic capabilities.
 
-* Developed an MVP NLP solution using Large Language Models (LLM) for summarization.
-* Consulted with the @Innovation manager to overcome technical challenges related to experimental technology.
+#### **Standard Chatbot**
 
-**Technologies Used:** Azure DevOps, Cognitive Services, Google Cloud Platform, Python.
+- **Use Case**: Small businesses or teams needing semantic search capabilities.
+- **Stack**: Azure App Service, Cognitive Search, Azure OpenAI.
+- **Enhanced Features**: Semantic search and scalable services.
 
-### Machine Learning Engineer
+#### **Business Chatbot**
 
-**Smartworkz**
-*Utrecht, The Netherlands*
-*September 2022 – February 2023*
+- **Use Case**: Mid-sized businesses requiring custom training and evaluation.
+- **Stack**: AKS, Key Vault, Azure OpenAI, Cognitive Search.
+- **Key Features**: Added security and moderate complexity in queries.
 
-* Machine Learning consultant and interviewer.
-* Developed AWS workshops, blogs, and a project for keyword matching with Azure DevOps and AWS services.
+#### **Enterprise Chatbot**
 
-**Technologies Used:** Hugo, GitHub, Forestry, Netlify, SageMaker, Azure DevOps, AWS Services.
+- **Use Case**: Large-scale enterprise systems with complex data integrations.
+- **Stack**: Azure Virtual Machines/AKS, CosmosDB, Azure Data Explorer, OpenAI.
+- **Advanced Features**: Real-time analysis, integration with enterprise data, and high scalability.
 
-### Machine Learning Engineer
+### **Considerations**
 
-**Visualyst**
-*Oslo, Norway*
-*October 2021 – May 2022*
-
-* Developed and completed the AWS MLOps pipeline for detecting gambling ads on Norwegian TV channels.
-
-**Technologies Used:** SageMaker, YOLOv5, FastAPI, Docker, Linux, Git.
-
-### Data Scientist
-
-**Teleperformance**
-*Piraeus, Greece*
-*September 2020 – September 2021*
-
-* Worked on projects including time-series analysis for calls prediction, CSAT KPI improvement using NLP emotion analysis.
-
-**Technologies Used:** Python, Jupyter, Grid Search, TensorFlow, PowerBI.
-
-### Senior Data Scientist
-
-**Centricity**
-*New York, USA*
-*July 2021 – September 2021*
-
-* Involved in projects related to sales prediction and emotion detection.
-
-**Technologies Used:** Python, Flask, Docker, TensorFlow.
-
-### CEO-Founder
-
-**AI SYSTEMS TODAY**
-*Athens, Greece*
-*November 2015 – September 2020*
-
-* Built infrastructure of containerized cloud services with AI.
-* Specialized in Multi-Criteria Decision Analysis and Mathematical Programming.
-
-**Technologies Used:** Python, Azure Services, Google Earth.
-
-### Lecturer
-
-**International College of Portsmouth**
-*Portsmouth, UK*
-*September 2014 – July 2016*
-
----
-
-## Skills & Expertise
-
-* **Machine Learning & AI:** TensorFlow, PyTorch, BERT, RoBERTa, Reinforcement Learning.
-* **Data Analysis & Science:** Pandas, Numpy, Jupyter, Seaborn, PowerBI.
-* **Cloud & DevOps:** AWS, Azure, Terraform, CloudFormation.
-
----
-
-## Certifications
-
-* **AWS:** Certified Machine Learning – Specialty
-* **Coursera:** Natural Language Processing Specialization
-
----
-
-## Education
-
-### MSc Information Technology & Web Development
-
-**University of West of Scotland**
-*Glasgow*
-*September 2001 – July 2004*
-**Thesis:** A prototype Analytic Hierarchy Process (AHP) application
-
-### BSc Applied Physics
-
-**Liverpool John Moore’s University**
-*Liverpool*
-*September 1984 – July 1989*
-**Thesis:** Fall-out radiation effects of the Chernobyl Accident
-
----
-
-## Hobbies & Interests
-
-* **Nature Enthusiast:** Passion for taking long walks in nature.
-* **Culinary Exploration:** Enjoy exploring diverse cuisines.
-* **Continuous Learner:** Committed to personal and professional growth.
-* **Music & Film:** Love for storytelling and creativity.
+- **Training Costs**: Depend on the requirement for custom fine-tuning.
+- **Traffic Costs**: Calculated based on expected token usage in Azure OpenAI pricing.
+- **IaaS Costs**: Include infrastructure like compute, storage, and networking.
+- **Development Costs**: Reflect the effort for custom development, integrations, and testing.
+- **Time to Complete**: Varies based on complexity and customisation needs.
