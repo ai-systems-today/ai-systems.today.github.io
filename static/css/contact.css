@@ -1,13 +1,13 @@
 .contact-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr;
   grid-template-rows: auto auto;
-  grid-gap: 20px;
+  grid-gap: 10px; /* Reduce the gap between grid items */
   margin: 20px 0;
 }
 
 .contact-item {
-  padding: 20px;
+  padding: 20px; /* Reduce padding for less space within each grid item */
   # border: 1px solid #ddd;
   border-radius: 8px;
   # background-color: #f9f9f9;
@@ -15,6 +15,12 @@
 
 .contact-item h2 {
   margin-top: 0;
+  line-height: 1.2; /* Reduce line height for h2 elements */
+}
+
+.contact-item p {
+  line-height: 1.4; /* Reduce line height for paragraph elements */
+  margin-bottom: 10px; /* Reduce bottom margin for paragraph elements */
 }
 
 .contact-form .form-group {
@@ -54,6 +60,20 @@
 
 .button:hover {
   background-color: #0056b3;
+}
+
+/* Media query for larger screens */
+@media (min-width: 1024px) {
+  .contact-grid {
+    grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+    grid-gap: 20px; /* Adjust the gap for larger screens */
+    width: 100%; /* Use full width of the page */
+    margin: 0 auto; /* Center the grid */
+  }
+
+  .contact-item {
+    padding: 20px; /* Reduce padding for less space within each grid item */
+  }
 }
 
 /* Media query for mobile devices */
