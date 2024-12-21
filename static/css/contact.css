@@ -8,9 +8,7 @@
 
 .contact-item {
   padding: 20px; /* Reduce padding for less space within each grid item */
-  # border: 1px solid #ddd;
   border-radius: 8px;
-  # background-color: #f9f9f9;
 }
 
 .contact-item h2 {
