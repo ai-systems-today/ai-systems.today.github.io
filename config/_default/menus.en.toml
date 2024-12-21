@@ -35,27 +35,27 @@
   pageRef = "guides"
   weight = 40
 
-[[main]]
-  name = "Tags"
-  weight = 50
+#[[main]]
+#  name = "Tags"
+#  weight = 50
 
-[[main]]
-  name = "Cloud"
-  parent = "Tags"
-  pageRef = "keywords"
-  weight = 500
+#[[main]]
+#  name = "Cloud"
+#  parent = "Tags"
+#  pageRef = "keywords"
+#  weight = 500
 
-[[main]]
-  name = "Categories"
-  parent = "Tags"
-  pageRef = "categories"
-  weight = 600
+#[[main]]
+#  name = "Categories"
+#  parent = "Tags"
+#  pageRef = "categories"
+#  weight = 600
 
-[[main]]
-  name = "Technologies"
-  parent = "Tags"
-  pageRef = "tags"
-  weight = 800
+#[[main]]
+#  name = "Technologies"
+#  parent = "Tags"
+#  pageRef = "tags"
+#  weight = 800
 
 #[[main]]
 #  name = "Contact"
