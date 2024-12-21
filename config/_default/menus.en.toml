@@ -57,12 +57,17 @@
   pageRef = "tags"
   weight = 800
 
-[[main]]
-  name = "Contact"
-  pageRef = "content"
-  url = "https://calendly.com/contact-ai-systems-today/30min"
-  weight = 60
+#[[main]]
+#  name = "Contact"
+#  pageRef = "content"
+#  url = "https://calendly.com/contact-ai-systems-today/30min"
+#  weight = 60
 
+[[main]]
+name = "Contact"
+pageRef = "contact"
+# url = "/contact/"
+weight = 60
 
 #[[main]]
 #  name = "Shortcodes"
