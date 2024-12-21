@@ -3,7 +3,7 @@ title: "Contact"
 date: 2023-10-01
 draft: false
 ---
-<link rel="stylesheet" href="{{ "contact.css" | relURL }}">
+
 <div class="contact-grid">
   <div class="contact-item">
     <h2>Address</h2>
