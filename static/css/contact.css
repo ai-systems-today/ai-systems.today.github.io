@@ -8,9 +8,9 @@
 
 .contact-item {
   padding: 20px;
-  border: 1px solid #ddd;
+  # border: 1px solid #ddd;
   border-radius: 8px;
-  background-color: #f9f9f9;
+  #background-color: #f9f9f9;
 }
 
 .contact-item h2 {
@@ -28,4 +28,12 @@
 
 .button:hover {
   background-color: #0056b3;
+}
+
+/* Media query for mobile devices */
+@media (max-width: 768px) {
+  .contact-grid {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
 }
