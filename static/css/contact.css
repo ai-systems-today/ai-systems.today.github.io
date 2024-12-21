@@ -63,7 +63,7 @@
 /* Media query for larger screens */
 @media (min-width: 1024px) {
   .contact-grid {
-    grid-template-columns: 1fr 1fr; /* Two columns for larger screens */
+    grid-template-columns: 1fr; /* Two columns for larger screens */
     grid-gap: 20px; /* Adjust the gap for larger screens */
     width: 100%; /* Use full width of the page */
     margin: 0 auto; /* Center the grid */
