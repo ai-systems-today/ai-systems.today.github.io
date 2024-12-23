@@ -3,7 +3,9 @@
   grid-template-columns: 1fr;
   grid-template-rows: auto auto;
   grid-gap: 10px; /* Reduce the gap between grid items */
-  margin: 20px 0;
+  margin: 20px auto; /* Center the grid */
+  max-width: 100%; /* Use full width of the page */
+  padding: 0 20px; /* Add padding to the sides */
 }
 
 .contact-item {
@@ -64,20 +66,25 @@
 @media (min-width: 1024px) {
   .contact-grid {
     grid-template-columns: 1fr; /* Two columns for larger screens */
-    grid-gap: 20px; /* Adjust the gap for larger screens */
-    width: 100%; /* Use full width of the page */
+    grid-gap: 40px; /* Increase the gap for larger screens */
+    max-width: 100%; /* Use full width of the page */
     margin: 0 auto; /* Center the grid */
   }
 
   .contact-item {
-    padding: 20px; /* Reduce padding for less space within each grid item */
+    padding: 40px; /* Increase padding for more space within each grid item */
   }
 }
 
 /* Media query for mobile devices */
 @media (max-width: 768px) {
   .contact-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* Single column for mobile devices */
     grid-template-rows: auto;
+    grid-gap: 10px; /* Adjust the gap for mobile devices */
+  }
+
+  .contact-item {
+    padding: 15px; /* Adjust padding for mobile devices */
   }
 }
