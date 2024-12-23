@@ -63,7 +63,10 @@ description: "AI SYSTEMS TODAY Homepage"
   <!-- <h1>AI SYSTEMS TODAY</h1> -->
 
   <!-- Subtitle -->
-  <p>Empowering your business with cutting-edge AI solutions</p>
+  {{< lead >}}
+  Empowering your business with cutting-edge AI solutions
+  {{< /lead >}}
+  <!-- <p>Empowering your business with cutting-edge AI solutions</p> -->
 
   <!-- Video -->
   <div class="responsive-video">

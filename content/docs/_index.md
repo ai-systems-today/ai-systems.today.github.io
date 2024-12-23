@@ -12,14 +12,14 @@ cascade:
 Empowering Businesses with Cutting-Edge AI.
 {{< /lead >}}
 
-Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes.
+<!-- Specializing in advanced AI solutions tailored for diverse industries, we pride ourselves on our team of seasoned experts dedicated to driving innovation and delivering tangible outcomes. -->
 
-- [AI Integrations](integrations)
+<!-- - [AI Integrations](integrations)
 - [AI Custom Bots](bots)
 - [AI Consultancy](consulting/)
 - [AI Development](development)
 - [AI Training](training)
-- [AI Support](support)
+- [AI Support](support) -->
 
 <!-- 
 ## AI Consulting
@@ -38,4 +38,4 @@ We offer comprehensive training programs and workshops designed to empower teams
 
 Our commitment to client success extends beyond implementation, with ongoing support and maintenance services to ensure the optimal performance and reliability of AI systems. Whether it's troubleshooting issues, optimizing performance, or adapting to changing business needs, our support team is here to provide expert assistance every step of the way. -->
 
----
+<!-- --- -->

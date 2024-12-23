@@ -1,14 +1,18 @@
 ---
 title: "About"
-date: 2024-05-06
-draft: false
-author: "Kyriakos Antoniadis"
 description: "Kyriakos Antoniadis"
+
+cascade:
+  showDate: false
+  showAuthor: false
+  invertPagination: true
 ---
 
-## Advanced AI solutions tailored to enhance business operations
-
+{{< lead >}}
 Our services encompass:
+{{< /lead >}}
+
+
 
 - **Custom AI Development**: Designing and implementing AI models to address business challenges.
 - **Machine Learning Integration**: Embedding machine learning algorithms into existing systems to improve decision-making processes.
