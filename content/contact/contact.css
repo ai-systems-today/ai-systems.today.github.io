@@ -28,3 +28,20 @@
   .button:hover {
     background-color: #0056b3;
   }
+
+  /* Responsive Design for Mobile */
+@media (max-width: 468px) {
+  .contact-grid {
+      grid-template-columns: 1fr;
+  }
+
+  .contact-grid > div {
+      display: block;
+      width: 100%;
+  }
+
+  iframe {
+      width: 100%;
+      height: auto;
+  }
+}

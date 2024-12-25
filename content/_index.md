@@ -57,11 +57,6 @@ description: "AI SYSTEMS TODAY Homepage"
 }
 </style>
 
-
-<div class="page-content">
-  <!-- Title -->
-  <!-- <h1>AI SYSTEMS TODAY</h1> -->
-
   <!-- Subtitle -->
   {{< lead >}}
   Empowering your business with cutting-edge AI solutions
