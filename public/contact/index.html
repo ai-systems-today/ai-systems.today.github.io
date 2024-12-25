@@ -123,6 +123,7 @@
   
   <link rel="stylesheet" href="/css/contact.css">
 </head>
+<link rel="stylesheet" href="/css/contact.css">
 <body
   class="flex flex-col h-screen px-6 m-auto text-lg leading-7 max-w-7xl bg-neutral text-neutral-900 dark:bg-neutral-800 dark:text-neutral sm:px-14 md:px-24 lg:px-32 scrollbar-thin scrollbar-track-neutral-200 scrollbar-thumb-neutral-400 dark:scrollbar-track-neutral-800 dark:scrollbar-thumb-neutral-600">
   <div id="the-top" class="absolute flex self-center">
@@ -577,65 +578,67 @@
   <section class="mt-0 prose flex max-w-full flex-col dark:prose-invert lg:flex-row">
     
     <div class="min-w-0 min-h-0 max-w-prose">
-      <table style="width: 100%; border-collapse: collapse;">
-  <tr>
-    <td style="vertical-align: top; width: 50%; padding-right: 20px;">
-      <strong>Address:</strong> <br>Paju tn 1a, Tartu, 50603, <br>Tartu Maakond, Estonia <br><br>
-      <strong>Phone:</strong> +30 6987573368 <br><br>
-      <strong>Email:</strong> contact@ai-systems.today
-    </td>
-    <td style="vertical-align: top; width: 50%; padding-left: 20px;">
-      <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.123456789!2d26.123456789!3d58.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1234567890abcdef:0x1234567890abcdef!2sPaju%20tn%201a,%2050603%20Tartu,%20Tartu%20Maakond,%20Estonia!5e0!3m2!1sen!2s!4v1234567890"
-        width="300"
-        height="200"
-        style="border:0;"
-        allowfullscreen=""
-        loading="lazy">
-      </iframe>
-    </td>
-  </tr>
-</table>
-<!-- <div class="contact-item"> -->
-  <h2>Send Us a Message</h2>
-  <form id="contact-form" class="contact-form">
-      <div class="form-group">
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name" required>
-      </div>
+      <div class="contact-grid">
+  <!-- Address Section -->
+  <div class="contact-item">
+    <strong>Address:</strong> <br>Paju tn 1a, Tartu, 50603, Tartu Maakond, Estonia <br>
+    <strong>Phone:</strong> +30 6987573368 <br>
+    <strong>Email:</strong> contact@ai-systems.today
+  </div>
+  <!-- Google Map Section -->
+  <div class="contact-item">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2091.123456789!2d26.123456789!3d58.123456789!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1234567890abcdef:0x1234567890abcdef!2sPaju%20tn%201a,%2050603%20Tartu,%20Tartu%20Maakond,%20Estonia!5e0!3m2!1sen!2s!4v1234567890"
+      width="100%"
+      height="250"
+      style="border:0;"
+      allowfullscreen=""
+      loading="lazy">
+    </iframe>
+  </div>
+  <!-- Contact Form Section -->
+  <div class="contact-item">
+    <h2>Send Us a Message</h2>
+    <form id="contact-form" class="contact-form">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        
+        <button type="submit" class="button">Send</button>
+      </form>
       
-      <div class="form-group">
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email" required>
-      </div>
-      
-      <div class="form-group">
-        <label for="message">Message:</label>
-        <textarea id="message" name="message" required></textarea>
-      </div>
-      
-      <button type="submit" class="button">Send</button>
-    </form>
-    
-    <script>
-      document.getElementById('contact-form').addEventListener('submit', async function(event) {
-        event.preventDefault();
-        const formData = new FormData(event.target);
-        const response = await fetch('https://your-azure-function-endpoint', {
-          method: 'POST',
-          body: JSON.stringify(Object.fromEntries(formData)),
-          headers: {
-            'Content-Type': 'application/json'
+      <script>
+        document.getElementById('contact-form').addEventListener('submit', async function(event) {
+          event.preventDefault();
+          const formData = new FormData(event.target);
+          const response = await fetch('https://your-azure-function-endpoint', {
+            method: 'POST',
+            body: JSON.stringify(Object.fromEntries(formData)),
+            headers: {
+              'Content-Type': 'application/json'
+            }
+          });
+          if (response.ok) {
+            alert('Message sent successfully!');
+          } else {
+            alert('Failed to send message.');
           }
         });
-        if (response.ok) {
-          alert('Message sent successfully!');
-        } else {
-          alert('Failed to send message.');
-        }
-      });
-    </script>
-<!-- </div> -->
+      </script>
+  </div>
+</div>
+
     </div>
 
 
