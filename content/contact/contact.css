@@ -30,14 +30,17 @@
   }
 
   /* Responsive Design for Mobile */
+/* Responsive Design for Mobile */
 @media (max-width: 468px) {
   .contact-grid {
+      display: grid;
       grid-template-columns: 1fr;
+      grid-gap: 10px;
   }
 
-  .contact-grid > div {
-      display: block;
+  .contact-item {
       width: 100%;
+      margin: 0;
   }
 
   iframe {
