@@ -1,38 +1,106 @@
-<form id="contact-form" class="contact-form">
-    <div class="form-group">
-      <label for="name">Name:</label>
-      <input type="text" id="name" name="name" required>
-    </div>
-    
-    <div class="form-group">
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required>
-    </div>
-    
-    <div class="form-group">
-      <label for="message">Message:</label>
-      <textarea id="message" name="message" required></textarea>
-    </div>
-    
-    <button type="submit" class="button">Send</button>
-  </form>
-  
-  <script>
-    document.getElementById('contact-form').addEventListener('submit', async function(event) {
-      event.preventDefault();
-      const formData = new FormData(event.target);
-      const response = await fetch('https://prod-194.westeurope.logic.azure.com:443/workflows/f1163eb1c3cd43ce8832496eb6790adf/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=t7QrNvAZOqPHBytgvfQ3X6PXkcsjiB_vopsP30CbLvI', {
-        method: 'POST',
-        body: JSON.stringify(Object.fromEntries(formData)),
-        headers: {
-          'Content-Type': 'application/json'
-        },
-        // body: JSON.stringify(formData),
-      });
-      if (response.ok) {
-        alert('Message sent successfully!');
-      } else {
-        alert('Failed to send message.');
-      }
-    });
-  </script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+</head>
+<body>
+    <form id="contact-form" class="contact-form">
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <small class="error" id="name-error" style="color: red; display: none;">Name is required.</small>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <small class="error" id="email-error" style="color: red; display: none;">Valid email is required.</small>
+        </div>
+        <div class="form-group">
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <small class="error" id="message-error" style="color: red; display: none;">Message is required.</small>
+        </div>
+        <button type="submit" id="submit-button" class="button">Send</button>
+        <span id="loading-indicator" style="display: none;">Sending...</span>
+        <div id="form-feedback" style="display: none;"></div>
+    </form>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', async function (event) {
+            event.preventDefault();
+
+            // Get form elements
+            const nameField = document.getElementById('name');
+            const emailField = document.getElementById('email');
+            const messageField = document.getElementById('message');
+            const nameError = document.getElementById('name-error');
+            const emailError = document.getElementById('email-error');
+            const messageError = document.getElementById('message-error');
+            const feedback = document.getElementById('form-feedback');
+            const loader = document.getElementById('loading-indicator');
+            const button = document.getElementById('submit-button');
+
+            // Reset error messages
+            nameError.style.display = 'none';
+            emailError.style.display = 'none';
+            messageError.style.display = 'none';
+            feedback.style.display = 'none';
+
+            // Validate fields
+            let isValid = true;
+            if (!nameField.value.trim()) {
+                nameError.style.display = 'block';
+                isValid = false;
+            }
+            if (!emailField.value.trim() || !emailField.value.includes('@')) {
+                emailError.style.display = 'block';
+                isValid = false;
+            }
+            if (!messageField.value.trim()) {
+                messageError.style.display = 'block';
+                isValid = false;
+            }
+
+            if (!isValid) {
+                return; // Exit if validation fails
+            }
+
+            // Proceed with sending the message
+            const formData = new FormData(event.target);
+
+            // Disable button and show loader
+            button.disabled = true;
+            loader.style.display = 'inline';
+
+            try {
+                const response = await fetch('https://prod-194.westeurope.logic.azure.com:443/workflows/f1163eb1c3cd43ce8832496eb6790adf/triggers/When_a_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_a_HTTP_request_is_received%2Frun&sv=1.0&sig=t7QrNvAZOqPHBytgvfQ3X6PXkcsjiB_vopsP30CbLvI', {
+                    method: 'POST',
+                    body: JSON.stringify(Object.fromEntries(formData)),
+                    headers: { 'Content-Type': 'application/json' },
+                });
+
+                if (response.ok) {
+                    feedback.innerText = 'Message sent successfully!';
+                    feedback.style.color = 'green';
+                    feedback.style.display = 'block';
+                    event.target.reset(); // Clear fields
+                } else {
+                    feedback.innerText = 'Failed to send message. Please try again.';
+                    feedback.style.color = 'red';
+                    feedback.style.display = 'block';
+                }
+            } catch (error) {
+                feedback.innerText = 'An unexpected error occurred.';
+                feedback.style.color = 'red';
+                feedback.style.display = 'block';
+            } finally {
+                // Re-enable button and hide loader
+                button.disabled = false;
+                loader.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
