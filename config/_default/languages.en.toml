@@ -12,7 +12,7 @@ dateFormat = "2 January 2006"
 description = "A powerful, lightweight theme for Hugo."
 logo = "img/64w.png"
 secondaryLogo = "img/64b.png"
-# logoText = "AI SYSTEMS TODAY" # Add this line
+logoText = "Enterprise AI. Powered by Azure." # Add this line
 
 [author]
 #name = "Kyriakos Antoniadis"
