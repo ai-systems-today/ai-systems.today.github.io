@@ -1,136 +1,90 @@
+# 📘 HEDNO Team Manual
+
+## ✅ How to Contribute Notebooks from Databricks to Azure DevOps using VS Code
+
+This manual explains the **correct**, **compliant**, and **team-aligned** way for any team member (e.g., Tsiaras) to move a notebook from Databricks personal workspace to the shared Git repo (`Notebooks`) using Visual Studio Code and follow the DevOps process all the way to deployment.
+
+It follows best practices from **Databricks**, **Azure DevOps**, and your project’s CI/CD setup.
+
 ---
-title: "About"
-description: "Kyriakos Antoniadis"
 
-cascade:
-  showDate: false
-  showAuthor: false
-  invertPagination: true
+## 🧠 Goal
+
+- Get your personal Databricks notebook (developed under `/Users/...`) into the **version-controlled** Git-tracked Notebooks repo.
+- Integrate with the existing **CI/CD pipelines** using `.yml` deployment files.
+- Enforce structure, prevent broken pipelines, and enable teamwork.
+
 ---
 
-{{< lead >}}
-Our services encompass:
-{{< /lead >}}
+## ✅ Step-by-Step Contribution Workflow
 
+| Step                                     | What You Do                                                                               | Where                           | Why                                                          | Source                                                                                                      |
+| ---------------------------------------- | ----------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------- |
+| **1. Develop Notebook**            | Work in your personal Databricks area:`/Workspace/Users/a.tsiaras@deddie.gr/MyNotebook` | **Databricks UI**         | Quick local development & prototyping                        | ⚠️ Not Git-tracked                                                                                        |
+| **2. Export Notebook**             | Click notebook name →`Export` → `Source File (.py)`                                 | **Databricks UI**         | Get a clean, code-only Python version                        | [Databricks Docs – Export](https://docs.databricks.com/notebooks/notebooks-manage.html#export-a-notebook)     |
+| **3. Clone Git Repo**              | Run:`git clone https://dev.azure.com/HEDNO.MDC/_git/Notebooks`                          | **VS Code terminal**      | Get local access to Git repo                                 | [Azure DevOps – Clone](https://learn.microsoft.com/en-us/azure/devops/repos/git/clone?view=azure-devops)      |
+| **4. Create Feature Branch**       | Run:`git checkout -b feature/bronze_cleanup`                                            | **VS Code terminal**      | Isolated, reviewable feature work                            | [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)                                   |
+| **5. Paste Notebook**              | Move your exported `.py` notebook into: `notebooks/bronze/`                           | **VS Code file system**   | Structured under Medallion Architecture (bronze/silver/gold) | [Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture)                           |
+| **6. Add to Git**                  | Stage & commit your notebook:`git add . && git commit -m "Add bronze cleanup notebook"` | **VS Code terminal**      | Track code changes in Git                                    | [Git – Commit](https://git-scm.com/docs/git-commit)                                                           |
+| **7. Push Branch**                 | Push your feature branch:`git push origin feature/bronze_cleanup`                       | **VS Code terminal**      | Send your changes to Azure DevOps                            | [Azure DevOps – Push](https://learn.microsoft.com/en-us/azure/devops/repos/git/pushing?view=azure-devops)     |
+| **8. Open a PR**                   | In DevOps UI: Create Pull Request →`feature/bronze_cleanup` → `dev`                 | **Azure DevOps Web UI**   | Start review + trigger pipeline                              | [Azure DevOps – PR](https://learn.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops) |
+| **9. Pipeline Executes**           | Pipeline `azure-dev.yml` auto-runs and: uses CLI to push to Databricks                  | **Azure DevOps Pipeline** | CI/CD deployment to dev workspace                            | [Databricks CI/CD Docs](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/ci-cd/)                   |
+| **10. Notebook Becomes Available** | Appears in:`/Repos/ky.antoniadis@deddie.gr/Notebooks/notebooks/bronze/`                 | **Databricks UI**         | Fully deployed and shareable                                 | [Databricks Repos](https://docs.databricks.com/repos/index.html)                                               |
 
+---
 
-- **Custom AI Development**: Designing and implementing AI models to address business challenges.
-- **Machine Learning Integration**: Embedding machine learning algorithms into existing systems to improve decision-making processes.
-- **Data Engineering**: Structuring and optimising data pipelines to ensure efficient data flow and accessibility.
-- **AI Workshops**: Providing training sessions to equip teams with the knowledge and skills necessary to leverage AI technologies effectively.
+## 📁 Project Structure (For All Users)
 
-We utilise various technologies, including cloud-based platforms, to deliver scalable and efficient AI solutions.
+```plaintext
+Notebooks/
+├── .azdo/
+│   └── azure-dev.yml          ← Dev pipeline config
+├── .databricks/
+│   └── commit_outputs         ← Set to '!**' to block outputs
+├── notebooks/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│   ├── utils/
+│   ├── eda/
+│   └── tests/
+```
 
-At **AI Systems Today**, we offer a range of chatbot solutions tailored to meet diverse needs, categorised by capabilities and cost considerations:
+---
 
-### **1. Personal Chatbots**
+## 🚫 Do Not
 
-- **Overview**: Ideal for individual use or small-scale applications, these chatbots handle fundamental interactions and automate simple tasks.
-- **Technical Stack**:
-  - **Compute**: Azure Functions (serverless architecture)
-  - **Database**: Azure Cosmos DB
-  - **Framework**: LangChain.js for Retrieval-Augmented Generation (RAG)
-- **Features**:
-  - Cost-effective with pay-per-use pricing
-  - Scalable to accommodate varying workloads
-  - Quick deployment with minimal maintenance
-- **Use Case Example**: A personal assistant chatbot retrieves information from a user's documents.
+| 🚫 Action                                    | 💣 Why                                   |
+| -------------------------------------------- | ---------------------------------------- |
+| Work in `/Workspace/Users/...` permanently | Not tracked, can't collaborate           |
+| Commit `.ipynb` notebooks                  | Merge conflicts, Git bloat               |
+| Leave output cells in notebooks              | Breaks pipeline, exceeds 10MB Git limits |
+| Push directly to `dev` or `main`         | Bypasses review & QA gates               |
 
-### **2. Standard Chatbots**
+---
 
-- **Overview**: Designed for small to medium-sized businesses, these chatbots manage more complex interactions and provide enhanced user experiences.
-- **Technical Stack**:
-  - **Compute**: Azure App Service
-  - **Search**: Azure Cognitive Search with Semantic Search capabilities
-  - **AI Integration**: Azure OpenAI Service
-- **Features**:
-  - Improved natural language understanding
-  - Semantic search for accurate information retrieval
-  - Moderate cost with scalable options
-- **Use Case Example**: A customer support chatbot that understands user queries and provides relevant answers from a knowledge base.
+## 📏 Required Standards
 
-### **3. Advanced Chatbots for Enterprises**
+These rules ensure the stability, clarity, and automation integrity of the HEDNO Databricks notebook development workflow.
 
-- **Overview**: Suited for large organisations, these chatbots offer sophisticated capabilities, including evaluation, analysis, and fine-tuning, to handle complex interactions and integrate seamlessly with enterprise systems.
-- **Technical Stack**:
-  - **Compute**: Azure Kubernetes Service (AKS) for containerised deployments.
-  - **Database**: Azure Cosmos DB
-  - Search and Analytics:
-    - Azure Cognitive Search with Semantic Search
-    - Azure Data Explorer (Kusto Query Language - KQL)
-  - **AI Integration**: Azure OpenAI Service
-- **Features**:
-  - Advanced natural language processing with fine-tuning capabilities
-  - Integration with enterprise data sources for comprehensive responses
-  - Robust analytics and evaluation tools
-  - Higher cost, reflecting advanced features and enterprise-grade performance
-- **Use Case Example**: An internal organisational chatbot that assists employees by providing detailed analytics reports and insights based on company data.
+| 📌 Area                        | ✅ Rule                                                                                                 |
+| ------------------------------ | ------------------------------------------------------------------------------------------------------- |
+| **Notebook Format**      | Use `.py` source format only — no `.ipynb` files allowed                                           |
+| **Output Control**       | `.databricks/commit_outputs` must contain `!**` to block output cells                               |
+| **Folder Naming**        | Use `lower_snake_case` and English names only                                                         |
+| **Branching Model**      | Always use feature branches (e.g.,`feature/data_cleaning`) and submit Pull Requests to `dev`        |
+| **CI/CD Enforcement**    | All commits to `dev` trigger notebook deployment via `azure-dev.yml` pipeline                       |
+| **Deployment Path**      | All notebooks are deployed to:`/Repos/ky.antoniadis@deddie.gr/Notebooks/notebooks/` inside Databricks |
+| **No Direct Dev Pushes** | Direct commits to `dev` or `main` are prohibited — must go through PR review                       |
 
-### **4. Enterprise-Grade Chatbots with Enhanced Data Integration**
+---
 
-- **Overview**: Tailored for large-scale enterprises requiring high-performance chatbots with extensive data integration, these solutions combine advanced AI capabilities with robust data management and querying tools.
-- **Technical Stack**:
-  - **Compute**: Azure Virtual Machines or Azure Kubernetes Service for dedicated resources.
-  - **Database**: Azure Cosmos DB
-  - Search and Query:
-    - Azure Cognitive Search
-    - Azure Data Explorer utilising Kusto Query Language (KQL)
-  - **AI Integration**: Azure OpenAI Service
-- **Features**:
-  - Seamless integration with multiple data sources
-  - Real-time data analysis and response generation
-  - Customisable AI models tailored to specific enterprise needs
-  - Premium pricing commensurate with advanced capabilities and infrastructure requirements
-- **Use Case Example**: A financial services chatbot that provides clients with real-time investment insights, portfolio analysis, and market predictions by querying vast datasets and performing complex analyses.
+## 🔗 References
 
-By categorising our chatbot offerings in this manner, AI Systems Today ensures that clients can select a solution that aligns with their specific requirements and budget while leveraging the robust capabilities of Azure's ecosystem.
-
-For detailed pricing information, please refer to Azure's official pricing pages:
-
-- Azure AI Bot Service: [Azure](https://azure.microsoft.com/en-us/pricing/details/bot-services/?utm_source=chatgpt.com)
-- Azure OpenAI Service: [Azure](https://azure.microsoft.com/en-us/pricing/details/cognitive-services/openai-service/?utm_source=chatgpt.com)
-
-### **Details**
-
-These resources provide up-to-date information on the costs associated with each service, helping you make informed decisions based on your specific needs and budget.
-
-Here’s a comprehensive table outlining the categorised chatbot offerings with estimated costs and timelines for development:
-
-| **Type**               | **Category**          | **Training Costs**                                                                                     | **Infrastructure Costs/Month**                                              | **Traffic Costs (Tokens)**                       | **Development Costs (One-Time)** | **Time to Complete** |
-| ---------------------------- | --------------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------- | ------------------------------------------------------ | -------------------------------------- | -------------------------- |
-| **Personal Chatbot**   | Serverless AI Chat with RAG | $135 $/GB                                                                                                  | $50 - $300 (Azure Functions + CosmosDB)                                           | $0.005/token (low volume)           | $3,000–$5,000   | 2–4 weeks                             |                            |
-| **Standard Chatbot**   | Semantic Search Chatbot     | $$135 $/GB         | $300 -$1,500 (Azure App Service + Cognitive Search)   | $0.01/token (moderate volume) | $5,000–$15,000                                                                   | 4–6 weeks                                             |                                        |                            |
-| **Business Chatbot**   | Enterprise NLP Chatbot      | $135 $/GB                                                                                                  | $1,500 -$5,000 (AKS + Cognitive Search + Key Vault)                               | $0.015/token (moderate-high volume) | $15,000–$30,000 | 8–10 weeks                            |                            |
-| **Enterprise Chatbot** | AI-Powered RAG with KQL     | $135 $/GB                                                                                                  | $5,000+ (VMs or AKS + CosmosDB + Azure Data Explorer) | $0.02/token (high volume) | $30,000–$50,000+                                      | 12–16 weeks                           |                            |
-
-#### **Personal Chatbot**
-
-- **Use Case**: Personal assistant or hobby projects.
-- **Stack**: Azure Functions (serverless), CosmosDB, LangChain.js.
-- **Cost Efficiency**: Minimal infrastructure costs with basic capabilities.
-
-#### **Standard Chatbot**
-
-- **Use Case**: Small businesses or teams needing semantic search capabilities.
-- **Stack**: Azure App Service, Cognitive Search, Azure OpenAI.
-- **Enhanced Features**: Semantic search and scalable services.
-
-#### **Business Chatbot**
-
-- **Use Case**: Mid-sized businesses requiring custom training and evaluation.
-- **Stack**: AKS, Key Vault, Azure OpenAI, Cognitive Search.
-- **Key Features**: Added security and moderate complexity in queries.
-
-#### **Enterprise Chatbot**
-
-- **Use Case**: Large-scale enterprise systems with complex data integrations.
-- **Stack**: Azure Virtual Machines/AKS, CosmosDB, Azure Data Explorer, OpenAI.
-- **Advanced Features**: Real-time analysis, integration with enterprise data, and high scalability.
-
-### **Considerations**
-
-- **Training Costs**: Depend on the requirement for custom fine-tuning.
-- **Traffic Costs**: Calculated based on expected token usage in Azure OpenAI pricing.
-- **IaaS Costs**: Include infrastructure like compute, storage, and networking.
-- **Development Costs**: Reflect the effort for custom development, integrations, and testing.
-- **Time to Complete**: Varies based on complexity and customisation needs.
+- [Export Notebooks](https://docs.databricks.com/notebooks/notebooks-manage.html#export-a-notebook)
+- [Clone Git Repo](https://learn.microsoft.com/en-us/azure/devops/repos/git/clone?view=azure-devops)
+- [Pull Requests](https://learn.microsoft.com/en-us/azure/devops/repos/git/pull-requests?view=azure-devops)
+- [Medallion Architecture](https://www.databricks.com/glossary/medallion-architecture)
+- [Databricks Repos Guide](https://docs.databricks.com/repos/index.html)
+- [GitHub Flow](https://docs.github.com/en/get-started/quickstart/github-flow)
+- [Databricks DevOps Guide](https://learn.microsoft.com/en-us/azure/databricks/dev-tools/ci-cd/)
